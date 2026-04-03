@@ -1,0 +1,239 @@
+﻿// AWS Study Data
+// STUDY_DATA: detailed notes per topic
+// TOPIC_CONNECTIONS: knowledge graph links
+
+const STUDY_DATA = [
+  {
+    id: 'cloud', icon: 'â˜ï¸', title: 'Cloud Fundamentals', badge: 'Foundation',
+    concepts: [
+      '<strong>6 Advantages of Cloud</strong>: Trade CAPEXâ†’OPEX, Economies of Scale, Stop Guessing Capacity, Speed &amp; Agility, Stop Running Data Centers, Go Global in Minutes',
+      '<strong>CAPEX</strong> = Capital Expenditure (upfront hardware). <strong>OPEX</strong> = Operational Expenditure (pay-as-you-go). Cloud shifts CAPEX to OPEX',
+      '<strong>Elasticity</strong> = auto scale UP/DOWN for short-term demand spikes (e.g. Black Friday). <strong>Scalability</strong> = handle growing long-term load',
+      '<strong>High Availability</strong> = minimize downtime with brief failover acceptable. <strong>Fault Tolerance</strong> = zero downtime, zero data loss (more redundant)',
+      '<strong>NIST 5 Characteristics</strong>: On-Demand Self-Service, Broad Network Access, Resource Pooling, Rapid Elasticity, Measured Service',
+      '<strong>Agility</strong> = deploy/experiment in minutes instead of weeks â†’ reduces time-to-market significantly',
+      '<strong>Economies of Scale</strong>: AWS buys hardware in massive bulk â†’ passes savings to customers as lower prices over time'
+    ],
+    traps: [
+      'Elasticity â‰  Scalability. Elasticity = dynamic short-term auto-scaling. Scalability = planned long-term capacity growth',
+      'Agility = speed to deploy resources, NOT automatic scaling (that is Elasticity)',
+      'Cloud does NOT eliminate ALL costs â€” OPEX still exists (pay per use). It eliminates CAPEX (upfront)',
+      'On-Demand Self-Service = provision resources WITHOUT human approval. NOT the same as auto-scaling'
+    ],
+    related: ['service-models', 'deployment', 'architecture', 'scaling']
+  },
+  {
+    id: 'infra', icon: 'ðŸŒ', title: 'Global Infrastructure', badge: 'Regions/AZs',
+    concepts: [
+      '<strong>Region</strong>: Geographic area with minimum 3 isolated Availability Zones (e.g., ap-southeast-1 = Singapore)',
+      '<strong>Availability Zone (AZ)</strong>: One or more discrete data centers with independent power, cooling &amp; networking within a Region',
+      '<strong>AZ interconnect</strong>: Connected via &lt;2ms high-bandwidth private fiber â†’ enables Synchronous Replication between AZs',
+      '<strong>Edge Location</strong>: 400+ CDN cache points globally. Used by CloudFront (CDN) and Route 53 (DNS) to reduce user latency',
+      '<strong>Data Sovereignty</strong>: Data NEVER leaves a Region unless YOU explicitly configure cross-region replication',
+      '<strong>Region Selection Criteria</strong>: 1) Compliance/Data Residency laws, 2) Latency to end users, 3) AWS service availability, 4) Price',
+      '<strong>Local Zones</strong>: AWS infra extension into metro areas for ultra-low latency without full Region overhead',
+      '<strong>AWS Outposts</strong>: AWS hardware/rack installed ON-PREMISES. Run native AWS services inside your own data center',
+      '<strong>Global Services (no region)</strong>: IAM, CloudFront, Route 53, WAF, Trusted Advisor, Organizations'
+    ],
+    traps: [
+      'Edge Locations â‰  Availability Zones. Edge = CDN cache for CloudFront. AZ = full compute + storage data center',
+      'AZ â‰  a single building. An AZ can comprise multiple buildings within the same fault isolation boundary',
+      'Multi-AZ = protects against a single data center failure. Multi-Region = protects against full Region-wide outage',
+      'Synchronous replication = only feasible within same Region (low latency). Cross-Region replication is ASYNC'
+    ],
+    related: ['cloud', 'architecture', 'ec2', 'storage']
+  },
+  {
+    id: 'service-models', icon: 'ðŸ§±', title: 'Service Models', badge: 'IaaS/PaaS/SaaS',
+    concepts: [
+      '<strong>On-Premises</strong>: YOU own and manage EVERYTHING â€” rack, network, OS, runtime, apps, data',
+      '<strong>IaaS</strong> (e.g., EC2): AWS: Physical + Hypervisor. YOU manage: OS, Runtime, Middleware, Apps, Data',
+      '<strong>PaaS</strong> (e.g., Elastic Beanstalk, RDS): AWS: up to Runtime. YOU manage: App code + Data only',
+      '<strong>SaaS</strong> (e.g., WorkMail, Chime, Salesforce): AWS manages everything. YOU: just use the software',
+      '<strong>FaaS/Serverless</strong> (Lambda): AWS manages infra + runtime. YOU: write function code, triggered by events',
+      '<strong>Responsibility boundary</strong>: Shifts upward (toward app layer) as you move IaaS â†’ PaaS â†’ SaaS',
+      '<strong>Elastic Beanstalk</strong>: PaaS â€” auto-provisions EC2, ASG, ELB, RDS from app code. You still can SSH into EC2',
+      '<strong>Lambda execution model</strong>: Event â†’ Lambda invoked â†’ code runs â†’ billed per ms + invocation count'
+    ],
+    traps: [
+      'IaaS = EC2 (NOT PaaS). PaaS = Elastic Beanstalk, RDS. SaaS = WorkMail, Chime',
+      'In SaaS, customer still owns their DATA â€” AWS doesn\'t own your business data',
+      'Lambda is FaaS (subset of Serverless/PaaS), NOT SaaS. You still write and own the code',
+      'Elastic Beanstalk is PaaS â€” it provisions EC2 under the hood. Guest OS patches = AWS responsibility here'
+    ],
+    related: ['cloud', 'shared-responsibility', 'ec2', 'containers', 'deployment']
+  },
+  {
+    id: 'deployment', icon: 'ðŸ—ï¸', title: 'Deployment Models', badge: 'Cloud/Hybrid/On-Prem',
+    concepts: [
+      '<strong>Public Cloud</strong>: All infra on AWS. No physical data center overhead. Best: startups, variable unpredictable workloads',
+      '<strong>Private Cloud (On-Premises)</strong>: Full physical control. High CAPEX. Best: stable long-term workloads, strict compliance/data sovereignty',
+      '<strong>Hybrid Cloud</strong>: Sensitive/regulated data on-prem INTEGRATED with burst compute or web-facing services in cloud',
+      '<strong>Cloud-Native</strong>: Architectures fully designed for cloud â€” microservices, auto-scaling, managed services, event-driven',
+      '<strong>When to choose Cloud</strong>: Unpredictable/seasonal load, no existing DC, small IT team, fast time-to-market priority',
+      '<strong>When to choose On-Prem</strong>: Workload stable 5+ years, large existing infra investment, strict data residency laws',
+      '<strong>When to choose Hybrid</strong>: Regulated data must stay on-prem + need cloud burst capacity or global content delivery',
+      '<strong>AWS Outposts</strong>: Hybrid implementation â€” AWS manages the rack on-premises, you consume AWS services locally'
+    ],
+    traps: [
+      'Hybrid â‰  just using both cloud and on-prem independently. They must INTEGRATE and communicate as one architecture',
+      'Moving fully to On-Prem from Cloud: gain full control + compliance. Lose: elasticity, global reach, economies of scale',
+      'On-Prem CAN be cost-effective for very stable, predictable, long-running workloads (no elasticity needed)'
+    ],
+    related: ['cloud', 'service-models', 'shared-responsibility', 'infra']
+  },
+  {
+    id: 'shared-responsibility', icon: 'ðŸ¤', title: 'Shared Responsibility', badge: 'Security',
+    concepts: [
+      '<strong>AWS responsible "OF the Cloud"</strong>: Physical hardware, data center facilities, AZ networking, hypervisor, managed services below customer OS',
+      '<strong>Customer responsible "IN the Cloud"</strong>: Guest OS patching, app code, IAM policies, data encryption, Security Groups (firewall rules)',
+      '<strong>EC2 (IaaS)</strong>: YOU patch the Guest OS. YOU configure Security Groups inbound/outbound. YOU manage AMI',
+      '<strong>RDS (Managed PaaS)</strong>: AWS patches the DB engine &amp; underlying OS. YOU manage data, schemas, access control',
+      '<strong>Lambda (FaaS/Serverless)</strong>: AWS manages the entire runtime environment. YOU write the function code only',
+      '<strong>Shared domain â€” Encryption</strong>: Customer CONFIGURES encryption settings. AWS provides KMS Key Management infrastructure',
+      '<strong>Physical security 100% AWS</strong>: Data center guards, cameras, disk disposal, hardware decommission',
+      '<strong>IAM User/Role management</strong>: ALWAYS customer responsibility regardless of service model'
+    ],
+
+    traps: [
+      'Guest OS on EC2 = CUSTOMER must patch/update. Windows Updates, Linux yum updates = your job',
+      'Network devices inside AWS data centers (routers, switches) = 100% AWS responsibility',
+      'In PaaS/SaaS, OS patching shifts to AWS â€” but DATA SECURITY always remains customer\'s responsibility',
+      'Physical disk disposal after decommission = AWS responsibility. Logical data deletion = Customer'
+    ],
+    related: ['service-models', 'ec2', 'cloud', 'deployment']
+  },
+  {
+    id: 'ec2', icon: 'ðŸ’»', title: 'Amazon EC2', badge: 'IaaS Compute',
+    concepts: [
+      '<strong>EC2 = IaaS</strong>: Resizable virtual servers (instances). Customer manages everything from Guest OS upward',
+      '<strong>General Purpose (t, m)</strong>: Balanced CPU/RAM ratio. Ideal: web servers, small/medium apps, dev environments',
+      '<strong>Compute Optimized (c)</strong>: High vCPU-to-memory ratio. Ideal: batch processing, HPC, ML inference, gaming',
+      '<strong>Memory Optimized (r, x, z)</strong>: Very high RAM. Ideal: in-memory DBs (Redis), SAP HANA, Hadoop, Spark',
+      '<strong>Storage Optimized (i, d, h)</strong>: Very high sequential disk I/O. Ideal: OLTP, Cassandra, data warehouses',
+      '<strong>Accelerated Computing (p, g, inf)</strong>: GPU or custom ASIC chips. Ideal: ML training, video encoding, graphics',
+      '<strong>On-Demand pricing</strong>: Pay per second (Linux/Ubuntu) or per hour (Windows). No commitment. Default choice',
+      '<strong>Reserved Instances (RI)</strong>: 1 or 3 year term. Up to 72% savings. Standard (fixed) or Convertible (can change)',
+      '<strong>Spot Instances</strong>: Use spare AWS capacity. Up to 90% savings. CAN BE INTERRUPTED with 2-min notice',
+      '<strong>Dedicated Host</strong>: Entire physical server allocated to you. BYOL software licenses. Compliance (single-tenant)',
+      '<strong>Savings Plans</strong>: Compute SP (flexible: EC2, Lambda, Fargate) or EC2 Instance SP (fixed family, more discount)'
+    ],
+    traps: [
+      'EC2 is NOT serverless â€” you manage the OS, and you pay even when the instance is idle',
+      'Spot instances = cheapest but CAN BE INTERRUPTED. Never use for uninterruptible critical real-time workloads',
+      'Reserved â‰  Savings Plans. RI = specific instance type + region binding. Savings Plans = flexible compute spend commitment',
+      'EBS volume is AZ-scoped â€” you CANNOT attach an EBS from AZ-1a to an EC2 in AZ-1b'
+    ],
+    related: ['infra', 'service-models', 'storage', 'architecture', 'scaling', 'shared-responsibility']
+  },
+  {
+    id: 'storage', icon: 'ðŸ—„ï¸', title: 'Storage Services', badge: 'S3/EBS/EFS',
+    concepts: [
+      '<strong>S3 (Object Storage)</strong>: Bucket/key structure. HTTP(S) access. 99.999999999% (11 nines) durability. NOT a filesystem',
+      '<strong>S3 is Regional</strong>: Buckets are in specific Regions. S3 console appears global but each bucket has a home Region',
+      '<strong>EBS (Block Storage)</strong>: Attached to ONE EC2 in SAME AZ. Like a virtual hard drive. Persistent after stop',
+      '<strong>EFS (Elastic File System)</strong>: NFS v4 shared file storage. Multi-AZ. Auto-scales. Linux EC2 only',
+      '<strong>Instance Store</strong>: Physically attached to the host server. Highest I/O speed. EPHEMERAL â€” data LOST on stop/terminate',
+      '<strong>S3 Standard-IA</strong>: Infrequent access. Millisecond retrieval but retrieval FEE. 30-day minimum. 99.9% availability',
+      '<strong>Glacier Deep Archive</strong>: Cheapest S3 tier. 12-48 hr retrieval. 180-day minimum duration. Regulatory archival',
+      '<strong>Intelligent-Tiering</strong>: Auto-moves objects between tiers based on access patterns. Small monitoring fee. No retrieval fee',
+      '<strong>S3 durability</strong>: Data stored across minimum 3 AZs. 99.999999999% = losing 1 object per 10,000 years per 10M objects'
+    ],
+    traps: [
+      'S3 is NOT a filesystem â€” you cannot mount it as a drive. Use EFS for shared file system access from EC2',
+      'EBS = Zonal resource. Cannot span AZs â€” if the AZ fails and EBS is not backed up, data is at risk',
+      'Instance Store data is LOST on instance stop (and terminate) â€” NEVER store important data here without backup',
+      'One Zone-IA = single AZ. If that AZ fails, data is LOST. Only for easily recreatable data'
+    ],
+    related: ['ec2', 'infra', 'architecture', 'containers']
+  },
+  {
+    id: 'architecture', icon: 'ðŸ›¡ï¸', title: 'Architecture &amp; DR', badge: 'HA/DR/Resilience',
+    concepts: [
+      '<strong>High Availability (HA)</strong>: Minimize downtime. Short automatic failover is acceptable. Multi-AZ is the key pattern',
+      '<strong>Fault Tolerance</strong>: Zero downtime, zero data loss. Requires FULL redundancy. More expensive than HA',
+      '<strong>DR Ladder 1 â€” Backup &amp; Restore</strong>: Cheapest. Hours-level RTO/RPO. Cold data in S3 Glacier triggered after disaster',
+      '<strong>DR Ladder 2 â€” Pilot Light</strong>: Only CORE services (DB) always running. Everything else is off. Scale up after disaster. Minutes RTO',
+      '<strong>DR Ladder 3 â€” Warm Standby</strong>: Scaled-DOWN but fully functional copy running. Faster failover. More cost',
+      '<strong>DR Ladder 4 â€” Active-Active (Multi-Site)</strong>: Zero downtime. Two full equal environments. Highest cost and complexity',
+      '<strong>RTO</strong> = Recovery Time Objective: MAX acceptable downtime after disaster. <strong>RPO</strong> = MAX acceptable data loss window',
+      '<strong>Multi-AZ pattern</strong>: Synchronous replication. Protects against AZ failure. RDS Multi-AZ = Standby (not readable)',
+      '<strong>Multi-Region pattern</strong>: Asynchronous replication. Protects against full Region failure. For global users',
+      '<strong>S3 built-in FT</strong>: Automatically stores objects across 3+ AZs. 11 nines durability. No extra config needed'
+    ],
+    traps: [
+      'Multi-AZ does NOT protect against full Region failure. Multi-Region needed for true regional DR',
+      'RDS Multi-AZ Standby = NOT readable during normal operation. READ REPLICA = readable but async (not HA failover)',
+      'Pilot Light â‰  Warm Standby. Pilot Light = DB only running. Warm Standby = full env at reduced capacity',
+      'Active-Active = lowest RTO/RPO possible but HIGHEST cost and operational complexity'
+    ],
+    related: ['infra', 'ec2', 'storage', 'scaling', 'cloud']
+  },
+  {
+    id: 'scaling', icon: 'âš–ï¸', title: 'Load Balancing &amp; Auto Scaling', badge: 'ELB/ASG',
+    concepts: [
+      '<strong>Elastic Load Balancer (ELB)</strong>: AWS managed. Distributes traffic. Integrates with ASG for health checks + replacement',
+      '<strong>ALB (Application LB â€” Layer 7)</strong>: HTTP/HTTPS only. Path-based (/api â†’ service A), host-based, header-based routing',
+      '<strong>NLB (Network LB â€” Layer 4)</strong>: TCP/UDP. Millions req/sec. Ultra-low latency. Supports static IP and Elastic IP',
+      '<strong>GLB (Gateway LB â€” Layer 3)</strong>: Routes traffic through security virtual appliances (firewalls, IDS/IPS) transparently',
+      '<strong>Auto Scaling Group (ASG)</strong>: Automatically adds (scale out) or removes (scale in) EC2 instances based on demand',
+      '<strong>Target Tracking Scaling</strong>: Maintain a metric (e.g., CPU 50%). ASG auto-scales to hit and maintain the target',
+      '<strong>Step Scaling</strong>: Scale by defined increment steps when CloudWatch alarm thresholds are crossed',
+      '<strong>Scheduled Scaling</strong>: Pre-defined scale events (e.g., 09:00 Monday add 10 instances for known peak)',
+      '<strong>Loose Coupling</strong>: Components communicate via queues (SQS) or topics (SNS), not direct synchronous calls'
+    ],
+    traps: [
+      'ALB = Layer 7 (Application/HTTP). NLB = Layer 4 (Transport/TCP). GLB = Layer 3 (Network). Do NOT confuse layers',
+      'Auto Scaling alone does NOT guarantee HA â€” you must deploy ASG ACROSS multiple AZs',
+      'ELB health checks + ASG = unhealthy instances are auto-terminated and replaced. This IS the HA pattern',
+      'Loose coupling pattern: use SQS between components to decouple. Direct synchronous calls = tight coupling (SPOF)'
+    ],
+    related: ['ec2', 'architecture', 'cloud', 'infra', 'containers']
+  },
+  {
+    id: 'containers', icon: 'ðŸ³', title: 'Containers &amp; Serverless', badge: 'Lambda/ECS/EKS',
+    concepts: [
+      '<strong>Lambda (FaaS)</strong>: Event-triggered functions. Max 15min timeout. Max 10GB RAM. Pay per invocation count + duration (ms)',
+      '<strong>Lambda triggers</strong>: S3 events, API Gateway, SQS, DynamoDB Streams, EventBridge, SNS, Cognito, etc.',
+      '<strong>ECS (Elastic Container Service)</strong>: AWS-native container orchestration. Runs Docker containers on a cluster',
+      '<strong>ECS EC2 Launch Type</strong>: Containers run on EC2 instances YOU manage. More control, but more operational overhead',
+      '<strong>ECS Fargate Launch Type</strong>: Serverless containers. AWS manages underlying compute. Pay per task vCPU + RAM',
+      '<strong>EKS (Elastic Kubernetes Service)</strong>: Managed Kubernetes. Open-source compatible. Multi-cloud portable workloads',
+      '<strong>ECR (Elastic Container Registry)</strong>: Managed Docker image registry. Store, version, scan, and manage container images',
+      '<strong>API Gateway</strong>: Create, publish, secure REST/HTTP/WebSocket APIs. Integrates with Lambda for serverless API pattern',
+      '<strong>Lambda vs Fargate</strong>: Lambda = short-lived function (event-driven, &lt;15min). Fargate = long-running container service'
+    ],
+    traps: [
+      'EC2 is NOT serverless. Lambda IS serverless. Fargate IS serverless for containers. ECS on EC2 is NOT serverless',
+      'Lambda has 15-minute MAX execution limit â€” not suitable for long-running batch jobs or persistent connections',
+      'EKS â‰  ECS. EKS uses Kubernetes (open-source). ECS uses AWS proprietary orchestration. Both run containers',
+      'API Gateway + Lambda = serverless API. This pattern has no servers to manage or pay for when idle'
+    ],
+    related: ['service-models', 'ec2', 'scaling', 'cloud', 'storage']
+  }
+];
+
+const TOPIC_CONNECTIONS = {
+  'cloud':              { connects: ['service-models','deployment','architecture','scaling'],
+                         reason: 'Cloud fundamentals (CAPEX/OPEX, elasticity, agility) are the WHY behind every architectural decision and service model choice' },
+  'infra':              { connects: ['architecture','ec2','storage','scaling'],
+                         reason: 'The physical structure (Regions, AZs, Edge) directly determines what HA, DR, and latency patterns are possible' },
+  'service-models':     { connects: ['cloud','shared-responsibility','ec2','containers','deployment'],
+                         reason: 'IaaS/PaaS/SaaS determines the responsibility split, cost model, and what services you use for compute' },
+  'deployment':         { connects: ['cloud','service-models','shared-responsibility','infra'],
+                         reason: 'Whether you go Cloud, Hybrid, or On-Prem shapes your infrastructure layout and compliance responsibility' },
+  'shared-responsibility': { connects: ['service-models','ec2','cloud','deployment'],
+                         reason: 'Responsibility model changes per service type (IaaS vs PaaS) and deployment model (Cloud vs Hybrid)' },
+  'ec2':                { connects: ['infra','service-models','storage','architecture','scaling','shared-responsibility'],
+                         reason: 'EC2 is the core IaaS compute unit â€” it connects to AZ placement, storage attachment, scaling groups, and security patching' },
+  'storage':            { connects: ['ec2','infra','architecture','containers'],
+                         reason: 'Storage (S3/EBS/EFS) is consumed by compute (EC2/containers) and its durability/AZ scope determines DR strategy' },
+  'architecture':       { connects: ['infra','ec2','storage','scaling','cloud'],
+                         reason: 'HA and DR patterns are built on top of Infrastructure (Regions/AZs), Compute (EC2), Storage, and Scaling services' },
+  'scaling':            { connects: ['ec2','architecture','cloud','infra','containers'],
+                         reason: 'Load balancing and auto scaling are how you implement elasticity (a cloud advantage) and high availability in practice' },
+  'containers':         { connects: ['service-models','ec2','scaling','cloud','storage'],
+                         reason: 'Containers/Serverless are modern PaaS/FaaS implementations that replace EC2 management with managed compute models' }
+};
+
+function showStudyTab(tab) {

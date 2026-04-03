@@ -1,0 +1,10707 @@
+// AWS Quiz Questions Data
+// Normalized Structure
+export const ALL_Q = [
+  {
+    "id": 1,
+    "question": "Which of the following is an advantage that users experience when they move on-premises workloads to the AWS Cloud?",
+    "options": {
+      "A": "Elimination of expenses for running and maintaining data centers.",
+      "B": "Price discounts that are identical to discounts from hardware providers",
+      "C": "Distribution of all operational controls to AWS.",
+      "D": "Elimination of operational expenses."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 2,
+    "question": "Which AWS benefit is demonstrated by on-demand technology services that enable companies to replace upfront fixed expenses with variable expenses?",
+    "options": {
+      "A": "High availability",
+      "B": "Economies of scale",
+      "C": "Pay-as-you-go pricing",
+      "D": "Global reach"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 3,
+    "question": "A company wants to know more about the benefits offered by cloud computing. The company wants to understand the operational advantage of agility. How does AWS provide agility for users?",
+    "options": {
+      "A": "The ability to ensure high availability by deploying workloads to multiple regions.",
+      "B": "A pay-as-you-go model for many services and resources.",
+      "C": "The ability to transfer infrastructure management to the AWS Cloud.",
+      "D": "The ability to provision and deprovision resources quickly with minimal effort."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 4,
+    "question": "Which AWS Cloud benefit is shown by an architectureâ€™s ability to withstand failures with minimal downtime?",
+    "options": {
+      "A": "Agility",
+      "B": "Elasticity",
+      "C": "Scalability",
+      "D": "High availability"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 5,
+    "question": "Which AWS Cloud deployment model uses AWS Outposts as part of the application deployment infrastructure?",
+    "options": {
+      "A": "On-premises",
+      "B": "Serverless",
+      "C": "Cloud-native",
+      "D": "Hybrid"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is an advantage that the AWS Cloud provides to users?",
+    "options": {
+      "A": "Users eliminate the need to guess about infrastructure capacity requirements.",
+      "B": "Users decrease their variable costs by maintaining sole ownership of IT hardware.",
+      "C": "Users maintain control of underlying IT infrastructure hardware.",
+      "D": "Users maintain control of operating systems for managed services."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 7,
+    "question": "A company wants the ability to automatically acquire resources as needed and release the resources when they are no longer needed. Which cloud concept describes this functionality?",
+    "options": {
+      "A": "Availability",
+      "B": "Elasticity",
+      "C": "Durability",
+      "D": "Reliability"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 8,
+    "question": "Which benefit of cloud computing gives a company the ability to deploy applications to users all over the world through a network of AWS Regions, Availability Zones, and edge locations?",
+    "options": {
+      "A": "Economy of scale",
+      "B": "Global reach",
+      "C": "Agility",
+      "D": "High availability"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 9,
+    "question": "A user is moving a workload from a local data center to an architecture that is distributed between the local data center and the AWS Cloud. Which type of migration is this?",
+    "options": {
+      "A": "On-premises to cloud native",
+      "B": "Hybrid to cloud native",
+      "C": "On-premises to hybrid",
+      "D": "Cloud native to hybrid"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 10,
+    "question": "A company needs to deploy applications in the AWS Cloud as quickly as possible. The company also needs to minimize the complexity that is related to the management of AWS resources. Which AWS service should the company use to meet these requirements?",
+    "options": {
+      "A": "AWS Config",
+      "B": "AWS Elastic Beanstalk",
+      "C": "Amazon EC2",
+      "D": "Amazon Personalize"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 11,
+    "question": "A global media company stores high-resolution video files in an Amazon S3 bucket located in the us-east-1 (N. Virginia) Region. While users in the United States experience fast download speeds, users in Singapore and Tokyo report significant delays and \"slow content delivery\"when accessing the same files. Which architectural change would provide the best user experience and performance for the global audience while minimizing the load on the origin S3 bucket?",
+    "options": {
+      "A": "Create a secondary S3 bucket in the ap-southeast-1 (Singapore) Region and manually copy all video files to it.",
+      "B": "Deploy Amazon CloudFront and configure the N. Virginia S3 bucket as the origin.",
+      "C": "Upgrade the S3 bucket to a Multi-AZ configuration to increase data replication speed.",
+      "D": "Instruct global users to use a VPN to connect directly to the N. Virginia network path."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 12,
+    "question": "When a company moves from an on-premises data center to the AWS Cloud, which financial shift typically occurs in their accounting model?",
+    "options": {
+      "A": "Moving from variable operational expense (OPEX) to upfront capital expense (CAPEX).",
+      "B": "Moving from upfront capital expense (CAPEX) to variable operational expense (OPEX)",
+      "C": "Elimination of all capital and operational expenditures.",
+      "D": "Moving from fixed variable costs to fixed capital investments."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 13,
+    "question": "A startup needs to get a new product to market quickly and requires the ability to provision compute and storage resources in just a few minutes. Which cloud characteristic best meets this need?",
+    "options": {
+      "A": "Reliability.",
+      "B": "High Availability.",
+      "C": "Agility.",
+      "D": "Elasticity."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 14,
+    "question": "Adeveloper wants to deploy a web application without worrying about the underlying infrastructure, such as the operating system or server hardware. Which cloud computing model should they use?",
+    "options": {
+      "A": "Infrastructure as a Service (IaaS).",
+      "B": "Software as a Service (SaaS).",
+      "C": "Networking as a Service (NaaS).",
+      "D": "Platform as a Service (PaaS)."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 15,
+    "question": "Which AWS Cloud benefit allows an organization to automatically match the supply of resources with changing workload demands?",
+    "options": {
+      "A": "Elasticity.",
+      "B": "Security.",
+      "C": "Global Reach.",
+      "D": "Fault Tolerance."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 16,
+    "question": "How do customers directly benefit from Amazonâ€™s \"Massive Economies of Scale\"?",
+    "options": {
+      "A": "They receive free hardware upgrades every three years.",
+      "B": "They receive periodic price reductions as a result of Amazonâ€™s operational efficiencies.",
+      "C": "They gain the ability to scale up and down as needed.",
+      "D": "They can use any third-party software license for free."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 17,
+    "question": "Underthe Shared Responsibility Model, which task remains the customerâ€™s responsibility when using Infrastructure as a Service (IaaS) like Amazon EC2, but becomes the responsibility of AWS when using a managed Platform as a Service (PaaS) or serverless service?",
+    "options": {
+      "A": "Data encryption.",
+      "B": "Physical security of data centers.",
+      "C": "Configuration of security groups.",
+      "D": "Patching the guest operating system."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 18,
+    "question": "A company hosts a legacy application in its corporate data center but uses Amazon EC2 instances for its modern web servers. Which term correctly describes this infrastructure model?",
+    "options": {
+      "A": "Cloud-native architecture.",
+      "B": "Partner network model.",
+      "C": "Hybrid architecture.",
+      "D": "Monolithic architecture."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 19,
+    "question": "To prevent a \"Single Point of Failure\"in a monolithic application, a Cloud Practitioner is advised to re-architect the application into components that run independently. This is an example of which design principle?",
+    "options": {
+      "A": "Vertical scaling.",
+      "B": "Tightly coupled design.",
+      "C": "Manual monitoring.",
+      "D": "Loose coupling."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 20,
+    "question": "Which specific advantage of cloud computing addresses the traditional IT challenge of over provisioning or under-provisioning infrastructure based on \"peak load\"estimates?",
+    "options": {
+      "A": "Stop guessing about capacity.",
+      "B": "High availability.",
+      "C": "Increased speed and agility.",
+      "D": "Physical isolation of workloads."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 21,
+    "question": "Which statement best describes a Multi-AZ architecture?",
+    "options": {
+      "A": "Deploying resources across multiple Availability Zones within a single cloud region",
+      "B": "Deploying application services across multiple cloud regions around the world",
+      "C": "Deploying multiple servers inside one data center to increase computing capacity",
+      "D": "Deploying resources at edge locations to reduce latency for global users"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 22,
+    "question": "How are Availability Zones (AZs) connected to each other within a Region?",
+    "options": {
+      "A": "Via public internet connections.",
+      "B": "Through physical transport of storage media.",
+      "C": "Using high-bandwidth, low-latency private networking.",
+      "D": "They are not connected to ensure isolation."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 23,
+    "question": "A web application runs on multiple servers inside a cloud environment. The company wants to distribute incoming HTTP and HTTPS requests across several backend servers to improve reliability and scalability. This is supported by Application Load Balancer. What is the main function of ALB?",
+    "options": {
+      "A": "Providing virtual machine instances for running backend application code.",
+      "B": "Resolving domain names into IP addresses for client network connections.",
+      "C": "Storing and caching static website files for faster delivery to global users.",
+      "D": "Distributing incoming web requests across multiple application servers."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 24,
+    "question": "A fintech platform has three requirements: (1) It must tolerate the failure of a single data center facility with synchronous database protection. (2) It must remain recoverable if an entire geographic Region becomes unavailable. (3) It must deliver static web content with low latency to users worldwide. Which architecture best aligns with AWS Global Infrastructure best practices?",
+    "options": {
+      "A": "Deploy the application and database across multiple Availability Zones in one Region, and use CloudFront for static content.",
+      "B": "Deploy the application in one Region, place backups in Edge Locations, and use Local Zones for disaster recovery.",
+      "C": "Deploy the application across multiple Availability Zones in a primary Region, replicate to a secondary AWS Region for disaster recovery, and use CloudFront for global static content delivery.",
+      "D": "Deploy the database in two Local Zones and use Direct Connect for synchronous cross-city replication."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 25,
+    "question": "Which statement best defines cloud computing?",
+    "options": {
+      "A": "Running applications only on personal computers without connecting to the internet.",
+      "B": "Installing physical servers locally and maintaining hardware inside an organization building.",
+      "C": "Storing data permanently on removable storage devices such as USB drives.",
+      "D": "Delivering computing resources through the internet with on-demand access and pay-asyou-go pricing."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 26,
+    "question": "Which AWS service provides resizable compute capacity in the cloud and gives you full administrative control over the operating system?",
+    "options": {
+      "A": "AWS Lambda",
+      "B": "Amazon EC2",
+      "C": "AWS Fargate",
+      "D": "Amazon S3"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 27,
+    "question": "What is the primary characteristic of an Availability Zone (AZ) regarding fault isolation?",
+    "options": {
+      "A": "It is a geographic area isolated by international boundaries for data sovereignty.",
+      "B": "It consists of multiple Regions connected by low-latency networks.",
+      "C": "It has independent power, cooling, and networking to ensure full fault isolation.",
+      "D": "It provides edge caching to reduce latency for global users."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 28,
+    "question": "A global e-commerce website receives visitors from many countries. The company wants to direct users to the correct application endpoint using their domain name and also speed up delivery of images, videos, and static content for users around the world. Which combination of services should the company use to achieve these goals?",
+    "options": {
+      "A": "Use Amazon Route 53 for domain name resolution and Amazon CloudFront for global content delivery.",
+      "B": "Use Amazon CloudFront for domain name resolution and Amazon Route 53 for content caching.",
+      "C": "Use Amazon Route 53 for caching static files and Amazon CloudFront for managing domain records",
+      "D": "Use Amazon CloudFront for routing DNS traffic and Amazon Route 53 for video streaming services"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 29,
+    "question": "A company runs a reduced-capacity but fully functional copy of its application stack in a secondary Region. During a disaster, it plans to scale out that environment to handle production traffic. Which strategy is this?",
+    "options": {
+      "A": "Backup and Restore",
+      "B": "Pilot Light",
+      "C": "Warm Standby",
+      "D": "Active/Active"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 30,
+    "question": "Which cloud computing model provides virtualized computing resources such as virtual machines, storage, and networking over the internet?",
+    "options": {
+      "A": "Software as a Service (SaaS)",
+      "B": "Platform as a Service (PaaS)",
+      "C": "Infrastructure as a Service (IaaS)",
+      "D": "Function as a Service (FaaS)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 31,
+    "question": "A small e-commerce company hosts its website on one physical server located in its office. One day, the server suddenly stops working because of a hardware problem. As a result, the entire website becomes unavailable and customers cannot access the online store. The IT team realizes that the system design caused the entire service to stop when a single component failed. Which concept best describes the problem in this situation?",
+    "options": {
+      "A": "Single Point of Failure where one component failure stops the entire system",
+      "B": "Resource Pooling where multiple users share the same infrastructure resources",
+      "C": "Rapid Elasticity where computing resources scale automatically with demand",
+      "D": "Broad Network Access where services are available through internet networks"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 32,
+    "question": "A company wants to deploy its application in multiple geographic regions so users around the world can access it with lower latency. Which AWS Cloud benefit supports this requirement?",
+    "options": {
+      "A": "High availability",
+      "B": "Global reach",
+      "C": "Elasticity",
+      "D": "Pay-as-you-go pricing"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 33,
+    "question": "A startup has continuously changing workloads, needs rapid deployment, does not want to invest in a data center upfront, and wants to pay only for the resources it actually uses. According to the slide content, which of the following best explains why cloud is more suitable than on-premises?",
+    "options": {
+      "A": "Cloud provides full control over physical infrastructure and completely eliminates internet dependency",
+      "B": "Cloud changes upfront fixed capital costs into variable costs based on usage and supports flexible resource scaling",
+      "C": "Cloud requires the company to manage all networking, storage, and virtualization by itself",
+      "D": "Cloud is only suitable for large enterprises with stable workloads over many years"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 34,
+    "question": "A small startup wants to build a web application for online food delivery. The team wants to focus mainly on developing application features rather than managing servers, operating systems, or runtime environments. They still want to write and deploy their own code, but they prefer the cloud provider to handle most of the infrastructure and platform maintenance. Which service model is the most appropriate solution for this situation?",
+    "options": {
+      "A": "On-Premises infrastructure where the company manages servers, software, and networks",
+      "B": "Infrastructure as a Service (IaaS) providing virtual servers while users manage operating systems",
+      "C": "Platform as a Service (PaaS) providing runtime environments while users deploy applications",
+      "D": "Software as a Service (SaaS) providing complete applications managed entirely by providers"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 35,
+    "question": "A startup is launching a video streaming app and wants to ensure that users in Tokyo and New York experience the same fast loading times for thumbnail images. Which service should they implement?",
+    "options": {
+      "A": "Amazon EC2 Auto Scaling",
+      "B": "Amazon CloudFront using Edge Locations",
+      "C": "Multi-AZ deployment in the Singapore Region",
+      "D": "AWS Direct Connect"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 36,
+    "question": "Which component of the AWS Global Infrastructure consists of one or more discrete data centers, each with redundant power, networking, and connectivity, housed in separate facilities?",
+    "options": {
+      "A": "AWS Regions.",
+      "B": "Edge Locations.",
+      "C": "Availability Zones.",
+      "D": "Private Networking."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 37,
+    "question": "To achieve high availability for a web application, compute resources should be provisioned across a minimum of how many Availability Zones?",
+    "options": {
+      "A": "One.",
+      "B": "Two.",
+      "C": "Three.",
+      "D": "Four."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 38,
+    "question": "Which statement accurately describes the relationship between Regions and Availability Zones?",
+    "options": {
+      "A": "Regions contain multiple Availability Zones.",
+      "B": "Data centers contain multiple Regions.",
+      "C": "Availability Zones contain multiple Edge Locations.",
+      "D": "Edge Locations are housed within a single Availability Zone."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 39,
+    "question": "Which AWS service is specifically designed as a global service to provide DNS management across the entire global infrastructure?",
+    "options": {
+      "A": "Amazon EC2.",
+      "B": "Amazon S3.",
+      "C": "Amazon Route 53.",
+      "D": "Amazon DynamoDB."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 40,
+    "question": "A company currently operates in one AWS Region and wants to start supporting a second Region. What is the correct procedure to begin using this new Region?",
+    "options": {
+      "A": "Contact an AWS Account Manager to sign a separate regional contract.",
+      "B": "Move an existing Availability Zone from the current Region to the new one.",
+      "C": "Download a Region-specific version of the Management Console.",
+      "D": "Begin deploying resources in the second Region directly via the Management Console."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 41,
+    "question": "A company requires synchronous replication of its database to ensure zero data loss if a single data center facility fails. Which feature of the Global Infrastructure makes this possible?",
+    "options": {
+      "A": "High-speed fiber connections between different AWS Regions.",
+      "B": "Low-latency, redundant networking links between Availability Zones within a Region.",
+      "C": "Automated caching of database writes at global Edge Locations.",
+      "D": "The use of AWS Direct Connect to link multiple data centers."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 42,
+    "question": "An organization needs to protect its application against a service disruption that could affect an entire geographic area, such as a major natural disaster. What is the recommended architectural action?",
+    "options": {
+      "A": "Deploy the application across all Availability Zones within one Region.",
+      "B": "Use a hybrid cloud model with on-premises resources in the same city.",
+      "C": "Deploy the application across multiple AWS Regions.",
+      "D": "Replicate the data across multiple Edge Locations globally."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 43,
+    "question": "Which factor is most critical when a customer must choose an AWS Region to ensure compliance with data sovereignty and legal requirements?",
+    "options": {
+      "A": "Proximity to the customerâ€™s corporate office for on-site audits.",
+      "B": "The specific geographic location where data will be stored and processed.",
+      "C": "The number of Edge Locations available in that specific country.",
+      "D": "Whether the application is presented in the local language."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 44,
+    "question": "Which component of the AWS Global Infrastructure is used by Amazon CloudFront to ensure low-latency delivery of content to end-users worldwide?",
+    "options": {
+      "A": "Regional Data Centers.",
+      "B": "Virtual Private Gateways.",
+      "C": "Availability Zones.",
+      "D": "Edge Locations."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 45,
+    "question": "In the AWS Shared Responsibility Model, which of the following is the sole responsibility of AWS regarding Global Infrastructure?",
+    "options": {
+      "A": "Configuring Network ACLs to block malicious IP addresses.",
+      "B": "Managing security groups for EC2 instances.",
+      "C": "Management and physical security of Edge Locations.",
+      "D": "Patching the guest operating system of resources in an AZ."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 46,
+    "question": "Which of the following can be components of a VPC in the AWS Cloud?",
+    "options": {
+      "A": "Amazon API Gateway",
+      "B": "Amazon S3 buckets and objects",
+      "C": "AWS Storage Gateway",
+      "D": "Internet gateway"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 47,
+    "question": "A company is migrating its application from an on-premises infrastructure to the cloud to improve high availability and reduce infrastructure management overhead. The company decides to run its application on Amazon EC2. According to the Shared Responsibility Model of Amazon Web Services, which of the following responsibilities belongs to the customer?",
+    "options": {
+      "A": "Maintaining the physical servers in AWS data centers",
+      "B": "Managing and patching the operating system running on the EC2 instance",
+      "C": "Ensuring the availability of the underlying AWS networking infrastructure",
+      "D": "Maintaining the cooling systems and power supply in AWS data centers"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 48,
+    "question": "Which of the â€™Six Advantages of Cloud Computingâ€™ specifically addresses the ability of a company to avoid over-provisioning or under-provisioning based on workload estimates?",
+    "options": {
+      "A": "Trade fixed expense for variable expense",
+      "B": "Benefit from massive economies of scale",
+      "C": "Stop guessing capacity",
+      "D": "Go global in minutes"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 49,
+    "question": "Over Night is a startup that provides event management and online ticket distribution services. The company wants to avoid large upfront investments in hardware, quickly launch its platform, and automatically scale resources to handle sudden increases in demand. Which solution would BEST meet these requirements?",
+    "options": {
+      "A": "Build an on-premises data center and purchase enough servers to handle the highest expected traffic",
+      "B": "Use a co-location data center and manage all physical servers and networking infrastructure internally.",
+      "C": "Deploy the application in the AWS Cloud using scalable services that automatically adjust capacity based on demand.",
+      "D": "Purchase several physical servers and host the application in the companyâ€™s office."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 50,
+    "question": "A healthcare company is working with sensitive patient records which is currently stored in an on-premise way. The company intends to extend globally and expecting high demand due to the computational resource of upcoming AI usage for medical image analysis. Which architecture should the company choose?",
+    "options": {
+      "A": "Build more on-premise data center over the globe for expansion and security.",
+      "B": "Move everything to cloud for easy expand and scale as well as lower latency due to powerful pre-installed infrastructure.",
+      "C": "Keep everything on-premise for full control and security.",
+      "D": "Build a hybrid model where keeping patient record on-premise while computational resource utilizing cloud infrastructure."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 51,
+    "question": "DeepScan runs an AI X-ray analysis app on Amazon EC2. Despite using Security Groups, EBS encryption, and a hardened Ubuntu OS, a data leak occurs due to an outdated OpenSSL library running on the EC2 instance.",
+    "options": {
+      "A": "AWS: They must ensure all software/libraries on their infrastructure are patched.",
+      "B": "AWS: They are responsible for all encryption-related vulnerabilities (like OpenSSL).",
+      "C": "Customer (DeepScan): They are responsible for managing the guest OS, applications, and installed libraries.",
+      "D": "Shared: AWS is responsible for the software flaw, and the customer for failing to detect it."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 52,
+    "question": "Which of the following is a core design principle of the \"Security\"pillar of the Well-Architected Framework?",
+    "options": {
+      "A": "Stop guessing capacity",
+      "B": "Implement a strong identity foundation",
+      "C": "Scale horizontally to increase workload availability",
+      "D": "Perform operations as code"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 53,
+    "question": "What type of cloud computing service is AWS Lambda (Serverless)?",
+    "options": {
+      "A": "Infrastructure as a Service (IaaS)",
+      "B": "Platform as a Service (PaaS)",
+      "C": "Software as a Service (SaaS)",
+      "D": "Function as a Service (FaaS)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 54,
+    "question": "Which AWS Cloud characteristic allows customers to scale resources up or down automatically based on demand?",
+    "options": {
+      "A": "Resource pooling",
+      "B": "Rapid elasticity",
+      "C": "Broad network access",
+      "D": "Measured service"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 55,
+    "question": "Which AWS service is considered a global service?",
+    "options": {
+      "A": "Amazon EC2",
+      "B": "Amazon RDS",
+      "C": "AWS IAM",
+      "D": "Amazon S3"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 56,
+    "question": "What is the primary purpose of AWS Edge Locations?",
+    "options": {
+      "A": "Run virtual machines",
+      "B": "Store relational databases",
+      "C": "Cache content closer to users to reduce latency",
+      "D": "Host application servers"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 57,
+    "question": "Which cloud service model allows customers to manage operating systems and applications, while AWS manages the underlying infrastructure?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "On-premises"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 58,
+    "question": "Which AWS infrastructure component provides geographic isolation",
+    "options": {
+      "A": "Availability Zone",
+      "B": "Region",
+      "C": "Edge location",
+      "D": "Data center"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 59,
+    "question": "What best describes the concept of scalability?",
+    "options": {
+      "A": "The ability for a system to withstand a certain amount of failure and still remain funcitonal",
+      "B": "The ability for a system to grow in size, capacity, and/or scope",
+      "C": "The ability for a system to grow and shrink based on demand",
+      "D": "The ability for a system be accessible when you attempt to acesss it"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 60,
+    "question": "What is the goal of High Availability architecture?",
+    "options": {
+      "A": "Minimize downtime",
+      "B": "Reduce cost",
+      "C": "Increase storage capacity",
+      "D": "Simplify deployment"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 61,
+    "question": "A company wants to deploy an application for users in Vietnam and Southeast Asia. Which AWS Region would most likely provide the lowest latency?",
+    "options": {
+      "A": "us-east-1 (N. Virginia)",
+      "B": "ap-south-1 (Mumbai)",
+      "C": "eu-west-1 (Ireland)",
+      "D": "ap-southeast-1 (Singapore)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 62,
+    "question": "A company wants to improve application availability within a single region. Which architecture should they implement?",
+    "options": {
+      "A": "Deploy instances in multiple AZs",
+      "B": "Deploy instances in a single AZ",
+      "C": "Deploy in a single EC2 instance",
+      "D": "Deploy using only edge locations"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 63,
+    "question": "An application stores frequently accessed static images globally. Which AWS service can cache these images near users?",
+    "options": {
+      "A": "RDS",
+      "B": "CloudFront",
+      "C": "EC2",
+      "D": "EBS"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 64,
+    "question": "A company wants to automatically redirect traffic if one Availability Zone fails. Which AWS component should they use?",
+    "options": {
+      "A": "Application Load Balancer",
+      "B": "Amazon S3",
+      "C": "AWS IAM",
+      "D": "Amazon Glacier"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 65,
+    "question": "Which AWS deployment strategy protects against data center failures within a region?",
+    "options": {
+      "A": "Multi-Region architecture",
+      "B": "Multi-AZ architecture",
+      "C": "Edge computing",
+      "D": "Hybrid cloud"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 66,
+    "question": "A company wants to build an architecture that continues running even if an entire AWS Region becomes unavailable. What should they implement?",
+    "options": {
+      "A": "Multi-AZ deployment",
+      "B": "Auto Scaling",
+      "C": "Multi-Region architecture",
+      "D": "Edge caching"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 67,
+    "question": "An e-commerce website deploys EC2 instances in two Availability Zones behind an Application Load Balancer. What AWS architectural principle does this represent?",
+    "options": {
+      "A": "Edge caching",
+      "B": "Hybrid deployment",
+      "C": "Resource pooling",
+      "D": "Fault isolation and high availability"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 68,
+    "question": "Which architecture provides the highest resilience against large-scale disasters but increases complexity and cost?",
+    "options": {
+      "A": "Single AZ deployment",
+      "B": "Multi-AZ deployment",
+      "C": "Multi-Region deployment",
+      "D": "Edge caching"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 69,
+    "question": "Which term describes the cost advantage that AWS has over a company running its own private cloud?",
+    "options": {
+      "A": "Total Cost of Ownership (TCO)",
+      "B": "Economies of Scale",
+      "C": "Operating Expenses",
+      "D": "Capital Expenses"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 70,
+    "question": "A startup is launching a new app. They expect a massive spike in traffic during a 2-hour marketing event, followed by very low traffic. Which cloud characteristic allows them to handle the spike without paying for idle servers afterward?",
+    "options": {
+      "A": "Reliability",
+      "B": "Durability",
+      "C": "Elasticity",
+      "D": "Sustainability"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 71,
+    "question": "A global e-learning platform stores videos in S3 in the Tokyo Region. Students from Europe complain about slow loading times. Which solution BEST improves performance for these users while keeping data in the same Region?",
+    "options": {
+      "A": "Deploy in a single AZ with Auto Scaling only",
+      "B": "Deploy across multiple AZs behind an Application Load Balancer",
+      "C": "Deploy in two different Regions without load balancing",
+      "D": "Use CloudFront Edge Locations to host the system directly"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 72,
+    "question": "A global e-learning platform stores videos in S3 in the Tokyo Region. Students from Europe complain about slow loading times. Which solution BEST improves performance for these users while keeping data in the same Region?",
+    "options": {
+      "A": "Move S3 buckets to a European Region only",
+      "B": "Enable Multi-AZ for the S3 bucket",
+      "C": "Use CloudFront with Edge Locations to cache video content closer to users",
+      "D": "Create a second S3 bucket in Europe and manually sync data daily"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 73,
+    "question": "A startup wants to develop a new web application. They do not have a system administration team to maintain the operating system (OS) or perform software patching, but they must retain full control over their application code and data. Based on the shared responsibility model, which cloud computing model best fits this requirement?",
+    "options": {
+      "A": "Software as a Service (SaaS)",
+      "B": "On-premise",
+      "C": "Infrastructure as a Service (IaaS)",
+      "D": "Platform as a Service (PaaS)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 74,
+    "question": "Which of the following is NOT one of the five main characteristics of cloud computing?",
+    "options": {
+      "A": "On-demand self-service",
+      "B": "Rapid elasticity",
+      "C": "Manual provisioning",
+      "D": "Measured service"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 75,
+    "question": "Which AWS service is a typical example of Infrastructure as a Service (IaaS)?",
+    "options": {
+      "A": "Amazon WorkMail",
+      "B": "AWS Elastic Beanstalk",
+      "C": "Amazon WorkDocs",
+      "D": "Amazon EC2"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 76,
+    "question": "Which of the following services is an example of Software as a Service (SaaS) on AWS?",
+    "options": {
+      "A": "Amazon S3",
+      "B": "AWS Elastic Beanstalk",
+      "C": "Amazon EC2",
+      "D": "Amazon WorkDocs"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 77,
+    "question": "Which AWS Cloud benefit is characterized by the ability to swap upfront fixed capital expenses (CAPEX) for variable operational expenses (OPEX)?",
+    "options": {
+      "A": "Massive economies of scale",
+      "B": "Trade fixed expense for variable expense",
+      "C": "High availability",
+      "D": "Stop guessing capacity"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 78,
+    "question": "Which of the following is an example of an AWS \"Global Service\"that is not tied to a specific geographic Region?",
+    "options": {
+      "A": "Amazon EC2",
+      "B": "Amazon RDS",
+      "C": "AWS IAM (Identity and Access Management)",
+      "D": "Amazon VPC"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 79,
+    "question": "Which cloud concept describes the ability to automatically acquire resources as needed and release them when they are no longer required to match demand?",
+    "options": {
+      "A": "Reliability",
+      "B": "High Availability",
+      "C": "Elasticity",
+      "D": "Durability"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 80,
+    "question": "Which of the following components is the customer responsible for managing in the Platform as a Service (PaaS) model?",
+    "options": {
+      "A": "Operating Systems (OS)",
+      "B": "Applications and Data",
+      "C": "Networking and Storage",
+      "D": "Virtualization"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 81,
+    "question": "A company wants full control over its infrastructure and hosts its servers inside its own building. Which deployment model is being used?",
+    "options": {
+      "A": "Public Cloud",
+      "B": "Hybrid Cloud",
+      "C": "Edge Computing",
+      "D": "Private Cloud (On-premises)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 82,
+    "question": "What is an AWS Region?",
+    "options": {
+      "A": "A single data center located in a major city.",
+      "B": "A physical geographic area that contains multiple Availability Zones.",
+      "C": "A collection of Edge Locations used for content caching.",
+      "D": "A virtual network boundary for your AWS resources."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 83,
+    "question": "What is the primary purpose of an AWS Edge Location?",
+    "options": {
+      "A": "To host primary compute workloads like EC2 instances.",
+      "B": "To provide long-term archival storage for data.",
+      "C": "To deliver content closer to end-users to reduce latency.",
+      "D": "To provide synchronous data replication between Regions."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 84,
+    "question": "Which Disaster Recovery (DR) strategy involves keeping a minimal, scaled-down version of a functional environment always running in a secondary Region?",
+    "options": {
+      "A": "Backup and Restore",
+      "B": "Pilot Light",
+      "C": "Warm Standby",
+      "D": "Multi-Site (Active-Active)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 85,
+    "question": "A European fintech company must comply with strict GDPR data residency requirements that mandate customer data must be stored within a specific countryâ€™s legal jurisdiction. What is the most critical factor for them when setting up their AWS environment?",
+    "options": {
+      "A": "Selecting the Region with the lowest pricing for S3 storage.",
+      "B": "Ensuring they have the maximum number of AZs available in their chosen continent.",
+      "C": "Selecting the specific AWS Region located within the required geographic/legal boundary.",
+      "D": "Using IAM policies to restrict global access to their data."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 86,
+    "question": "Why is synchronous data replication typically limited to a Multi-AZ architecture rather than a Multi-Region architecture?",
+    "options": {
+      "A": "Because Edge Locations do not support synchronous protocols.",
+      "B": "Because AWS does not allow data transfer between different Regions.",
+      "C": "Because the physical distance between Regions introduces latency that makes synchronous sync difficult.",
+      "D": "Because Regional services like Amazon RDS cannot operate in multiple AZs."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 87,
+    "question": "Under the Shared Responsibility Model, which task is a customerâ€™s responsibility when using Infrastructure as a Service (IaaS) but becomes AWSâ€™s responsibility when using a managed Platform as a Service (PaaS)?",
+    "options": {
+      "A": "Physical security of the data center",
+      "B": "Patching the guest operating system",
+      "C": "Maintaining the virtualization layer",
+      "D": "Disposal of physical storage disks"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 88,
+    "question": "A company wants to ensure its application remains operational even if an entire data center facility within a Region fails. Which architecture should they implement?",
+    "options": {
+      "A": "Single-AZ deployment with higher-capacity servers.",
+      "B": "Multi-AZ deployment within the same Region.",
+      "C": "Deploying the application in a single Edge Location.",
+      "D": "Moving the entire workload to an on-premises Private Cloud"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 89,
+    "question": "A company wants its application to remain operational if a data center in a Region fails. Which architecture best meets this requirement?",
+    "options": {
+      "A": "Deploy across multiple Regions",
+      "B": "Deploy across multiple AZs",
+      "C": "Deploy in one AZ with Auto Scaling",
+      "D": "Use Edge Locations only"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 90,
+    "question": "Which AWS infrastructure component provides the lowest latency access to users globally?",
+    "options": {
+      "A": "Regions",
+      "B": "AZs",
+      "C": "Edge Locations",
+      "D": "VPC"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 91,
+    "question": "What is the main difference between an Availability Zone (AZ) and a Region?",
+    "options": {
+      "A": "AZ spans multiple Regions",
+      "B": "Region contains multiple AZs",
+      "C": "AZ is global",
+      "D": "Region is virtual only"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 92,
+    "question": "Which scenario is the BEST use case for Multi-Region deployment?",
+    "options": {
+      "A": "Improve availability within a Region",
+      "B": "Reduce AZ latency",
+      "C": "Disaster recovery and global users",
+      "D": "Reduce storage cost"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 93,
+    "question": "A developer wants to deploy a web application without worrying about managing the underlying infrastructure, such as the operating system or server hardware. Which cloud computing model should they use?",
+    "options": {
+      "A": "Infrastructure as a Service (IaaS)",
+      "B": "Software as a Service (SaaS)",
+      "C": "Platform as a Service (PaaS)",
+      "D": "On-premises"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 94,
+    "question": "Which AWS service is considered global?",
+    "options": {
+      "A": "Amazon EC2",
+      "B": "Amazon RDS",
+      "C": "AWS IAM",
+      "D": "Amazon VPC"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 95,
+    "question": "Which AWS infrastructure component is primarily used to cache content closer to end-users to reduce latency and improve performance?",
+    "options": {
+      "A": "Regions",
+      "B": "Availability Zones",
+      "C": "Edge Locations",
+      "D": "Virtual Private Clouds (VPC)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 96,
+    "question": "Which of the following AWS services is considered a Global service?",
+    "options": {
+      "A": "Amazon EC2",
+      "B": "Amazon RDS",
+      "C": "AWS IAM",
+      "D": "Amazon VPC"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 97,
+    "question": "A company is over-provisioning its on-premises resources to handle peak traffic, leading to high waste during off-peak hours. Which AWS Cloud advantage directly addresses this specific inefficiency?",
+    "options": {
+      "A": "Go global in minute",
+      "B": "Stop guessing capacity",
+      "C": "Massive economies",
+      "D": "Increase speed and agility"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 98,
+    "question": "A retail company uses AWS to improve its business operations. To stay ahead of competitors, they launched a new Mobile Payment feature in just two days by instantly spinning up new development environments. During a holiday sale, their web server fleet automatically doubled in size to handle a massive traffic spike, then shrank back to its original size once the sale ended. Which cloud concepts are described in order ?",
+    "options": {
+      "A": "A. 1. Elasticity; 2. Agility",
+      "B": "B. 1. Agility; 2. Elasticity",
+      "C": "C. 1. Scalability; 2. High Availability",
+      "D": "D. 1. Reliability; 2. Scalability"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 99,
+    "question": "A IT company currently operates with a fully Cloud-Native architecture on AWS. They are planning to transition to a Hybrid architecture by establishing an on-premises data center to handle their highly stable internal workloads. What is the Benefits the company gain from this transition ?",
+    "options": {
+      "A": "A. Elimination of the need for an internal team to manage and maintain physical infrastructure.",
+      "B": "B. Establish Shared Responsibility model where AWS manages the physical security of the new on-premises data center.",
+      "C": "C. Donâ€™t need to guess about capacity by automatically scaling resources to match fluctuating traffic.",
+      "D": "D. Total physical control and customization over hardware and underlying infrastructure for specific compliance needs."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 100,
+    "question": "A startup have a small software engineering team to write the application code and manage user data, but they do not want to spend time managing or patching the underlying operating systems, runtime environments, or server hardware. Which cloud computing model should they choose ?",
+    "options": {
+      "A": "A. Infrastructure as a Service (IaaS), because it provides the team with full control over the operating system and runtime environment.",
+      "B": "B. Software as a Service (SaaS), because the cloud provider will manage everything including the application and data, eliminating the need for their engineering team.",
+      "C": "C. Platform as a Service (PaaS), because the provider manages the underlying infrastructure, operating system, and runtime.",
+      "D": "D. On-Premises, because it allows their software engineering team to have complete control over the physical data center."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 101,
+    "question": "Which of the following is a key characteristic of cloud computing that allows users to automatically increase or decrease computing resources based on demand?",
+    "options": {
+      "A": "A. Resource pooling",
+      "B": "B. Rapid elasticity",
+      "C": "C. Broad network access",
+      "D": "D. Measured service"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 102,
+    "question": "A company already has an on-premises data center but wants to integrate some workloads with AWS services while keeping sensitive data locally. Which deployment model should the company use?",
+    "options": {
+      "A": "A. Public Cloud",
+      "B": "B. Private Cloud",
+      "C": "C. Hybrid Cloud",
+      "D": "D. Community Cloud"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 103,
+    "question": "A startup launches a new online course platform. During enrollment periods, the number of users increases dramatically, but outside the enrollment season traffic is very low. The company wants infrastructure that can automatically scale up during high demand and scale down when demand decreases Which cloud characteristic BEST addresses this requirement?",
+    "options": {
+      "A": "A. Broad Network Access",
+      "B": "B. Rapid Elasticity",
+      "C": "C. Resource Pooling",
+      "D": "D. Measured Service"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 104,
+    "question": "A company wants to avoid large upfront costs for servers and data centers and prefers paying only for the resources they use. Which cloud advantage supports this business goal?",
+    "options": {
+      "A": "A. Global reach",
+      "B": "B. Trade fixed expense for variable expense",
+      "C": "C. Resource pooling",
+      "D": "D. Broad network access"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 105,
+    "question": "Currently, your company (a FinTech company working with stock market data) has its servers (EC2) and databases (RDS) hosted in Tokyo. To ensure that your application does not go down if the entire Tokyo region experiences a natural disaster (such as an earthquake), while also reducing network latency for customers in London (Europe), which architecture should you choose?",
+    "options": {
+      "A": "A. Single AZ",
+      "B": "B. Multi-AZ",
+      "C": "C. Multi-Region",
+      "D": "D. Edge-only"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 106,
+    "question": "Which of the following is NOT a characteristic of an AWS Region?",
+    "options": {
+      "A": "A. It consists of multiple Availability Zones (AZs) located within the same geographic area.",
+      "B": "B. The resources and infrastructure within a Region are fully isolated from other Regions.",
+      "C": "C. It shares the same physical networking infrastructure with nearby Regions for risk redundancy.",
+      "D": "D. The Availability Zones within a Region are connected through low-latency networks."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 107,
+    "question": "When building an Electronic Emergency Medical Records system on the AWS platform, the system stores extremely sensitive personal patient information. At the same time, because it is used in an emergency clinic, doctors require that patient medical records be retrieved almost instantly in order to make life-saving decisions. The project is also allocated a limited monthly budget for ongoing operations. Based on the key factors used when selecting an AWS Region, which of the following options represents the most appropriate priority order (from most important to least important) for the system architecture?",
+    "options": {
+      "A": "A. Cost Optimization â†’ Service Availability â†’ Latency Optimization â†’ Compliance",
+      "B": "B. Latency Optimization â†’ Compliance â†’ Cost Optimization â†’ Service Availability",
+      "C": "C. Compliance â†’ Latency Optimization â†’ Service Availability â†’ Cost Optimization",
+      "D": "D. Service Availability â†’ Compliance â†’ Latency Optimization â†’ Cost Optimization"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 108,
+    "question": "A company deploys its application across multiple Availability Zones (AZs) behind an Application Load Balancer (ALB). What does this primarily provide?",
+    "options": {
+      "A": "A. Lower storage cost",
+      "B": "B. Global caching",
+      "C": "C. High availability",
+      "D": "D. Cross-region disaster recovery"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 109,
+    "question": "Which statement best describes an Availability Zone?",
+    "options": {
+      "A": "A single data center globally shared",
+      "B": "B. Multiple isolated data centers in one Region",
+      "C": "C. A globally distributed caching system",
+      "D": "D. A logical network boundary"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 110,
+    "question": "Which architecture pattern provides the highest level of resilience?",
+    "options": {
+      "A": "A. Single AZ",
+      "B": "B. Multi-AZ",
+      "C": "C. Multi-Region",
+      "D": "D. Edge-only"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 111,
+    "question": "A company has a Linux server located in its office. Employees log in to the server using SSH to run code and process data. The server is manually administered by the IT department. What is the most accurate description of this system?",
+    "options": {
+      "A": "Private cloud",
+      "B": "Public cloud",
+      "C": "Traditional on-premise server",
+      "D": "Hybrid cloud"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 112,
+    "question": "An application is designed to run on EC2 instances across 2 different Availability Zones (MultiAZ). However, both instances read/write data to a single EBS volume. Does this design truly provide High Availability (HA) for the system?",
+    "options": {
+      "A": "A. Yes, because the compute power is distributed across two independent AZs",
+      "B": "B. No because the distance between AZs will increase data read/write latency",
+      "C": "C. Yes, because AWS automatically replicates EBS volumes to all other AZs in a Region",
+      "D": "D. No, because an EBS volume is a zonal resource, creating a â€˜Single Point of Failureâ€™"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 113,
+    "question": "Previously, an enterprise had to spend a large amount of money to purchase servers and networking equipment before deploying a system. When moving to the cloud, what type of cost does this expense become?",
+    "options": {
+      "A": "Capital expenditure (CAPEX)",
+      "B": "Operational expenditure (OPEX)",
+      "C": "Depreciation cost",
+      "D": "Hardware ownership cost"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 114,
+    "question": "Which tasks are AWS responsibilities according to the AWS Shared Responsibility Model?",
+    "options": {
+      "A": "Patching networking devices",
+      "B": "Defining user password policies",
+      "C": "Configuring security groups",
+      "D": "Patching an EC2 instance operating system"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Shared Responsibility",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 115,
+    "question": "Who is responsible for decommissioning underlying storage devices that reach the end of their useful life used to host data on AWS?",
+    "options": {
+      "A": "Customer",
+      "B": "AWS",
+      "C": "Account creator",
+      "D": "Auditing team"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 116,
+    "question": "Which of the following is a customer responsibility, according to the AWS Shared Responsibility Model?",
+    "options": {
+      "A": "Identity access management",
+      "B": "Hard drive disposal",
+      "C": "Data center hardware security",
+      "D": "Availability zone security"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 117,
+    "question": "A company runs a e-commerce web application on AWS. During a large sales event, the traffic increases by 10 times and the system automatically launches additional servers to handle the load. After the event ends, the extra servers are automatically terminated. Which AWS characteristic is best represented in this scenario?",
+    "options": {
+      "A": "Resource pooling",
+      "B": "Rapid elasticity",
+      "C": "Measured service",
+      "D": "Broad network access"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 118,
+    "question": "A company is moving a legacy application to AWS. In the past, they had to purchase 50, 000worthof hardwareevery3yearstoensuretheyhadenoughâ€headroomâ€f orgrowth, yet40",
+    "options": {
+      "A": "Go global in minutes",
+      "B": "Benefit from massive economies of scale",
+      "C": "Stop guessing capacity",
+      "D": "Increase speed and agility"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 119,
+    "question": "A company is comparing the costs of running their own data center versus moving to AWS. They realize that because AWS serves hundreds of thousands of customers, AWS can purchase hardware at much lower costs than the company ever could. This leads to lower prices for the company. Which cloud advantage is this?",
+    "options": {
+      "A": "Trade capital expense for variable expense",
+      "B": "Stop guessing capacity",
+      "C": "Increase speed and agility",
+      "D": "Benefit from massive economies of scale"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 120,
+    "question": "A development team wants to deploy a web application. They do not want to manage the operating system or the runtime, but they want to keep full control over the applicationâ€™s environment configuration and code versions. Which service model fits best?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "On-premise",
+      "D": "IaaS"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 121,
+    "question": "Which AWS Cloud feature enables users to have the ability to pay based on current needs, rather than projected needs?",
+    "options": {
+      "A": "AWS Budgets",
+      "B": "Pay-as-you-go pricing",
+      "C": "Volume discounts",
+      "D": "Saving Plans"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 122,
+    "question": "Which AWS service acts as the global DNS service that directs users to different AWS resources?",
+    "options": {
+      "A": "Amazon Cloudfront",
+      "B": "Amazon Route 53",
+      "C": "Elastic Load Balacing",
+      "D": "AWS Global Accelerator"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 123,
+    "question": "Which AWS infrastructure component is primarily designed to cache content close to users to reduce latency?",
+    "options": {
+      "A": "Availability Zone",
+      "B": "Region",
+      "C": "Edge Location",
+      "D": "Data Center"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 124,
+    "question": "A company wants to design a highly available architecture within a single AWS region. They deploy application servers across three Availability Zones. However, all instances access a single shared file system hosted on an EC2 instance in one AZ. Which risk still exists in this architecture?",
+    "options": {
+      "A": "Load balancing cannot work across AZs",
+      "B": "A failure in the AZ hosting the file system can cause application failure",
+      "C": "Route 53 will redirect traffic to another region automatically",
+      "D": "Edge locations will cache the file system data"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 125,
+    "question": "An engineering team claims that deploying infrastructure across multiple Availability Zones guarantees disaster recovery. Which statement best challenges this assumption?",
+    "options": {
+      "A": "AZs share the same physical power grid",
+      "B": "Route 53 does not support multi-AZ routing",
+      "C": "Edge locations must be used for redundancy",
+      "D": "Region-level failures are still possible"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 126,
+    "question": "A company wants to reduce latency for global users while also ensuring regional disaster recovery. Which architecture best satisfies both goals?",
+    "options": {
+      "A": "Deploy the application in one region with many AZs",
+      "B": "Deploy in multiple regions and use latency-based routing with health checks",
+      "C": "Use a single region and multiple edge locations",
+      "D": "Use weighted routing across Availability Zones"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 127,
+    "question": "A financial corporation requires its core system to have a disaster recovery (DR) capability with a near-zero Recovery Time Objective (RTO/Zero Downtime). The system must remain uninterrupted even if an extreme weather event takes down all data centers in a vast geographic area (Full Region Outage). They are willing to accept the highest level of cost and complexity. Which architectural design is the most accurate solution?",
+    "options": {
+      "A": "Deploy a Multi-AZ architecture within a single Region using Synchronous Replication.",
+      "B": "Use a Pilot Light strategy across multiple Regions to scale up when needed.",
+      "C": "Deploy Edge Locations with Amazon CloudFront and Route 53 to accelerate global content delivery.",
+      "D": "Implement a Multi-Region architecture using an Active-Active model."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 128,
+    "question": "Which of the following global network services is primarily used by AWS at Edge Locations to cache static content closer to end-users, thereby reducing latency and offloading requests from the origin servers?",
+    "options": {
+      "A": "Amazon RDS",
+      "B": "Amazon EC2",
+      "C": "Amazon CloudFront",
+      "D": "Amazon EBS"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 129,
+    "question": "A retail business frequently hosts seasonal Flash Sale events causing sudden traffic spikes, but their systems remain completely idle for most of the remaining days of the year. From a financial perspective, which characteristic of Cloud Computing offers the greatest benefit for this business to migrate from an On-Premises infrastructure to AWS?",
+    "options": {
+      "A": "The ability to completely eliminate all Operational Expenses (OPEX).",
+      "B": "The ability to leverage AWS Outposts to install physical servers directly in their offices.",
+      "C": "The ability to increase infrastructure complexity to enhance customer data security.",
+      "D": "The ability to trade fixed Capital Expenses (CAPEX) for Variable Expenses, combined with Elasticity."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 130,
+    "question": "What is the CORE difference between Elasticity and Scalability in Cloud Computing?",
+    "options": {
+      "A": "Elasticity handles long-term, sustainable growth; Scalability handles short-term, instantaneous fluctuations",
+      "B": "Elasticity handles short-term, instantaneous fluctuations; Scalability handles long-term, sustainable growth.",
+      "C": "Elasticity only applies to Auto Scaling Groups; Scalability applies to all services.",
+      "D": "There is no difference; the two concepts are the same."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 1,
+    "question": "Performance: Internal network latency must be extremely low (< 10ms) for real-time transaction processing. 2. Availability: If a data center experiences a hardware failure, the system must automatically fail over immediately without impacting the customer experience. 3. Scope: Currently, the customer base is primarily concentrated within a single country. Which architecture would you propose as the MOST optimal solution?",
+    "options": {
+      "A": "Deploy a Multi-Region (Global Resilience) architecture to ensure the system remains operational even during a regional disaster.",
+      "B": "Deploy a Single-Region, Multi-AZ architecture using an Active/Active configuration and Synchronous Replication.",
+      "C": "Use a Hybrid Cloud model by placing payment servers at the corporate headquarters to reduce cloud operational costs.",
+      "D": "Deploy the application across multiple Edge Locations to ensure fast access for customers from any geographic location."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 132,
+    "question": "Company X faces two simultaneous scenarios: Scenario A: The number of users increases by 40Scenario B: Every Friday, traffic triples in two hours; the system automatically adds servers at 8 PM and removes them at 10 PM. Match the correct concepts:",
+    "options": {
+      "A": "A = Elasticity; B = Scalability",
+      "B": "A = Scalability; B = Elasticity",
+      "C": "Both A and B are Elasticity",
+      "D": "Both A and B are Scalability"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 133,
+    "question": "A company deploys its Amazon EC2 instances across 2 AZs within a Region. A load balancer automatically routes traffic to healthy instances. The database is replicated across the same two AZs. Which statement is the most correct one?",
+    "options": {
+      "A": "The architecture is Fault Tolerance because it can still operate when one AZ fails.",
+      "B": "The architecture is not Highly Available, because it runs only in a single Region.",
+      "C": "The architecture provides Global Resilience, because multiple Availability Zones are used.",
+      "D": "The architecture provides High Availability, but not Fault Tolerance, because the system may experience brief downtime during failover."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 134,
+    "question": "A company needs to ensure its application can survive a catastrophic event that takes down an entire AWS Region. Which design strategy provides the highest level of resilience and the lowest Recovery Time Objective?",
+    "options": {
+      "A": "Deploying the application across multiple Availability Zones with an Application Load Balancer.",
+      "B": "Implementing a Multi-Region Active-Active strategy with Route 53 for global traffic routing.",
+      "C": "Setting up a Pilot Light environment in a different Availability Zone within the same Region.",
+      "D": "Using CloudFront to cache content at Edge Locations to prevent regional service interruption"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 135,
+    "question": "A company based in Vietnam wants to deploy a web application serving primarily Southeast Asian users. They need to ensure the application remains operational if a data center fails but have a limited budget and do not require regional disaster recovery. Which architecture should they choose: Multi-AZ or Multi-Region?",
+    "options": {
+      "A": "Multi-Region, because deployment across multiple regions is necessary to better serve Southeast Asian users and ensure the fastest access speeds.",
+      "B": "Multi-AZ, because Multi-AZ is completely free while Multi-Region requires additional fees, so Multi-AZ is the most cost-effective choice.",
+      "C": "Multi-Region, because Multi-AZ is not secure enough; only Multi-Region can guarantee application uptime in case of failure.",
+      "D": "Multi-AZ, because this architecture protects against single-center data center failures, has low latency (<2ms between AZs), moderate cost, and low complexity, suitable for limited requirements and budgets."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 136,
+    "question": "Which layer of the computing stack is the responsibility of the customer in Software as a Service (SaaS)",
+    "options": {
+      "A": "Applications",
+      "B": "Data",
+      "C": "Operating System",
+      "D": "nan"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 137,
+    "question": "\"Which of the following is NOT a characteristic of Amazon Elastic Compute Cloud (Amazon EC2)? C. Amazon EC2 can launch as many or as few virtual servers as needed. D. Amazon EC2 offers scalable computing.\"",
+    "options": {
+      "A": "Amazon EC2 is considered a Serverless Web Service",
+      "B": "Amazon EC2 eliminates the need to invest in hardware upfront",
+      "C": "Amazon EC2 can launch as many or as few virtual servers as needed",
+      "D": "Amazon EC2 offers scalable computing"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 138,
+    "question": "Which classification is correct for Amazon Elastic Compute Cloud (Amazon EC2)?",
+    "options": {
+      "A": "On Premise",
+      "B": "SaaS",
+      "C": "PaaS",
+      "D": "IaaS"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 139,
+    "question": "An e-commerce company increases the number of servers in its architecture to handle a steady increase in customer traffic over the years. Which concept does this represent?",
+    "options": {
+      "A": "Elasticity",
+      "B": "Agility",
+      "C": "Fault tolerance",
+      "D": "Scalability"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 140,
+    "question": "Which design principles are enabled by the AWS Cloud to improve the operation of workloads?",
+    "options": {
+      "A": "Minimize platform design",
+      "B": "Minimum viable product",
+      "C": "Customized hardware",
+      "D": "Remove single points of failure"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 141,
+    "question": "New department (in Da Nang) can access to a companyâ€™s system set up in Ha Noi right after connecting the internet. Which answer described the feature advantage of cloud through this situation ?",
+    "options": {
+      "A": "Global reach",
+      "B": "Agility",
+      "C": "Elastiscity",
+      "D": "Both A and B"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 142,
+    "question": "A development team can now provision hundreds of virtual servers in minutes, compared to the weeks it took to procure and deploy physical hardware. Which AWS Cloud advantage does this describe?",
+    "options": {
+      "A": "Benefit from massive economies of scale",
+      "B": "Increase speed and agility",
+      "C": "Stop guessing capacity",
+      "D": "Go global in minutes"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 143,
+    "question": "A company uses AWS Cloud to help develop their workload from Viet Nam to another team in Uruguay. One of an advantage cloud computing have in this example is",
+    "options": {
+      "A": "Increase speed and agility",
+      "B": "Benefit from massive economies of scale",
+      "C": "Go global in minute",
+      "D": "Trade fixed expense for variable expense"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 144,
+    "question": "Small start up have just established which wants to use the newest AI technologies for business, so they decided to choose clound model for their system. Which answers below here are not the advatages of cloud model?",
+    "options": {
+      "A": "Donâ€™t have to spend money on maintaining and running server",
+      "B": "Business concentration",
+      "C": "Fully control and customise your Software environment",
+      "D": "Change from CAPEX (Capital Expenditure) to OPEX ( Operation expenditure)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 145,
+    "question": "In the On-Premises model, who is responsible for managing all layers from Networking to Applications?",
+    "options": {
+      "A": "The cloud service provider",
+      "B": "A third-party outsourcing vendor",
+      "C": "The organization that owns the system",
+      "D": "AWS manages everything"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 146,
+    "question": "Amazon EC2 is an example of which cloud service model?",
+    "options": {
+      "A": "Software as a Service (SaaS)",
+      "B": "Platform as a Service (PaaS)",
+      "C": "Infrastructure as a Service (IaaS)",
+      "D": "Hybrid Cloud"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 147,
+    "question": "A company is using Amazon EC2 to run their web applications. According to the Shared Responsibility Model, which of the following tasks is the customerâ€™s responsibility?",
+    "options": {
+      "A": "Maintaining the physical network infrastructure of the data center.",
+      "B": "Replacing failed physical hard drives in the servers.",
+      "C": "Managing the virtualization software (hypervisor).",
+      "D": "Updating patches for the Guest Operating System (Guest OS) installed on the EC2 instances."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Shared Responsibility",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 148,
+    "question": "Which of the following is NOT one of the Five Characteristics of AWS?",
+    "options": {
+      "A": "On-Demand Self-Service",
+      "B": "Rapid Elasticity",
+      "C": "Measured Service",
+      "D": "Automatic Code Deployment"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 149,
+    "question": "When a large financial organization requires full control over its infrastructure for strict security reasons but still wants to use virtualization technology, which deployment model should they choose?",
+    "options": {
+      "A": "SaaS (Software as a Service)",
+      "B": "Hybrid Cloud",
+      "C": "Public Cloud",
+      "D": "Private Cloud"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 150,
+    "question": "You ONLY want to manage Applications and Data. Which type of Cloud Computing model should you use?",
+    "options": {
+      "A": "On-premises",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "SaaS"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 151,
+    "question": "A company is planning to run a global marketing application in the AWS Cloud. The application will feature videos that can be viewed by users. The company must ensure that all users can view these videos with low latency. Which AWS service should the company use to meet this requirement?",
+    "options": {
+      "A": "AWS Auto Scaling",
+      "B": "Amazon Kinesis Video Streams",
+      "C": "Elastic Load Balancing",
+      "D": "Amazon CloudFront"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 152,
+    "question": "Which of the following is NOT one of the Five Characteristics of Cloud Computing?",
+    "options": {
+      "A": "Rapid elasticity and scalability",
+      "B": "Multi-tenancy and resource pooling",
+      "C": "Dedicated Support Agent to help you deploy applications",
+      "D": "On-demand service"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 153,
+    "question": "What is the key difference between IaaS and PaaS in terms of user responsibility?",
+    "options": {
+      "A": "IaaS requires the user to manage from OS to Applications; PaaS only requires managing Applications and Data.",
+      "B": "IaaS and PaaS have exactly the same scope of responsibility.",
+      "C": "PaaS requires the user to manage more layers than IaaS.",
+      "D": "IaaS only requires the user to manage Applications, while PaaS requires managing Networking as well."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 154,
+    "question": "Which pillar of the AWS Well-Architected Framework refers to the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand?",
+    "options": {
+      "A": "Security",
+      "B": "Reliability",
+      "C": "Performance efficiency",
+      "D": "Cost optimization"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 155,
+    "question": "What is a Single Point of Failure (SPOF), and what is the recommended solution?",
+    "options": {
+      "A": "A system with too many redundant servers; the solution is to reduce the number of servers.",
+      "B": "A single component whose failure causes the entire system to stop functioning; the solution is Loose Coupling with multiple servers.",
+      "C": "A software bug that occurs only once; the solution is to update the software.",
+      "D": "A situation where operational costs exceed the budget; the solution is to migrate to the cloud."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 156,
+    "question": "Which of the following is NOT an advantage of Cloud Computing?",
+    "options": {
+      "A": "Trade capital expense (CAPEX) for operational expense (OPEX)",
+      "B": "Train your employee less",
+      "C": "Go global in minutes",
+      "D": "Stop spending money running and maintaining data centers"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 157,
+    "question": "A company is planning to replace its physical on-premises compute servers with AWS serverless compute services. The company wants to be able to take advantage of advanced technologies quickly after the migration. Which pillar of the AWS Well-Architected Framework does this plan represent?",
+    "options": {
+      "A": "Security",
+      "B": "Performance efficiency",
+      "C": "Operational excellence",
+      "D": "Reliability"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 158,
+    "question": "Which of the following statements correctly compares Cloud and On-Premises?",
+    "options": {
+      "A": "On-Premises has variable costs based on usage, while Cloud has fixed upfront costs.",
+      "B": "On-Premises is easier to scale than Cloud.",
+      "C": "Cloud offers faster implementation time and variable costs based on usage.",
+      "D": "On-Premises is preferred by small and mid-sized businesses."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 159,
+    "question": "Which of the following services has a global scope?",
+    "options": {
+      "A": "EC2",
+      "B": "IAM",
+      "C": "Lambda",
+      "D": "Rekognition"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 160,
+    "question": "While AWS has the capabilities to meet many different hosting needs and models, which cloud deployment model best describes AWS as a whole?",
+    "options": {
+      "A": "Private",
+      "B": "Public",
+      "C": "Hybrid",
+      "D": "Community"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 161,
+    "question": "Which deployment model is characterized by the deployment of resources on-premises, using virtualization and resource management tools?",
+    "options": {
+      "A": "Public Cloud",
+      "B": "Private Cloud",
+      "C": "Hybrid Cloud",
+      "D": "Infrastructure as a Service (IaaS)"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 162,
+    "question": "Your company wants to save money by no longer running applications themselves or paying software developers for custom application code. Which cloud service category would you be looking at offerings for?",
+    "options": {
+      "A": "DaaS",
+      "B": "IaaS",
+      "C": "SaaS",
+      "D": "PaaS"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 163,
+    "question": "A pharmaceutical research company operates a private data center that is approaching capacity. One of its main workloads is a genomics analysis platform used by internal research teams. The platform processes large datasets and interacts with several systems on the companyâ€™s campus network. In recent years, the company has also begun participating in multi-institution studies that require temporary increases in compute capacity and secure data access for approved external collaborators. The company wants to support growth without unnecessarily redesigning all existing systems at once. Which option is MOST appropriate?",
+    "options": {
+      "A": "Migrate the entire genomics platform and all related services to a public cloud provider.",
+      "B": "Use a hybrid architecture that keeps tightly coupled local components in the private environment while extending compute and selected access services to the cloud",
+      "C": "Expand the private data center by purchasing additional servers, storage, and networking equipment for all future growth.",
+      "D": "Rebuild the platform entirely around managed cloud-native services to eliminate dependence on the current environment."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 164,
+    "question": "Which statement is true in relation to data stored within an AWS Region?",
+    "options": {
+      "A": "Data is always replicated to another region",
+      "B": "Data is not replicated outside of a region unless you configure it",
+      "C": "Data is always automatically replicated to at least one other availability zone",
+      "D": "Data is automatically archived after 90 days"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 165,
+    "question": "AWS Elastic Beanstalk belongs to which cloud service model, and which AWS services does it automatically provision?",
+    "options": {
+      "A": "IaaS â€” it only provides Amazon S3",
+      "B": "SaaS â€” it provides Amazon WorkDocs and WorkMail.",
+      "C": "PaaS â€” it takes Application Code as input and automatically provisions EC2 Instances, Auto Scaling Group, Elastic Load Balancer, Amazon RDS, and Amazon S3.",
+      "D": "Hybrid â€” it connects on-premises infrastructure to the cloud through AWS Outposts."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 166,
+    "question": "What benefits of AWS Cloud allow an e-commerce website to automatically add servers to handle the surge in traffic on Black Friday, and then automatically reclaim resources when the sale ends?",
+    "options": {
+      "A": "Massive economies of scale",
+      "B": "Rapid Elasticity",
+      "C": "Global Reach",
+      "D": "High Availability"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 167,
+    "question": "A startup has a small team, no existing data center, seasonal traffic fluctuations, and needs rapid time-to-market. Which deployment model is most suitable?",
+    "options": {
+      "A": "On-Premises â€” because startups need full control over infrastructure for data security.",
+      "B": "Cloud â€” because the startup meets key conditions for cloud adoption: small team, unpredictable workload, need for rapid deployment, no existing data center, and no strong ops team.",
+      "C": "Hybrid â€” because startups should combine both on-premises and cloud to optimize costs.",
+      "D": "On-Premises â€” because long-term cloud costs will always be higher than building a data center."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 168,
+    "question": "A company often faces the risk of resource waste due to over-provisioning or system crashes due to resource shortages during peak hours (under-provision) when operating an on-premises data center. What core benefits of AWS Cloud will directly help them overcome this limitation?",
+    "options": {
+      "A": "Benefit from massive economies of scale",
+      "B": "Increase speed and agility",
+      "C": "Stop guessing capacity",
+      "D": "Go global in minutes"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 169,
+    "question": "A large company has multiple departments. Each department has its own AWS account. Each department has purchased Amazon EC2 Reserved Instances. Some departments do not use all the Reserved Instances that they purchased, and other departments need more Reserved Instances than they purchased. The company needs to manage the AWS accounts for all the departments so that the departments can share the Reserved Instances. Which AWS service or tool should the company use to meet these requirements?",
+    "options": {
+      "A": "AWS Systems Manager",
+      "B": "Cost Explorer",
+      "C": "AWS Trusted Advisor",
+      "D": "AWS Organizations"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 170,
+    "question": "A large enterprise operates an internal ERP system serving 3,000 users with stable workloads, and also needs a course registration portal with seasonal traffic spikes during enrollment periods. Which deployment strategy is most appropriate?",
+    "options": {
+      "A": "Migrate both systems to the cloud to simplify management.",
+      "B": "Keep both systems on-premises since the enterprise already has an existing infrastructure team.",
+      "C": "Keep the ERP system on-premises and deploy the registration portal on the cloud.",
+      "D": "Migrate the ERP system to the cloud and keep the registration portal on-premises."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 171,
+    "question": "A user is moving a workload from a local data center to an architecture that is distributed between the local data center and the AWS Cloud. Which type of migration is this?",
+    "options": {
+      "A": "On-premises to cloud native",
+      "B": "Hybrid to cloud native",
+      "C": "On-premises to hybrid",
+      "D": "Cloud native to hybrid"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 172,
+    "question": "The director of a business decides to use Amazon WorkMail for internal email. They donâ€™t have their own software engineering team. With this service, AWS manages everything from infrastructure and operating systems to software and data (All). What cloud service model is this business using?",
+    "options": {
+      "A": "SaaS",
+      "B": "IaaS",
+      "C": "PaaS",
+      "D": "On-Premises"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 173,
+    "question": "Which component of the AWS global infrastructure is made up of one or more discrete data centers that have redundant power, networking, and connectivity?",
+    "options": {
+      "A": "AWS Region",
+      "B": "Availability Zone",
+      "C": "Edge location",
+      "D": "AWS Outposts"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 174,
+    "question": "What is AWS EC2",
+    "options": {
+      "A": "AWS EC2 is a serverless compute service",
+      "B": "AWS EC2 is a virtual server in the AWS Cloud",
+      "C": "AWS EC2 is a data center",
+      "D": "AWS EC2 is a resource monitoring service"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 175,
+    "question": "Which cloud service model provides the highest level of control over the operating system and installed applications?",
+    "options": {
+      "A": "SaaS (Software as a Service)",
+      "B": "PaaS (Platform as a Service)",
+      "C": "IaaS (Infrastructure as a Service)",
+      "D": "FaaS (Function as a Service)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 176,
+    "question": "A software company is building a customer analytics platform. Its engineers want full control over the operating system, installed packages, runtime versions, background services, and patching schedule because they use several custom dependencies and need to tune the environment for performance. However, they do not want to manage physical servers, storage hardware, or network infrastructure. Which service model is the MOST appropriate?",
+    "options": {
+      "A": "Platform as a Service (PaaS), because the company mainly wants to deploy application code without managing the underlying environment",
+      "B": "Infrastructure as a Service (IaaS), because the company wants control over the OS and software stack while the provider manages the hardware and networking",
+      "C": "Software as a Service (SaaS), because the provider should manage the full application stack and infrastructure",
+      "D": "On-premises deployment, because control over runtime and packages requires the company to manage all infrastructure itself"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 177,
+    "question": "Which of these statements about Availability Zones is not true? (Select the best answer)",
+    "options": {
+      "A": "Availability Zones are designed for fault isolation",
+      "B": "Availability Zones are made up of one or more data centers",
+      "C": "Availability zones are connected to each other using high-speed private links",
+      "D": "A data center can be used for more than one availability zone"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 178,
+    "question": "A user is comparing purchase options for an application that runs on Amazon EC2 and Amazon RDS. The application cannot sustain any interruption. The application experiences a predictable amount of usage, including some seasonal spikes that last only a few weeks at a time. It is not possible to modify the application. Which purchase option meets these requirements MOST cost-effectively?",
+    "options": {
+      "A": "Review the AWS Marketplace and buy Partial Upfront Reserved Instances to cover the predicted and seasonal load.",
+      "B": "Buy Reserved Instances for the predicted amount of usage throughout the year. Allow any seasonal usage to run on Spot Instances.",
+      "C": "Buy Reserved Instances for the predicted amount of usage throughout the year. Allow any seasonal usage to run at an On-Demand rate.",
+      "D": "Buy Reserved Instances to cover all potential usage that results from the seasonal usage."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 179,
+    "question": "Which statement best describes the difference between CAPEX and OPEX in cloud computing?",
+    "options": {
+      "A": "CAPEX refers to paying only for resources used, while OPEX requires upfront investment.",
+      "B": "CAPEX requires large upfront investment in infrastructure, while OPEX allows paying for resources as they are consumed.",
+      "C": "CAPEX and OPEX are identical cost models used in cloud computing.",
+      "D": "OPEX requires purchasing physical servers before deployment."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 180,
+    "question": "Which tasks are the customerâ€™s responsibility, according to the AWS shared responsibility model?",
+    "options": {
+      "A": "Establish the global infrastructure.",
+      "B": "Perform client-side data encryption.",
+      "C": "Secure data centers.",
+      "D": "Patch the operating system in a PaaS environment."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 181,
+    "question": "Which of the following AWS services is categorized as a \"Global Service,\"meaning its operations are not restricted to a specific geographical Region?",
+    "options": {
+      "A": "Amazon EC2 (Elastic Compute Cloud)",
+      "B": "Amazon RDS (Relational Database Service)",
+      "C": "AWS IAM (Identity and Access Management)",
+      "D": "Amazon VPC (Virtual Private Cloud)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 182,
+    "question": "What are Edge Locations?",
+    "options": {
+      "A": "Physical hard drives",
+      "B": "AWS Regions",
+      "C": "Data centers that store petabytes of data",
+      "D": "Data centers that deliver data fast to the users"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 183,
+    "question": "A startup deploys its web application on a single Amazon EC2 instance in one Availability Zone. After gaining more users, the application sometimes becomes unavailable when the instance fails. The team wants to improve availability without significantly increasing operational complexity. Which solution is the most appropriate?",
+    "options": {
+      "A": "Deploy multiple EC2 instances across different Availability Zones behind an Application Load Balancer.",
+      "B": "Increase the size of the current EC2 instance to a larger instance type",
+      "C": "Move the application to a different AWS Region",
+      "D": "Store application files in Amazon S3 only"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 184,
+    "question": "A company is comparing the costs of their on-premises data center and the AWS Cloud. During a Total Cost of Ownership (TCO) analysis, which expense would be considered a \"Fixed Cost\"(CAPEX) in the on-premises environment?",
+    "options": {
+      "A": "Monthly electricity bills for server cooling.",
+      "B": "Pay-as-you-go charges for Amazon EC2 instances.",
+      "C": "Upfront purchase of physical server chassis and networking cables.",
+      "D": "Salaries for a cloud-managed service providerâ€™s support team."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 185,
+    "question": "What is the main purpose of an Availability Zone (AZ) in the AWS global infrastructure?",
+    "options": {
+      "A": "To provide a global endpoint for all AWS services",
+      "B": "To isolate infrastructure failures within a region and improve high availability",
+      "C": "To connect AWS to on-premises data centers",
+      "D": "To provide edge caching for content delivery"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 186,
+    "question": "What is true about Regions?",
+    "options": {
+      "A": "They are the physical locations of your customers",
+      "B": "All regions are located in one specific geographic area",
+      "C": "A region is a physical location that has multiple availability zones",
+      "D": "A physical location is composed of multiple regions and availability zones"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 187,
+    "question": "According to the classification of responsibility, if a company uses a Software as a Service (SaaS) application like Amazon WorkDocs, who is responsible for managing the data and the applicationâ€™s runtime environment?",
+    "options": {
+      "A": "The customer is responsible for both data and runtime.",
+      "B": "AWS is responsible for both data and runtime.",
+      "C": "The customer manages the data, while AWS manages the runtime and infrastructure.",
+      "D": "An external third-party auditor manages both."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 188,
+    "question": "Which of the following is an advantage that users experience when they move on-premises workloads to the AWS Cloud?",
+    "options": {
+      "A": "Elimination of expenses for running and maintaining data centers",
+      "B": "Price discounts that are identical to discounts from hardware providers",
+      "C": "Distribution of all operational controls to AWS",
+      "D": "Elimination of operational expenses"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 189,
+    "question": "A large company is interested in avoiding long-term contracts and moving from fixed costs to variable costs. What is the value proposition of AWS for this company?",
+    "options": {
+      "A": "Economies of scale",
+      "B": "Pay-as-you-go pricing",
+      "C": "Volume pricing discounts",
+      "D": "Automated cost optimization"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 190,
+    "question": "A startup deploys its application to multiple AWS Regions so users from different continents can access the service with low latency. Which AWS Cloud advantage does this demonstrate?",
+    "options": {
+      "A": "Global reach",
+      "B": "Elasticity",
+      "C": "Reliability",
+      "D": "Resource pooling"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 191,
+    "question": "Which of the following identifiers is an example of an AWS Region?",
+    "options": {
+      "A": "Edge-Location-Tokyo",
+      "B": "aws-global-1",
+      "C": "us-east-1a",
+      "D": "us-east-1"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 192,
+    "question": "A software engineer needs to set up a new testing environment over the weekend. They log into the AWS Management Console and provision three virtual servers within minutes, completely bypassing the need to contact an IT administrator or wait for human approval. Which characteristic of cloud computing does this represent?",
+    "options": {
+      "A": "Rapid Elasticity",
+      "B": "On-Demand Self-Service",
+      "C": "Measured Service",
+      "D": "Resource Pooling"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 193,
+    "question": "Which component does Amazon CloudFront use to cache content closer to end-users to reduce latency?",
+    "options": {
+      "A": "AWS Outposts",
+      "B": "Availability Zones",
+      "C": "Edge Locations",
+      "D": "Regional Edge Caches"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 194,
+    "question": "How are Availability Zones (AZs) within the same Region connected?",
+    "options": {
+      "A": "High-bandwidth satellite network",
+      "B": "Private internal network with low latency (< 2 ms)",
+      "C": "Only when backup is required",
+      "D": "Through the public Internet"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 195,
+    "question": "When choosing an AWS Region, what is the most important factor for Data Sovereignty?",
+    "options": {
+      "A": "Latency to end-users",
+      "B": "Service availability",
+      "C": "Compliance and Data Residency",
+      "D": "Cost of services"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 196,
+    "question": "Which service is used to efficiently route users to AWS resources globally?",
+    "options": {
+      "A": "Amazon Route 53",
+      "B": "Amazon VPC",
+      "C": "Amazon EC2",
+      "D": "AWS Lambda"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 197,
+    "question": "A company is looking for the most cost-effective disaster recovery strategy. They are willing to accept a recovery time of several hours and a potential loss of data from their last daily backup. Which strategy should they choose?",
+    "options": {
+      "A": "Active-Active",
+      "B": "Warm Standby",
+      "C": "Pilot Light",
+      "D": "Backup Restore"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Architecture & DR",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 198,
+    "question": "Which component allows you to place compute and storage resources closer to users in large urban areas that do not have a full AWS Region?",
+    "options": {
+      "A": "AWS Local Zones",
+      "B": "AWS Regions",
+      "C": "Availability Zones",
+      "D": "AWS Direct Connect"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 199,
+    "question": "A Japanese company hosts their applications on Amazon EC2 instances in the Tokyo Region. The company has opened new branches in the United States, and the US users are complaining of high latency. What can the company do to reduce latency for the users in the US while minimizing costs?",
+    "options": {
+      "A": "Applying the Amazon Connect latency-based routing policy.",
+      "B": "Registering a new US domain name to serve the users in the US.",
+      "C": "Building a new data center in the US and implementing a hybrid model.",
+      "D": "Deploying new Amazon EC2 instances in a Region located in the US."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 200,
+    "question": "An organization needs to implement a Disaster Recovery strategy where they maintain a scaleddown but fully functional version of their application environment in a different AWS Region. Which DR strategy are they using?",
+    "options": {
+      "A": "Backup and Restore",
+      "B": "Pilot Light",
+      "C": "Warm Standby",
+      "D": "Multi-Site Active-Active"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 201,
+    "question": "A healthcare portal must deliver medical images quickly to patients around the world. Which AWS infrastructure component helps deliver content closer to users to reduce latency?",
+    "options": {
+      "A": "Availability Zone",
+      "B": "Region",
+      "C": "Edge Location",
+      "D": "VPC"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 202,
+    "question": "Which of the following businesses is better suited for using On-premise infrastructure rather than Cloud computing?",
+    "options": {
+      "A": "A. A video streaming business with rapid, seasonal growth in viewership.",
+      "B": "B. A startup that lacks the capital to invest in its own data center.",
+      "C": "C. A commercial bank with a large, stable customer base that must strictly comply with data security regulations.",
+      "D": "D. An e-commerce company that frequently runs high-traffic flash sales"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 203,
+    "question": "Which component of the AWS global infrastructure is made up of one or more discrete data centers that have redundant power, networking, and connectivity?",
+    "options": {
+      "A": "AWS Region",
+      "B": "Availability Zone",
+      "C": "Edge location",
+      "D": "AWS Outposts"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 204,
+    "question": "The ability to horizontally scale Amazon EC2 instances based on demand is an example of which concept?",
+    "options": {
+      "A": "Economy of scale",
+      "B": "High Availability",
+      "C": "Disaster recovery",
+      "D": "Elasticity"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 205,
+    "question": "What does the \"On-Demand Self-Service\"characteristic of Cloud Computing mean?",
+    "options": {
+      "A": "Customers must call a support agent to request server provisioning.",
+      "B": "Resources are self-provisioned according to demand, without requiring a human intermediary.",
+      "C": "Providers automatically delete user data when it is not in use.",
+      "D": "Users must assemble physical servers at their data center."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 206,
+    "question": "A company operates in a geographic area with high political instability. Which AWS deployment strategy should they choose to ensure maximum business continuity and resilience",
+    "options": {
+      "A": "A. Deploy the application across all Availability Zones within one Region",
+      "B": "B. Deploy the application on a single On-premise server with a backup on AWS S3.",
+      "C": "C. Deploy the application across multiple AWS Regions",
+      "D": "D. Use a single Edge Location to host the entire application infrastructure"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 207,
+    "question": "A hospital wants to run EC2 instances and RDS databases close to their AUS patients. Which statement is correct?",
+    "options": {
+      "A": "EC2 is a Global Service and can run anywhere without specifying a Region",
+      "B": "RDS is a Regional Service and must be deployed in a specific Region",
+      "C": "CloudFront requires deployment in a Region",
+      "D": "IAM must be deployed in every Region"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 208,
+    "question": "How do customers directly benefit from Amazonâ€™s \"Massive Economies of Scale\"?",
+    "options": {
+      "A": "They receive free hardware upgrades every three years.",
+      "B": "They can use any third-party software license for free.",
+      "C": "They gain the ability to scale up and down as needed.",
+      "D": "They receive periodic price reductions as a result of Amazonâ€™s operational efficiencies."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 209,
+    "question": "When should a business prioritize choosing Platform as a Service (PaaS)?",
+    "options": {
+      "A": "A. When the business needs to rent raw virtual servers to install operating systems and configure networks from scratch.",
+      "B": "B. When the business wants to provide complete software to end-users without any source code customization.",
+      "C": "C. When the business wants to focus entirely on developing, running, and managing applications without worrying about maintaining the underlying infrastructure (OS, storage, networking).",
+      "D": "D. When the business requires total control over physical hardware and data center cooling systems"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 210,
+    "question": "One of the most important AWS best-practices to follow is the cloud architecture principle of elasticity. How does this principle improve your architectureâ€™s design?",
+    "options": {
+      "A": "By automatically scaling your on-premises resources based on changes in demand.",
+      "B": "By automatically scaling your AWS resources using an Elastic Load Balancer.",
+      "C": "By reducing interdependencies between application components wherever possible.",
+      "D": "By automatically provisioning the required AWS resources based on changes in demand"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 211,
+    "question": "In a High Availability architecture within an AWS Region, which of the following is the core physical characteristic that allows Availability Zones (AZs) to effectively perform Synchronous Data Replication?",
+    "options": {
+      "A": "Each AZ is located in a different country to ensure the highest level of geographic independence.",
+      "B": "AZs are interconnected via a dedicated, high-bandwidth intra-region fiber network with ultra-low latency (under 1ms).",
+      "C": "Each AZ shares the same power supply and cooling system to optimize operational costs.",
+      "D": "Amazon Route 53 asynchronously coordinates traffic between AZs over the public Internet."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 212,
+    "question": "How is a Single Point of Failure (SPOF) defined in system design?",
+    "options": {
+      "A": "It is the only network connection point that makes the system run faster.",
+      "B": "It is a single component, node, or process in a system that if it fails, the entire system stops working or crashes.",
+      "C": "It is a feature that helps balance the load between servers.",
+      "D": "It is a backup server that automatically turns on when an error occurs."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 213,
+    "question": "You ONLY want to manage Applications and Data. Which type of Cloud Computing model should you use?",
+    "options": {
+      "A": "On-Premises",
+      "B": "Infrastructure as a Service (IaaS)",
+      "C": "Software as a Service (SaaS)",
+      "D": "Platform as a Service (PaaS)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 214,
+    "question": "Which cloud service model does Amazon EC2 belong to?",
+    "options": {
+      "A": "SaaS (Software as a Service).",
+      "B": "PaaS (Platform as a Service).",
+      "C": "IaaS (Infrastructure as a Service).",
+      "D": "FaaS (Function as a Service)."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 215,
+    "question": "What does On-Premises infrastructure mean?",
+    "options": {
+      "A": "Hosting IT systems on a public cloud provider",
+      "B": "Hosting IT systems within an organizationâ€™s own physical location",
+      "C": "Renting software through the internet",
+      "D": "Using third-party infrastructure managed by providers"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 216,
+    "question": "Which component of the AWS Global Infrastructure consists of one or more discrete data centers, each with redundant power, networking, and connectivity, housed in separate facilities?",
+    "options": {
+      "A": "AWS Regions.",
+      "B": "Edge Locations.",
+      "C": "Availability Zones.",
+      "D": "Private Networking."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 217,
+    "question": "Which Global Infrastructure identity is composed of one or more discrete data centers with redundant power, networking, and connectivity, and are used to deploy infrastructure?",
+    "options": {
+      "A": "Edge Locations",
+      "B": "Availibility Zones",
+      "C": "Regions",
+      "D": "Local Zones"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 218,
+    "question": "Which of the following is NOT one of the five key characteristics of cloud computing?",
+    "options": {
+      "A": "On-Demand Self-Service",
+      "B": "Rapid Elasticity",
+      "C": "Resource Pooling",
+      "D": "Dedicated Physical Ownership"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 219,
+    "question": "When comparing On-Premises and Cloud, which statement is TRUE regarding control and flexibility?",
+    "options": {
+      "A": "On-Premises is more flexible than Cloud but offers less control.",
+      "B": "Cloud provides full hardware control to the user but has very low flexibility.",
+      "C": "On-Premises provides full user control but is less flexible, whereas Cloud has limited user control but is highly flexible.",
+      "D": "Both models offer the exact same level of control and flexibility."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 220,
+    "question": "A company is considering migrating its on-premises data centre to Amazon Web Services to reduce costs and improve scalability. Which of the following is a primary benefit of adopting the AWS Cloud, as outlined in the AWS Well-Architected Framework?",
+    "options": {
+      "A": "Increased hardware maintenance responsibilities",
+      "B": "Fixed pricing for all compute resources",
+      "C": "High availability and elasticity",
+      "D": "Mandatory coding for all deployments"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 221,
+    "question": "In the Software as a Service (SaaS) model, what is the user responsible for?",
+    "options": {
+      "A": "Managing infrastructure and operating systems",
+      "B": "Managing runtime environment and applications",
+      "C": "Only using the software provided",
+      "D": "Managing hardware and networking"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 222,
+    "question": "Which of the following is NOT one of the Five Characteristics of Cloud Computing?",
+    "options": {
+      "A": "Rapid elasticity and scalability",
+      "B": "Multi-tenancy and resource pooling",
+      "C": "Dedicated Support Agent to help you deploy applications",
+      "D": "On-demand self service"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 223,
+    "question": "Which deployment model combines cloud resources with existing on-premises infrastructure?",
+    "options": {
+      "A": "Public Cloud",
+      "B": "Private Cloud",
+      "C": "Hybrid Cloud",
+      "D": "SaaS"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 224,
+    "question": "Which cloud characteristic allows resources to automatically scale up or down quickly when demand changes?",
+    "options": {
+      "A": "Resource Pooling",
+      "B": "Measured Service",
+      "C": "Rapid Elasticity",
+      "D": "Broad Network Access"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 225,
+    "question": "AWS are able to continue to reduce their pricing due to:",
+    "options": {
+      "A": "Pay-as-you go pricing",
+      "B": "The AWS global infrastructure",
+      "C": "Economies of scale",
+      "D": "Reserved instance pricing"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 226,
+    "question": "When performing a Total Cost of Ownership (TCO) analysis, which of the following expenses is typically associated with on-premises environments but is reduced or eliminated in the AWS Cloud?",
+    "options": {
+      "A": "Software development.",
+      "B": "Power consumption and cooling for physical servers.",
+      "C": "Project management.",
+      "D": "Market research."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 227,
+    "question": "In Disaster Recovery (DR) strategies, which of the following characteristics distinguishes the \"Pilot Light\"model from the \"Warm Standby\"model?",
+    "options": {
+      "A": "Core resources (such as databases) are always running, but other components are only created after a disaster occurs.",
+      "B": "Data is only periodically saved as backups, and no resources are running.",
+      "C": "The entire system is fully replicated and runs in parallel in an Active-Active state.",
+      "D": "A reduced version of the entire system is always running and ready to handle low traffic."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Architecture & DR",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 228,
+    "question": "A financial organization wants to keep part of its system in an internal data center while using the cloud to expand resources when needed. Which deployment model best fits this requirement?",
+    "options": {
+      "A": "Public Cloud",
+      "B": "Private Cloud",
+      "C": "Hybrid Cloud",
+      "D": "Multi-Cloud"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 229,
+    "question": "Which factor is most critical when a customer must choose an AWS Region to ensure compliance with data sovereignty and legal requirements?(such as GDPR in Europe)",
+    "options": {
+      "A": "Proximity to the customerâ€™s corporate office for on-site audits.",
+      "B": "The specific geographic location where data will be stored and processed.",
+      "C": "The number of Edge Locations available in that specific country.",
+      "D": "Whether the application is presented in the local language."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 230,
+    "question": "If your business has a highly stable workload, runs continuously for 5 years with high server utilization, and already has an infrastructure operations team, what is the most cost-effective strategy?",
+    "options": {
+      "A": "Migrate everything to the Public Cloud immediately.",
+      "B": "Continue using or investing in On-premises because CAPEX will be lower than OPEX in this long-term scenario.",
+      "C": "Use the SaaS model for the entire system.",
+      "D": "Hire more engineers to build a complex internal Cloud."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 231,
+    "question": "A company wants to achieve Disaster Recovery (DR) with \"Zero Downtime\". Based on the DR Strategy Ladder, which deployment pattern is this?",
+    "options": {
+      "A": "Backup and Restore",
+      "B": "Pilot Light",
+      "C": "Warm Standby",
+      "D": "Multi-Site (Active-Active)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Architecture & DR",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 232,
+    "question": "A company deploys a web application in a single region but uses two Availability Zones. What is the main purpose of this architecture?",
+    "options": {
+      "A": "Reduce data storage costs",
+      "B": "Increase system fault tolerance if a data center fails",
+      "C": "Serve users across multiple continents faster",
+      "D": "Ensure data complies with national regulations"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 233,
+    "question": "In the physical infrastructure of AWS, how is each Availability Zone (AZ) designed to ensure fault isolation?",
+    "options": {
+      "A": "It has independent power supplies, cooling systems, and networking infrastructure.",
+      "B": "They share one large data center, but it is divided into different rooms.",
+      "C": "Each AZ is located in a different country to ensure legal safety.",
+      "D": "They are connected to other AZs through the public internet to ensure independence."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 234,
+    "question": "Which improves HA in microservices architecture?",
+    "options": {
+      "A": "Monolithic app",
+      "B": "Loose coupling with ELB and independent AZ deployments",
+      "C": "Tight dependencies",
+      "D": "Single DB"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 235,
+    "question": "A fintech company must ensure that customer data is stored and processed within the territory of Europe to comply with legal regulations. Which of the following is the most important consideration when designing the AWS architecture?",
+    "options": {
+      "A": "Use multiple Availability Zones",
+      "B": "Choose a region that meets legal requirements",
+      "C": "Use Edge Locations close to customers",
+      "D": "Increase the number of EC2 instances"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 236,
+    "question": "A university needs to build a course registration portal. The system has very low traffic most months but experiences massive spikes during the enrollment season. Which solution is most appropriate?",
+    "options": {
+      "A": "Buy many physical servers and place them at the university just to handle the enrollment season.",
+      "B": "Deploy the system on the Cloud to easily scale resources according to the seasonal campaign and launch quickly.",
+      "C": "Do nothing and accept that the system will crash when many students access it.",
+      "D": "Buy pre-packaged software (SaaS) that does not support expansion."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 237,
+    "question": "A global website wants to reduce latency when users around the world load images and JavaScript files. Which AWS infrastructure component best supports this goal?",
+    "options": {
+      "A": "Availability Zones",
+      "B": "Edge Locations",
+      "C": "Virtual Private Cloud (VPC)",
+      "D": "Amazon EC2"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 238,
+    "question": "What is the main difference between Multi-AZ and Multi-Region deployments?",
+    "options": {
+      "A": "Multi-AZ is for caching global content, while Multi-Region is for compute workloads",
+      "B": "Multi-AZ prevents data center failure impact (High Availability), while Multi-Region provides disaster recovery against regional failures",
+      "C": "Multi-AZ uses asynchronous replication, while Multi-Region uses synchronous replication",
+      "D": "Multi-AZ requires user traffic routing via DNS, while Multi-Region relies on simple Load Balancers"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 239,
+    "question": "A company wants to keep sensitive customer data in its own infrastructure while using cloud resources for scalable computing workloads. Which deployment model is the best fit?",
+    "options": {
+      "A": "Public Cloud",
+      "B": "Private Cloud",
+      "C": "Hybrid Cloud",
+      "D": "Multi-tenant Cloud"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 240,
+    "question": "An e-commerce business experiences a massive spike in traffic during a holiday sale. The AWS Cloud automatically adds more servers to handle the traffic, and then removes them when the sale ends. Which cloud characteristic is this?",
+    "options": {
+      "A": "Agility",
+      "B": "Global Reach",
+      "C": "Elasticity",
+      "D": "Reliability"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 241,
+    "question": "An organization is moving from Infrastructure as a Service (IaaS) to Platform as a Service (PaaS) to host their web application. Which of the following tasks will the organization NO LONGER be responsible for after this migration?",
+    "options": {
+      "A": "A. Managing user access and identity (IAM).",
+      "B": "B. Configuring the application code and business logic.",
+      "C": "C. Patching and maintaining the underlying Operating System (OS).",
+      "D": "D. Ensuring the security of the data stored within the application."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 242,
+    "question": "Your media company does not have a software engineering team but needs an online document collaboration tool and an email system for employees. Which model should you choose?",
+    "options": {
+      "A": "Buy On-premises servers and configure the email system manually.",
+      "B": "Rent IaaS (like Amazon EC2) and configure the web server yourself.",
+      "C": "Use the SaaS model (like Amazon WorkDocs, Amazon WorkMail) because you only subscribe to the software without needing an engineering team.",
+      "D": "Rent PaaS to write your own source code for the email application."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 243,
+    "question": "Which of the following is NOT one of the six main advantages of cloud computing described by AWS?",
+    "options": {
+      "A": "Go global in minutes",
+      "B": "Trade variable expense for fixed expense",
+      "C": "Stop spending money running and maintaining data centers",
+      "D": "Benefit from massive economies of scale"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 244,
+    "question": "Under the Shared Responsibility Model, when an organization migrates to a Software as a Service (SaaS) solution, which of the following remains a primary responsibility of the customer?",
+    "options": {
+      "A": "A. Physical security of the data center.",
+      "B": "B. Updating and patching the operating system.",
+      "C": "C. Managing data access permissions and user identities.",
+      "D": "D. Maintaining the underlying network infrastructure."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 245,
+    "question": "A company wants to ensure its database remains available even if a primary data center suffers a total power failure. Which AWS feature or service configuration best addresses this requirement with minimal manual intervention?",
+    "options": {
+      "A": "Creating a Read Replica in the same Availability Zone.",
+      "B": "Configuring an Amazon RDS Multi-AZ deployment.",
+      "C": "Manually taking snapshots every hour and storing them in S3.",
+      "D": "Using an Application Load Balancer to distribute traffic to a single EC2 instance."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 246,
+    "question": "Which of the following does NOT belong to the AWS Cloud Computing models?",
+    "options": {
+      "A": "Platform as a Service (PaaS)",
+      "B": "Infrastructure as a Service (IaaS)",
+      "C": "Software as a Service (SaaS)",
+      "D": "Networking as a Service (NaaS)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 247,
+    "question": "A global media company wants to reduce \"latency\"for its users in South America who are accessing video content stored in a \"Region\"located in Northern Virginia, USA. Which component of the Cloud Global Infrastructure should they use to cache content closer to their users?",
+    "options": {
+      "A": "A. Availability Zones (AZs)",
+      "B": "B. Edge Locations",
+      "C": "C. Regional Edge Caches",
+      "D": "D. Local Zones"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 248,
+    "question": "Which design principle improves High Availability (HA) in cloud architecture?",
+    "options": {
+      "A": "Deploy all resources in a single Availability Zone",
+      "B": "Remove redundancy to reduce cost",
+      "C": "Use redundancy across multiple Availability Zones",
+      "D": "Store all data locally on a single server"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 249,
+    "question": "A company wants to reduce the physical compute footprint that developers use to run code. Which service would meet that need by enabling serverless architectures?",
+    "options": {
+      "A": "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "B": "AWS Lambda",
+      "C": "Amazon DynamoDB",
+      "D": "AWS CodeCommit"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 250,
+    "question": "Which of the following AWS services is classified as a Global Service rather than a Regional Service?",
+    "options": {
+      "A": "Amazon EC2 (Virtual Servers)",
+      "B": "Amazon S3 (Object Storage)",
+      "C": "Amazon RDS (Relational Database Service)",
+      "D": "AWS IAM (Identity and Access Management)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 251,
+    "question": "Which feature of the AWS Cloud will support an international companyâ€™s requirement for low latency to all of its customers?",
+    "options": {
+      "A": "Fault tolerance",
+      "B": "Global reach",
+      "C": "Pay-as-you-go pricing",
+      "D": "High availability"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 252,
+    "question": "Which statement best describes Global cloud services?",
+    "options": {
+      "A": "They operate within a single Availability Zone",
+      "B": "They operate within a single Region only",
+      "C": "They are available and managed across multiple regions globally",
+      "D": "They only work with edge locations"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 253,
+    "question": "A company is designing a globally distributed application and needs to identify which AWS services are considered Global Services rather than Regional Services. Which of the following are Global Services?",
+    "options": {
+      "A": "Amazon EC2",
+      "B": "Amazon RDS",
+      "C": "Amazon Route 53",
+      "D": "Amazon S3"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 254,
+    "question": "What is cloud computing?",
+    "options": {
+      "A": "Storing files only on a USB",
+      "B": "Delivering IT resources over the internet with pay-as-you-go pricing",
+      "C": "Installing software only on a local computer",
+      "D": "Building your own physical server room"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 255,
+    "question": "Which of the following is an AWS Cloud architecture design principle?",
+    "options": {
+      "A": "Implement single points of failure",
+      "B": "Implement loose coupling",
+      "C": "Implement monolithic design",
+      "D": "Implement vertical scaling"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 256,
+    "question": "Which of the following is a characteristic of cloud computing?",
+    "options": {
+      "A": "Fixed hardware capacity",
+      "B": "Rapid elasticity (resources can scale quickly)",
+      "C": "Only works without internet",
+      "D": "Requires buying physical servers"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 257,
+    "question": "In the Disaster Recovery Strategy Ladder, which pattern has the highest cost but achieves zero/near-zero downtime and high readiness?",
+    "options": {
+      "A": "Backup Restore",
+      "B": "Warm Standby",
+      "C": "Active-Active",
+      "D": "Pilot Light"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Architecture & DR",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 258,
+    "question": "A user is planning to launch three EC2 instances behind a single Elastic Load Balancer. The deployment should be highly available",
+    "options": {
+      "A": "Launch the instances across multiple Availability Zones in a single AWS Region",
+      "B": "Launch the instances as EC2 Spot Instances in the same AWS Region and the same Availability Zone",
+      "C": "Launch the instances in multiple AWS Regions, and use Elastic IP addresses.",
+      "D": "Launch the instances as EC2 Reserved Instances in the same AWS Region, but in different Availability Zones"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 259,
+    "question": "Which of the following is an advantage that users experience when they move on-premises workloads to the AWS Cloud?",
+    "options": {
+      "A": "Elimination of expenses for running and maintaining data centers",
+      "B": "Price discounts that are identical to discounts from hardware providers",
+      "C": "Distribution of all operational controls to AWS",
+      "D": "Elimination of operational expenses"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 260,
+    "question": "Which of the following is a core characteristic of AWS Cloud Computing?",
+    "options": {
+      "A": "A. On-Demand Self-Service",
+      "B": "B. Full Physical Hardware Control",
+      "C": "C. Fixed Monthly Pricing",
+      "D": "D. Static Infrastructure Capacity"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 261,
+    "question": "AWS Managed Data Analytics services (like Amazon EMR or Athena) are generally categorized under which cloud delivery model?",
+    "options": {
+      "A": "A. IaaS",
+      "B": "B. PaaS",
+      "C": "C. SaaS",
+      "D": "D. On - premises"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 262,
+    "question": "A company wants to set up a highly available workload in AWS with a disaster recovery plan that will allow the company to recover in case of a regional service interruption. Which configuration will meet these requirements?",
+    "options": {
+      "A": "Run on two Availability Zones in one AWS Region, using the additional Availability Zones in the AWS Region for the disaster recovery site.",
+      "B": "Run on two Availability Zones in one AWS Region, using another AWS Region for the disaster recovery site.",
+      "C": "Run on two Availability Zones in one AWS Region, using a local AWS Region for the disaster recovery site.",
+      "D": "Run across two AWS Regions, using a third AWS Region for the disaster recovery site."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 263,
+    "question": "A startup needs to keep sensitive data on-site due to strict local regulations but wants to use AWS for its web applications. Which deployment model should they use?",
+    "options": {
+      "A": "A. Hybrid Cloud",
+      "B": "B. Public Cloud",
+      "C": "C. Private Cloud",
+      "D": "D. None of the above"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 1,
+    "question": "Database high availability (HA) against a single data center failure. 2. Low-latency delivery of static content for global users. 3. Centralized identity management for admins across all regions. Which architecture correctly meets all requirements?",
+    "options": {
+      "A": "Multi-AZ database; Edge Locations to cache static content; Global service (like IAM) for identity management.",
+      "B": "Multi-Region database; Availability Zones (AZ) to distribute static content; Regional service for identity management.",
+      "C": "Single-AZ database; Edge Locations for backend logic; Global service for the database.",
+      "D": "Multi-AZ database; Edge Locations to cache static content; Regional service (like IAM) for identity management."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 265,
+    "question": "A company no longer needs to purchase and maintain physical servers after migrating its workloads to AWS. Which cloud benefit does this demonstrate?",
+    "options": {
+      "A": "Stop spending money running and maintaining data centers",
+      "B": "Increase speed and agility",
+      "C": "Global reach",
+      "D": "Elasticity"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 266,
+    "question": "A company expands its application to customers in Europe and Asia by deploying resources in multiple AWS Regions. Which cloud benefit does this demonstrate?",
+    "options": {
+      "A": "Elasticity",
+      "B": "Global reach",
+      "C": "Massive economies of scale",
+      "D": "Pay-as-you-go pricing"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 267,
+    "question": "Each AWS Region is composed of multiple Availability Zones. Which of the following best describes what an Availability Zone is?",
+    "options": {
+      "A": "A distinct data center with redundant power and networking within an AWS Region.",
+      "B": "An independent data center located on a different continent than the Region.",
+      "C": "A fault-isolated location within an AWS Region that has independent power, cooling, and physical security.",
+      "D": "A logical grouping of compute resources that can be accessed globally."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 268,
+    "question": "Which AWS Cloud benefit allows organizations to convert upfront infrastructure costs into variable expenses?",
+    "options": {
+      "A": "Trade CAPEX for OPEX",
+      "B": "High availability",
+      "C": "Elasticity",
+      "D": "Global reach"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 269,
+    "question": "AWS provides disaster recovery capability by allowing customers to deploy infrastructure into multiple .",
+    "options": {
+      "A": "Availability Zones",
+      "B": "Regions",
+      "C": "Edge Locations",
+      "D": "VPCs"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 270,
+    "question": "A company needs to deploy an application with minimal latency for users across Europe, Asia, and North America. Which AWS feature should be used?",
+    "options": {
+      "A": "Multi-AZ deployment across all Regions",
+      "B": "Multiple AWS Regions with CloudFront distribution",
+      "C": "Edge Locations only",
+      "D": "A single Region with Elastic IP addresses"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 271,
+    "question": "A company has deployed an application in the Northern California (us-west-1) region. After examining traffic, management notices that about 30",
+    "options": {
+      "A": "Increase the compute capacity in us-west-1",
+      "B": "Deploy application resources to an AWS Region closer to Asia and use Route 53 for geolocation routing",
+      "C": "Use CloudFront to cache all content in Edge Locations",
+      "D": "Replicate data across multiple Availability Zones in us-west-1"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 272,
+    "question": "In a Platform as a Service (PaaS) model, which of the following layers is the customer responsible for managing?",
+    "options": {
+      "A": "Operating System and Virtualization",
+      "B": "Applications and Data",
+      "C": "Runtime and Middleware",
+      "D": "Servers and Storage"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 273,
+    "question": "What is the main difference between Edge Locations and AWS Regions?",
+    "options": {
+      "A": "Edge Locations are used for compute resources; Regions are for storage only",
+      "B": "Edge Locations cache content and serve it with low latency; Regions contain full AWS services",
+      "C": "Edge Locations are physically larger than Regions",
+      "D": "There is no difference; they are the same thing"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 274,
+    "question": "A development team can launch new infrastructure resources within minutes using the AWS Management Console or APIs. Which cloud advantage does this represent?",
+    "options": {
+      "A": "Massive economies of scale",
+      "B": "Increased speed and agility",
+      "C": "Data durability",
+      "D": "Global infrastructure"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 275,
+    "question": "CloudFront is primarily used to deliver content with low latency. Which AWS component does it leverage?",
+    "options": {
+      "A": "Availability Zones",
+      "B": "AWS Regions",
+      "C": "Edge Locations",
+      "D": "VPCs"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 276,
+    "question": "A company wants to run native AWS services, APIs, and tools locally in their own physical data center. Which service enables this hybrid cloud architecture?",
+    "options": {
+      "A": "Amazon Bedrock",
+      "B": "AWS Elastic Beanstalk",
+      "C": "AWS Outposts",
+      "D": "Amazon RDS"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 277,
+    "question": "A company is designing a disaster recovery strategy and wants the ability to instantly fail over to a secondary Region with near-zero data loss. Which approach is recommended?",
+    "options": {
+      "A": "Backup data manually to another Region every 24 hours",
+      "B": "Implement Active-Active deployment across two Regions with real-time data replication",
+      "C": "Keep a cold standby in another Region and restore from backups when needed",
+      "D": "Use S3 cross-region replication only"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 278,
+    "question": "Which disaster recovery approach requires the least RTO (Recovery Time Objective) and RPO (Recovery Point Objective)?",
+    "options": {
+      "A": "Backup and restore strategy",
+      "B": "Pilot light approach",
+      "C": "Warm standby approach",
+      "D": "Active-Active approach (multi-region)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 279,
+    "question": "Which cloud computing service model allows users to control the operating system and applications while the cloud provider manages the physical infrastructure?",
+    "options": {
+      "A": "Software as a Service (SaaS)",
+      "B": "Platform as a Service (PaaS)",
+      "C": "Infrastructure as a Service (IaaS)",
+      "D": "Network as a Service (NaaS)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 280,
+    "question": "A global e-commerce company wants to serve content to users with the lowest possible latency worldwide. Which combination of AWS services should they use?",
+    "options": {
+      "A": "Multiple Regions + Multi-AZ within each Region + CloudFront",
+      "B": "Single Region + CloudFront",
+      "C": "Multiple Regions only",
+      "D": "Edge Locations only"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 281,
+    "question": "Which AWS service enables organizations to intelligently route DNS queries to the optimal AWS Region based on the geographic location of users, health status of endpoints, and configurable routing policies?",
+    "options": {
+      "A": "Amazon Route 53",
+      "B": "AWS Global Accelerator with anycast IP addresses",
+      "C": "Amazon CloudFront distribution with origin failover configured",
+      "D": "AWS Transit Gateway with inter-region peering connections"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 282,
+    "question": "How does deploying resources across AWS Regions help organizations reduce their total cost of ownership when serving a globally distributed user base?",
+    "options": {
+      "A": "By reducing data transfer costs and latency charges through proximity to end users in each geographic market",
+      "B": "By leveraging automated inter-Region replication to eliminate the need for backup storage and archival solutions across multiple locations",
+      "C": "By reducing data transfer expenses through proximity to end users and enabling volume discounts on bandwidth consumption across Regions",
+      "D": "By consolidating all workloads into a single Region with the lowest EC2 pricing tier to maximize compute savings"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 283,
+    "question": "What benefit does AWSâ€™s distributed global infrastructure provide for organizations that need to maintain low-latency access for users in different continents?",
+    "options": {
+      "A": "Deployment of resources in a single strategic location that maximizes network backbone utilization to reduce round-trip time for global users",
+      "B": "Deployment of resources closer to end users in multiple geographic locations to reduce network transmission time",
+      "C": "Automatic replication of all data across every available Region to ensure users can access information from the nearest geographic location",
+      "D": "Centralized routing through a single primary Region that optimizes bandwidth allocation and reduces network congestion for international users"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 284,
+    "question": "Which deployment model requires fixed upfront costs and assigns the responsibility of system updates entirely to the enterpriseâ€™s internal technical team?",
+    "options": {
+      "A": "Public Cloud",
+      "B": "Hybrid Cloud",
+      "C": "Serverless",
+      "D": "On-Premises"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 285,
+    "question": "In which cloud model do users only use the software while the provider manages everything else?",
+    "options": {
+      "A": "Infrastructure as a Service (IaaS)",
+      "B": "Platform as a Service (PaaS)",
+      "C": "Software as a Service (SaaS)",
+      "D": "On-Premises"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 286,
+    "question": "What is the term for a single component, node, or process in a system that, if it experiences an outage, causes the entire system to stop functioning or crash?",
+    "options": {
+      "A": "Single Point of Failure (SPOF)",
+      "B": "Loose Coupling",
+      "C": "Isolated Data Center",
+      "D": "Monolithic Architecture"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 287,
+    "question": "What is a disadvantage of on-premises infrastructure?",
+    "options": {
+      "A": "No control over infrastructure",
+      "B": "Low upfront cost",
+      "C": "High upfront cost for hardware and maintenance",
+      "D": "Unlimited scalability"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 288,
+    "question": "Which of the following is a cloud deployment model?",
+    "options": {
+      "A": "Private Cloud",
+      "B": "Physical Cloud",
+      "C": "Hardware Cloud",
+      "D": "Network Cloud"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 289,
+    "question": "Which deployment strategy do highly agile tech companies like Netflix, Spotify, and Airbnb primarily utilize to achieve massive economies of scale and global reach?",
+    "options": {
+      "A": "Pure On-Premises",
+      "B": "Hybrid Cloud",
+      "C": "Public Cloud",
+      "D": "Isolated Data Centers"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 290,
+    "question": "Which AWS Cloud advantage is demonstrated when a company can replace upfront fixed capital expenses with variable operational expenses?",
+    "options": {
+      "A": "High availability",
+      "B": "Elasticity",
+      "C": "Agility",
+      "D": "Economies of scale"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 291,
+    "question": "In a global disaster recovery architecture, to achieve \"Traffic Routed Globally with Seamless Failover\"when an AWS Region experiences a large-scale disaster, the system design must incorporate which of the following core mechanisms?",
+    "options": {
+      "A": "Utilizing Application Load Balancers (ALBs) to reroute global traffic and establishing an intra-region fiber network to replicate data synchronously between continents.",
+      "B": "Grouping Regions into a single interdependent network to allow traffic to automatically spill over from one Region to another, while using local High Availability (HA) mechanisms to detect failures.",
+      "C": "Use a Global Traffic Router (e.g., Route 53) to automatically detect errors and redirect users, combined with Asynchronous Global Data Replication between isolated Regions.",
+      "D": "Configure a redundant Availability Zone (AZ) as a global switching point and require continuous data synchronization to ensure no latency across the global network."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 292,
+    "question": "An online gaming company wants to ensure that its application can survive a failure of a single data center with minimal downtime. Additionally, they want a separate plan to recover their entire operations in a different geographic area if a catastrophic regional event occurs. What is the most cost-effective architecture to meet both goals?",
+    "options": {
+      "A": "Deploy a Single-AZ architecture with frequent backups to S3",
+      "B": "Use a Multi-AZ deployment for High Availability and a Multi-Region strategy for Disaster Recovery",
+      "C": "Deploy the application solely in Edge Locations to ensure global reach",
+      "D": "Use Multi-Region deployment for both goals as it covers all failure scenarios"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 293,
+    "question": "In an Amazon RDS Multi-AZ deployment, what happens to the \"Standby Instance\"during normal operations and when a failure occurs on the \"Primary Instance\"?",
+    "options": {
+      "A": "The Standby Instance receives asynchronous data and automatically serves Read traffic when the Primary is overloaded",
+      "B": "The Standby Instance is synchronously replicated and is promoted to the Primary Instance when a failure occurs",
+      "C": "Users must manually reconfigure their connection strings to point to the Standby Instance during a failure",
+      "D": "The Standby Instance is only created after the Primary Instance has completely stopped functioning"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 294,
+    "question": "What is the primary benefit of deploying applications across multiple Availability Zones?",
+    "options": {
+      "A": "Increased application latency for better performance",
+      "B": "High availability and fault tolerance",
+      "C": "Reduced AWS pricing for the same workload",
+      "D": "Automatic database replication without additional configuration"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 295,
+    "question": "A company wants to host a legacy application in its corporate data center but use Amazon EC2 for its modern web servers. Which deployment model does this represent?",
+    "options": {
+      "A": "Public Cloud",
+      "B": "Private Cloud",
+      "C": "Hybrid Cloud",
+      "D": "Multi-cloud"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 296,
+    "question": "Which of the following services is designed with native fault tolerance, storing objects redundantly across multiple Availability Zones?",
+    "options": {
+      "A": "Amazon Redshift",
+      "B": "AWS Snowball",
+      "C": "Amazon RDS (when Multi-AZ enabled)",
+      "D": "Amazon S3"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 297,
+    "question": "A companyâ€™s database administrator is concerned that a natural disaster could impact the local data center where their application is hosted. Which AWS infrastructure design would provide the HIGHEST level of protection against a large-scale regional disaster?",
+    "options": {
+      "A": "Deploying the application across multiple Availability Zones in one Region.",
+      "B": "Deploying the application across multiple Edge Locations.",
+      "C": "Deploying the application across multiple AWS Regions",
+      "D": "Using a Hybrid Cloud model with an on-premises backup."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 298,
+    "question": "A video processing application requires ultra-low latency for delivering static content to global end-users and needs centralized access management for its operations team worldwide. Which pair of services correctly meets these requirements based on their scope (Global/Regional)?",
+    "options": {
+      "A": "EC2 (Global) to manage servers and CloudFront (Regional) to deliver content",
+      "B": "S3 (Regional) to store videos and Route 53 (Regional) to route users",
+      "C": "CloudFront (Global) to deliver content via Edge Locations and IAM (Global) to manage access",
+      "D": "VPC (Global) to set up the network and RDS (Global) to store video information"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 299,
+    "question": "An enterprise is currently operating an on-premises system and struggles to forecast resource demand. This leads to expensive idle resources during off-peak hours and system crashes during peak traffic. Which characteristic of Cloud Computing best addresses this issue while optimizing costs?",
+    "options": {
+      "A": "High Availability",
+      "B": "Security",
+      "C": "Global Reach",
+      "D": "Elasticity"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 300,
+    "question": "Under the AWS Shared Responsibility Model, if a customerâ€™s Amazon EC2 instance is hacked because the guest operating system was not updated with the latest security patches, who is responsible?",
+    "options": {
+      "A": "AWS, because they own the physical hardware.",
+      "B": "The Customer, because they are responsible for patching the guest OS.",
+      "C": "Both AWS and the Customer share the responsibility for OS patching.",
+      "D": "The Operating System vendor (e.g., Microsoft or Linux provider)."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Shared Responsibility",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 301,
+    "question": "When using an Infrastructure as a Service (IaaS) provider, which specific layers are managed strictly by the cloud provider rather than the customer?",
+    "options": {
+      "A": "Applications, Data, and Runtime",
+      "B": "Operating System, Middleware, and Runtime",
+      "C": "Servers, Storage, Networking, and Virtualization",
+      "D": "Applications, OS, and Virtualization"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 302,
+    "question": "A company wants to move to AWS to reduce their Total Cost of Ownership (TCO). Which of the following is an example of moving from Capital Expenditure (CAPEX) to Operational Expenditure (OPEX)?",
+    "options": {
+      "A": "Signing a 10-year lease for a new data center facility.",
+      "B": "Buying high-end physical servers and networking gear upfront.",
+      "C": "Paying only for the compute power used each month.",
+      "D": "Hiring a large team of hardware maintenance engineers."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 303,
+    "question": "Startup wants to deploy an application without the burden of managing servers, operating systems, or underlying software stacks. They want to focus entirely on writing code and deploying their application. Which cloud service model is the most suitable?",
+    "options": {
+      "A": "Infrastructure as a Service (IaaS)",
+      "B": "Platform as a Service (PaaS)",
+      "C": "Software as a Service (SaaS)",
+      "D": "On-premises"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 304,
+    "question": "Which of the following components is primarily used to cache data and reduce latency for end users worldwide?",
+    "options": {
+      "A": "Availability Zone",
+      "B": "AWS Region",
+      "C": "Elastic Load Balancer",
+      "D": "Edge Location"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 305,
+    "question": "A company wants to ensure its critical application remains accessible even if an entire AWS Region experiences a catastrophic failure. Which architectural strategy should they adopt?",
+    "options": {
+      "A": "Multi-AZ deployment within a single Region.",
+      "B": "Deploying multiple Elastic Load Balancers in one AZ.",
+      "C": "Using Edge Locations to host the entire application backend.",
+      "D": "Multi-Region active-active deployment."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 306,
+    "question": "Which Disaster Recovery strategy provides the lowest Recovery Time Objective (RTO) and Recovery Point Objective (RPO)?",
+    "options": {
+      "A": "Pilot Light",
+      "B": "Multi-site Active/Active",
+      "C": "Warm Standby",
+      "D": "Backup and Restore"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Architecture & DR",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 307,
+    "question": "What is one of the condition to prioritize to use Cloud rather than On-premise",
+    "options": {
+      "A": "Stable workload",
+      "B": "Available operating team",
+      "C": "Seasonal workload",
+      "D": "High Internal Traffic"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 308,
+    "question": "Why does Multi-Az matter",
+    "options": {
+      "A": "Trafficking automatically to healthy Az",
+      "B": "Preventing global downtime during a major regional failure",
+      "C": "Data replication around the globe allows rapid recovery",
+      "D": "Multi-Region state consistency"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 309,
+    "question": "Which of the following is not a primary drawback of Multi-AZ:",
+    "options": {
+      "A": "Region outage risk",
+      "B": "Higher cost due to duplicated resources, inter-region data transfer",
+      "C": "Higher complexity for certain configurations",
+      "D": "Designed to prevent single data center failure from impacting service availability"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 310,
+    "question": "Which one is not an advantage of Outpost service",
+    "options": {
+      "A": "Data Confidentiality",
+      "B": "Low Latency",
+      "C": "Cost",
+      "D": "Data policy compliance"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 311,
+    "question": "Which of the following best describes horizontal scaling in cloud computing?",
+    "options": {
+      "A": "Increasing CPU and RAM of an existing server",
+      "B": "Adding more servers to distribute workload",
+      "C": "Moving workloads to a faster network",
+      "D": "Using virtualization to divide a server"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 312,
+    "question": "Which design principle suggests that you should break a system into small, independent components so that a failure in one does not cause the entire system to crash?",
+    "options": {
+      "A": "Vertical Scaling",
+      "B": "Tight Coupling",
+      "C": "Loose Coupling",
+      "D": "Monolithic Architecture"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 313,
+    "question": "A developer wants to use a service that allows them to upload their code, and the service handles the deployment, capacity provisioning, and load balancing automatically. They want to maintain some control over the underlying server settings if needed. Which service should they use?",
+    "options": {
+      "A": "Amazon EC2 (IaaS)",
+      "B": "AWS Lambda (Serverless)",
+      "C": "AWS Elastic Beanstalk (PaaS)",
+      "D": "AWS CloudFormation"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 314,
+    "question": "A small startup does not know how many users will visit their new app. They do not want to buy too many servers and waste money, or buy too few and have a slow app. Which advantage of cloud computing helps solve this problem?",
+    "options": {
+      "A": "Go global in minutes",
+      "B": "Increase speed and agility",
+      "C": "Stop guessing capacity and automatically scale resources up or down",
+      "D": "Benefit from massive economies of scale"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 315,
+    "question": "The AWS Well-Architected Framework helps you build good systems in the cloud. It is based on a set of pillars. How many pillars does the AWS Well-Architected Framework have?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 316,
+    "question": "A company currently pays large upfront costs (CapEx) to buy physical servers. They want to move to a model where they pay monthly based on actual usage (OpEx). Which advantage of cloud computing describes this change?",
+    "options": {
+      "A": "Benefit from massive economies of scale",
+      "B": "Increase speed and agility",
+      "C": "Trade fixed expense for variable expense",
+      "D": "Stop spending money running and maintaining data centers"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 317,
+    "question": "What is the difference between \"High Availability\"and \"Fault Tolerance\"?",
+    "options": {
+      "A": "High Availability means the system is always up; Fault Tolerance means the system can scale.",
+      "B": "High Availability ensures minimal downtime; Fault Tolerance ensures zero downtime or data loss by having redundant components.",
+      "C": "High Availability is a customer responsibility; Fault Tolerance is an AWS responsibility.",
+      "D": "They are the same thing."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Shared Responsibility",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 318,
+    "question": "A fintech startup is legally required to ensure that all customer financial data physically remains within the borders of a specific country to comply with government regulations. Which AWS infrastructure concept is primarily used to address this data residency requirement?",
+    "options": {
+      "A": "Edge Locations",
+      "B": "AWS Regions",
+      "C": "High Availability",
+      "D": "Amazon Route 53"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 319,
+    "question": "How are Availability Zones physically and logically connected to one another within a single AWS Region?",
+    "options": {
+      "A": "Through the public internet using encrypted VPN tunnels",
+      "B": "Through distributed global Edge Locations",
+      "C": "With high-bandwidth, low-latency network links",
+      "D": "Using isolated, asynchronous satellite connections"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 320,
+    "question": "A company maintains a scaled-down but fully functional version of their production environment running at all times in an alternate location for disaster preparedness. Which Disaster Recovery (DR) approach does this describe?",
+    "options": {
+      "A": "Backup and Restore",
+      "B": "Pilot Light",
+      "C": "Warm Standby",
+      "D": "Multi-Site (Active-Active)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Architecture & DR",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 321,
+    "question": "A development team is deploying a new application and needs to configure user permissions as well as launch virtual servers. Regarding how AWS services are scoped, which of the following is true?",
+    "options": {
+      "A": "Both user permissions and virtual servers must be configured separately for every single location",
+      "B": "User permissions are managed centrally on a global scale, while virtual servers must be launched in specific geographic boundaries",
+      "C": "Virtual servers are managed globally, while user permissions are strictly restricted to a single data center",
+      "D": "Both user permissions and virtual servers operate globally and do not require location selection"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 322,
+    "question": "A global media company wants to reduce latency for users accessing its website worldwide. Which AWS service is most appropriate?",
+    "options": {
+      "A": "Amazon VPC",
+      "B": "AWS Global Accelerator",
+      "C": "Amazon CloudFront",
+      "D": "Amazon EC2 Auto Scaling"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 323,
+    "question": "Which of the following statements is NOT true?",
+    "options": {
+      "A": "Multi-AZ deployment is a common best practice for improving availability of production workloads within a Region.",
+      "B": "Multi-Region deployment is used only for global applications and is not relevant to disaster recovery planning.",
+      "C": "RTO, RPO, business continuity, and cost tolerance are important factors in selecting a disaster recovery strategy",
+      "D": "Multi-Region architectures usually provide stronger resilience than Multi-AZ architectures, but with greater cost and complexity."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 324,
+    "question": "A DevOps engineer launches an AWS virtual server, installs Ubuntu Linux, configures Python runtime, and deploys a web application. Which cloud service model does this represent?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "On-Premises"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 325,
+    "question": "In IaaS, the responsibility boundary between the customer and AWS provider falls between which two layers?",
+    "options": {
+      "A": "Applications and Data",
+      "B": "Runtime and Middleware",
+      "C": "OS and Virtualization",
+      "D": "Servers and Storage"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 326,
+    "question": "A startup needs to launch a web server in 5 minutes, scale from 2 to 50 servers during a flash sale, then scale back down immediately after. Which AWS service and feature best supports this need?",
+    "options": {
+      "A": "On-Premises servers with manual scaling",
+      "B": "Amazon S3 with static hosting",
+      "C": "Amazon EC2 with Elastic scaling",
+      "D": "AWS Lambda with fixed capacity"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 327,
+    "question": "According to the IaaS responsibility model, which of the following is the customerâ€™s responsibility, NOT AWSâ€™s?",
+    "options": {
+      "A": "Managing physical servers in the data center",
+      "B": "Maintaining network cables and routers",
+      "C": "Providing and maintaining the hypervisor",
+      "D": "Installing and patching the operating system"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 328,
+    "question": "A company is comparing cloud service models. They want a solution where they only manage their application code and data, while the cloud provider handles everything else including the runtime environment and operating system.",
+    "options": {
+      "A": "On-Premises",
+      "B": "IaaS",
+      "C": "PaaS",
+      "D": "Hybrid Cloud"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 329,
+    "question": "Which statement is TRUE regarding the relationship between Regions and Availability Zones?",
+    "options": {
+      "A": "A Region consists of at least two Availability Zones.",
+      "B": "Availability Zones are connected to each other via the public internet.",
+      "C": "Each Region contains multiple, isolated, and physically separate Availability Zones.",
+      "D": "An Availability Zone can span across multiple Regions."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 330,
+    "question": "Which of the following is FALSE?",
+    "options": {
+      "A": "Cached content is delivered to users with higher latency when cache hits occur.",
+      "B": "Leveraging edge use cases can optimize performance, increase availability, and enhance security for globally distributed applications.",
+      "C": "In an edge model using a CDN, origin content is fetched only when needed, such as on a cache miss or revalidation.",
+      "D": "Edge locations are AWS sites positioned close to users to reduce latency."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 331,
+    "question": "\"1.An ecommerce company has migrated its IT infrastructure from an on-premises data center to the AWS Cloud. Which cost is the companyâ€™s direct responsibility?",
+    "options": {
+      "A": "Cost of application software licenses",
+      "B": "Cost of power for the AWS servers",
+      "C": "Cost of the hardware infrastructure on AWS",
+      "D": "Cost of physical security for the AWS data center"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 332,
+    "question": "Which option is a physical location of the AWS global infrastructure?",
+    "options": {
+      "A": "AWS DataSync",
+      "B": "Amazon Connect",
+      "C": "AWS Region",
+      "D": "AWS Organizations"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 333,
+    "question": "An AI startup is training deep learning models with continuously changing data and needs to experiment with different types of hardware (A100, H100 GPUs) in a short period of time. Based on the characteristics of cloud computing, why should they choose the cloud instead of building their own internal GPU farm?",
+    "options": {
+      "A": "Because cloud computing provides full control over both the physical and virtualization layers for engineering teams.",
+      "B": "To optimize CAPEX costs by making long-term investments in hardware.",
+      "C": "To ensure that data is always stored on-premise in order to comply with the strictest security regulations.",
+      "D": "To leverage Agility and Stop Guessing Capacity so they can instantly change hardware configurations according to their experimentation needs."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 334,
+    "question": "A large financial corporation has strict regulations requiring that sensitive data must not leave national borders, but it still wants to use advanced AI services from AWS to analyze data on-site. Which architecture solution is the most optimal?",
+    "options": {
+      "A": "Build a private cloud that is completely isolated from the Internet.",
+      "B": "Migrate the entire system to the public cloud and encrypt the data.",
+      "C": "Use AWS Outposts to run AWS services directly within their internal data center.",
+      "D": "Use a SaaS model for all financial applications."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 335,
+    "question": "Which statement is NOT typically considered a cloud computing advantage?",
+    "options": {
+      "A": "Rapid elasticity allows capacity to expand and shrink with workload demand.",
+      "B": "Measured service supports usage visibility and pay-for-use billing",
+      "C": "Cloud computing is stronger for full control, customization and stable workloads - these are all situations where on-premise is stronger",
+      "D": "Broad network access allows services to be consumed from multiple locations and device types."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 336,
+    "question": "Which section that we develop our-self in IaaS structure ?",
+    "options": {
+      "A": "Applications, Data, Runtime, Middleware, OS, Servers",
+      "B": "Applications, Data",
+      "C": "Applications, Data, Runtime, Middleware, OS",
+      "D": "Applications, Data, Runtime, Middleware, OS, Servers, Storage, Networking"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 337,
+    "question": "A Solutions Architect is designing a web application that will run on a fleet of Amazon EC2 instances. To ensure the application remains available even if some instances fail, the Architect needs a service that can automatically detect unhealthy instances and redirect traffic to the healthy ones. Which AWS service should the Architect use to meet this requirement?",
+    "options": {
+      "A": "AWS Step Functions",
+      "B": "Amazon Route 53",
+      "C": "Elastic Load Balancing (ELB)",
+      "D": "Amazon CloudFront"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 338,
+    "question": "The marketing department of a technology company lacks expertise in coding or application maintenance. However, the company wants them to leverage cloud computing to align with the organizationâ€™s existing technology stack. Which cloud computing model is most suitable for them?",
+    "options": {
+      "A": "Infrastructure as a Service (IaaS).",
+      "B": "Networking as a Service (NaaS).",
+      "C": "Platform as a Service (PaaS).",
+      "D": "Software as a Service (SaaS)."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 339,
+    "question": "Which of the following are benefits of using a Load Balancer in a Cloud workload? (Choose all that apply)",
+    "options": {
+      "A": "Improved Performance and Reduced Latency",
+      "B": "Enhanced Security (SSL Offloading, IP Masking) and Seamless Scalability",
+      "C": "High Availability through Health Checks",
+      "D": "All"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 340,
+    "question": "An insurance company want to scale globally while ensuring strict data compliance for customer information. They also require low latency and rapid deployment for their web applications Which infrastructure model is the best fit for this company?",
+    "options": {
+      "A": "On-premises",
+      "B": "Hybrid Cloud",
+      "C": "Public Cloud",
+      "D": "All of them"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 341,
+    "question": "The â€™Stop guessing capacityâ€™ benefit of the Cloud helps businesses avoid the â€™Under-provisioningâ€™ scenario. What is the main consequence of â€™Under-provisioningâ€™?",
+    "options": {
+      "A": "Increased time-to-market for application deployments.",
+      "B": "Increased time-to-market for application deployments.",
+      "C": "The system becomes overloaded, leading to degraded performance or service downtime when traffic spikes.",
+      "D": "Having to hire more data center operations staff."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 1,
+    "question": "Per the AWS Shared Responsibility Model, management of which of the following AWS services is the responsibility of the customer?",
+    "options": {
+      "A": "AWS Elastic Beanstalk",
+      "B": "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "C": "Amazon DynamoDB",
+      "D": "Amazon Simple Storage Service (Amazon S3)"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Shared Responsibility",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following will help you control the incoming traffic to an Amazon EC2 instance?",
+    "options": {
+      "A": "Security Group",
+      "B": "Network access control list (network ACL)",
+      "C": "AWS Resource Group",
+      "D": "Route Table"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is the responsibility of the customer when running applications using AWS Lambda?",
+    "options": {
+      "A": "Managing the physical servers where the Lambda function runs",
+      "B": "Configuring the networking infrastructure for the Lambda service",
+      "C": "Updating the operating system and runtime environment for Lambda functions",
+      "D": "Writing and maintaining the function code and its dependencies"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Containers & Serverless",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 4,
+    "question": "A company is moving its on-premises application to AWS Cloud. The application uses inmemory caches for running custom workloads. Which Amazon Elastic Compute Cloud (Amazon EC2) instance type is the right choice for the given requirement?",
+    "options": {
+      "A": "Memory Optimized instance types",
+      "B": "Storage Optimized instance types",
+      "C": "Accelerated computing instance types",
+      "D": "Compute Optimized instance types"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 5,
+    "question": "A big data analytics company is moving its IT infrastructure from an on-premises data center to AWS Cloud. The company has some server-bound software licenses that it wants to use on AWS. As a Cloud Practitioner, which of the following EC2 instance types would you recommend to the company?",
+    "options": {
+      "A": "Reserved Instance (RI)",
+      "B": "Dedicated Host",
+      "C": "Dedicated Instance",
+      "D": "On-Demand Instance"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is a serverless AWS service?",
+    "options": {
+      "A": "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "B": "AWS Elastic Beanstalk",
+      "C": "Amazon EMR",
+      "D": "AWS Lambda"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 7,
+    "question": "A startup wants to provision an EC2 instance for the lowest possible cost for a long-term duration but needs to make sure that the instance would never be interrupted. As a Cloud Practitioner, which of the following options would you recommend?",
+    "options": {
+      "A": "EC2 Spot Instance",
+      "B": "EC2 Reserved Instance (RI)",
+      "C": "EC2 Dedicated Host",
+      "D": "EC2 On-Demand Instance"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following AWS services should be used to automatically distribute incoming traffic across multiple targets?",
+    "options": {
+      "A": "AWS Elastic Load Balancing (ELB)",
+      "B": "AWS Elastic Beanstalk",
+      "C": "Amazon OpenSearch Service",
+      "D": "AWS Auto Scaling"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is the MOST cost-effective option to purchase an EC2 Reserved Instance (RI)?",
+    "options": {
+      "A": "No upfront payment option with standard 1-year term",
+      "B": "All upfront payment option with the standard 1-year term",
+      "C": "Partial upfront payment option with standard 3-years term",
+      "D": "No upfront payment option with standard 3-years term"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 10,
+    "question": "Which AWS technology/service helps you to scale your resources to match supply with demand while still keeping your cloud solution cost-effective?",
+    "options": {
+      "A": "AWS Systems Manager",
+      "B": "AWS CloudFormation",
+      "C": "AWS Cost Explorer",
+      "D": "AWS Auto Scaling"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following statements is INCORRECT about AWS Auto Scaling?",
+    "options": {
+      "A": "You can automatically register new instances to a load balancer",
+      "B": "You can scale out and add more Amazon Elastic Compute Cloud (Amazon EC2) instances to match an increase in demand as well as scale in and remove Amazon Elastic Compute Cloud (Amazon EC2) instances to match a reduced demand",
+      "C": "You can automatically remove unhealthy instances",
+      "D": "You can automatically deploy AWS Shield when a DDoS attack is detected"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 12,
+    "question": "Which AWS service can be used to store, manage, and deploy Docker container images?",
+    "options": {
+      "A": "Amazon Elastic Container Service (Amazon ECS)",
+      "B": "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "C": "Amazon Elastic Container Registry (Amazon ECR)",
+      "D": "AWS Lambda"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 13,
+    "question": "Which AWS service should be used when you want to run container applications, but want to avoid the operational overhead of scaling, patching, securing, and managing servers?",
+    "options": {
+      "A": "AWS Lambda",
+      "B": "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "C": "Amazon Elastic Container Service (Amazon ECS)- EC2 launch type",
+      "D": "Amazon Elastic Container Service (Amazon ECS)- Fargate launch type"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Shared Responsibility",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 14,
+    "question": "A startup company decides to move from purchasing physical servers to using AWS cloud services. Instead of paying a large upfront investment to build a data center, they only pay monthly for the computing resources they actually use. Which core benefit of AWS cloud computing does this scenario illustrate?",
+    "options": {
+      "A": "Stop guessing capacity (No need to predict resource capacity in advance)",
+      "B": "Trade fixed expense for variable expense",
+      "C": "Go global in minutes",
+      "D": "Benefit from massive economies of scale"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 15,
+    "question": "A company wants to run its workload on Amazon EC2 instances for more than 1 year. This workload will run continuously. Which option offers a discounted hourly rate compared to the hourly rate of On-Demand Instances?",
+    "options": {
+      "A": "AWS Graviton processor",
+      "B": "Dedicated Hosts",
+      "C": "EC2 Instance Savings Plans",
+      "D": "Amazon EC2 Auto Scaling instances"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 16,
+    "question": "A company wants to automatically add and remove Amazon EC2 instances. The company wants the EC2 instances to adjust to varying workloads dynamically.",
+    "options": {
+      "A": "Amazon DynamoDB",
+      "B": "Amazon EC2 Spot Instances",
+      "C": "AWS Snow Family",
+      "D": "Amazon EC2 Auto Scaling"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 17,
+    "question": "Which design principle aligns with performance efficiency pillar of the AWS Well-Architected Framework?",
+    "options": {
+      "A": "Using serverless architectures",
+      "B": "Scaling horizontally",
+      "C": "Measuring the cost of workloads",
+      "D": "Using managed services"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 18,
+    "question": "A company runs a web application on Amazon EC2 instances using a fixed number of OnDemand instances. During peak hours, the application experiences high traffic and slow response times. During off-peak hours, many instances remain underutilized, increasing costs. The company wants to optimize cost while maintaining high availability and performance. Which solution is the most appropriate?",
+    "options": {
+      "A": "Use larger EC2 instance types to handle peak traffic at all times",
+      "B": "Use Auto Scaling and distribute traffic using an Elastic Load Balancing",
+      "C": "Move all instances to Reserved Instances and keep a fixed number of servers",
+      "D": "Deploy the application in a single Availability Zone with more powerful instances"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 19,
+    "question": "Which of the following data transfers is completely FREE under the Amazon S3 pricing model?",
+    "options": {
+      "A": "Data transferred out from S3 to the internet",
+      "B": "Data transferred in to S3 from the internet",
+      "C": "Data transferred out from S3 to an EC2 instance in a different AWS Region.",
+      "D": "Inter-Region data transfer between S3 buckets"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 20,
+    "question": "Amazon S3 is designed for â€™11 ninesâ€™ of durability. What does this mean?",
+    "options": {
+      "A": "The data is available 99.999999999",
+      "B": "The probability of losing an object is 0.000000001",
+      "C": "Data can be accessed from 11 different AWS Regions simultaneously.",
+      "D": "The system can handle 11 trillion requests per second."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 21,
+    "question": "A developer needs to update a small piece of data within a 10GB file. Which storage type is LEAST efficient for this â€™partial editâ€™ task?",
+    "options": {
+      "A": "Block Storage",
+      "B": "File Storage",
+      "C": "Object Storage",
+      "D": "Network Attached Storage (NAS)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 22,
+    "question": "Which AWS service enables on-premises applications to seamlessly use AWS Cloud storage by caching frequently accessed data locally while storing all data in S3?",
+    "options": {
+      "A": "AWS Storage Gateway",
+      "B": "AWS Snowball",
+      "C": "AWS Direct Connect",
+      "D": "Amazon EFS"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 23,
+    "question": "Which of the following Amazon S3 storage classes has NO constraint on a minimum storage duration charge for objects?",
+    "options": {
+      "A": "Amazon S3 Standard- Infrequent Access (S3 Standard- IA)",
+      "B": "Amazon S3 One Zone- Infrequent Access (S3 One Zone-IA)",
+      "C": "Amazon S3 Glacier Flexible Retrieval",
+      "D": "Amazon S3 Standard"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 24,
+    "question": "A real-time stock trading platform needs a load balancer that can handle millions of TCP requests per second with ultra-low latency. Which ELB should they choose?",
+    "options": {
+      "A": "Application Load Balancer",
+      "B": "Network Load Balancer",
+      "C": "Gateway Load Balancer",
+      "D": "Classic Load Balancer"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 25,
+    "question": "Which EBS volume type supports Multi-Attach, allowing it to be attached to multiple EC2 instances simultaneously?",
+    "options": {
+      "A": "Cold HDD (sc1)",
+      "B": "General Purpose SSD (gp2/ gp3)",
+      "C": "Throughput Optimized HDD (st1)",
+      "D": "Provisioned IOPS SSD (io1/io2)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 26,
+    "question": "Which feature eliminates the initial read latency when accessing a newly restored EBS volume from a snapshot?",
+    "options": {
+      "A": "EBS Multi-Attach",
+      "B": "EBS Snapshot Archive",
+      "C": "Provisioned IOPS",
+      "D": "Fast Snapshot Restore (FSR)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 27,
+    "question": "A financial services company needs to retain its data for 10 years to meet compliance norms. Which Amazon Simple Storage Service (Amazon S3) storage class is the best fit for this use case considering that the data has to be stored at a minimal cost?",
+    "options": {
+      "A": "Amazon S3 Standard-Infrequent Access (S3 Standard-IA)",
+      "B": "Amazon S3 Glacier Deep Archive",
+      "C": "Amazon S3 Glacier Flexible Retrieval",
+      "D": "Amazon S3 Intelligent-Tiering"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 28,
+    "question": "A media company uses Amazon Simple Storage Service (Amazon S3) for storing all its data. Which storage class should it consider for cost-optimal storage of the data that has random access patterns?",
+    "options": {
+      "A": "Amazon S3 Random Access (S3 Random-Access)",
+      "B": "Amazon S3 Standard (S3 Standard)",
+      "C": "Amazon S3 Intelligent-Tiering (S3 Intelligent-Tiering)",
+      "D": "Amazon S3 Standard-Infrequent Access (S3 Standard-IA)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 29,
+    "question": "An e-commerce company has its on-premises data storage on an NFS file system that is accessed in parallel by multiple applications. The company is looking at moving the applications and data stores to AWS Cloud. Which storage service should the company use to move their files to AWS Cloud seamlessly if the application is hosted on Amazon Elastic Compute Cloud (Amazon EC2) instances?",
+    "options": {
+      "A": "Amazon Simple Storage Service (Amazon S3)",
+      "B": "AWS Storage Gateway",
+      "C": "Amazon Elastic Block Store (Amazon EBS)",
+      "D": "Amazon Elastic File System (Amazon EFS)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is the correct statement regarding the AWS Storage services?",
+    "options": {
+      "A": "Amazon Simple Storage Service (Amazon S3) is file based storage, Amazon Elastic Block Store (Amazon EBS) is block based storage and Amazon Elastic File System (Amazon EFS) is object based storage",
+      "B": "Amazon Simple Storage Service (Amazon S3) is block based storage, Amazon Elastic Block Store (Amazon EBS) is object based storage and Amazon Elastic File System (Amazon EFS) is file based storage",
+      "C": "Amazon Simple Storage Service (Amazon S3) is object based storage, Amazon Elastic Block Store (Amazon EBS) is block based storage and Amazon Elastic File System (Amazon EFS) is file based storage",
+      "D": "Amazon Simple Storage Service (Amazon S3) is object based storage, Amazon Elastic Block Store (Amazon EBS) is file based storage and Amazon Elastic File System (Amazon EFS) is block based storage"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 31,
+    "question": "A fleet of Amazon EC2 instances spread across different Availability Zones (AZ) needs to access, edit and share file-based data stored centrally on a system. As a Cloud Practitioner, which AWS service would you recommend for this use-case?",
+    "options": {
+      "A": "Amazon Elastic Block Store (Amazon EBS)",
+      "B": "Amazon Simple Storage Service (Amazon S3)",
+      "C": "EC2 Instance Store",
+      "D": "Amazon Elastic File System (Amazon EFS)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 32,
+    "question": "A company wants a fully managed, flexible, and scalable file storage system, with low latency access, for its Windows-based applications. Which AWS service is the right choice for the company?",
+    "options": {
+      "A": "Amazon Elastic File System (Amazon EFS)",
+      "B": "Amazon FSx for Windows File Server",
+      "C": "Amazon Elastic Block Storage (Amazon EBS)",
+      "D": "Amazon FSx for Lustre"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 33,
+    "question": "Which Amazon Simple Storage Service (Amazon S3) storage class offers the lowest availability?",
+    "options": {
+      "A": "Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)",
+      "B": "Amazon S3 Glacier Flexible Retrieval",
+      "C": "Amazon S3 Intelligent-Tiering",
+      "D": "Amazon S3 Standard"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 34,
+    "question": "Which of the following is the best way to protect your data from accidental deletion on Amazon S3?",
+    "options": {
+      "A": "Amazon S3 storage classes",
+      "B": "Amazon S3 Versioning",
+      "C": "Amazon S3 lifecycle configuration",
+      "D": "Amazon S3 Transfer Acceleration (Amazon S3TA)"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 35,
+    "question": "What is Amazon EBS primarily used for?",
+    "options": {
+      "A": "Hosting static websites.",
+      "B": "Creating a highly scalable data lake.",
+      "C": "Providing Block Storage volumes for Amazon EC2 instances.",
+      "D": "Archiving compliance logs for 10 years."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 36,
+    "question": "A research lab wants to optimize the caching capabilities for its scientific computations application running on Amazon Elastic Compute Cloud (Amazon EC2) instances. Which Amazon Elastic Compute Cloud (Amazon EC2) storage option is best suited for this use case?",
+    "options": {
+      "A": "Instance Store",
+      "B": "Amazon Elastic Block Store (Amazon EBS)",
+      "C": "Amazon Simple Storage Service (Amazon S3)",
+      "D": "Amazon Elastic File System (Amazon EFS)"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 37,
+    "question": "An IT company has deployed a static website on Amazon Simple Storage Service (Amazon S3), but the website is still inaccessible. As a Cloud Practioner, which of the following solutions would you suggest to address this issue?",
+    "options": {
+      "A": "Fix the Amazon S3 bucket policy",
+      "B": "Enable Amazon S3 versioning",
+      "C": "Disable Amazon S3 encryption",
+      "D": "Enable Amazon S3 replication"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 38,
+    "question": "Which of the following Amazon Simple Storage Service (Amazon S3) storage classes has NO constraint of a minimum storage duration charge for objects?",
+    "options": {
+      "A": "Amazon S3 Standard-Infrequent Access (S3 Standard-IA)",
+      "B": "Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)",
+      "C": "Amazon S3 Glacier Flexible Retrieval",
+      "D": "Amazon S3 Standard"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 39,
+    "question": "Which AWS service can be used to host a static website with the LEAST effort?",
+    "options": {
+      "A": "Amazon S3 Glacier",
+      "B": "Amazon Simple Storage Service (Amazon S3)",
+      "C": "AWS Storage Gateway",
+      "D": "Amazon Elastic File System (Amazon EFS)"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 40,
+    "question": "An organization would like to copy data across different Availability Zones (AZs) using Amazon EBS snapshots. Where are Amazon EBS snapshots stored in the AWS Cloud?",
+    "options": {
+      "A": "Amazon Elastic Compute Cloud (Amazon EC2)",
+      "B": "Amazon Simple Storage Service (Amazon S3)",
+      "C": "Amazon Relational Database Service (Amazon RDS)",
+      "D": "Amazon Elastic File System (Amazon EFS)"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 41,
+    "question": "Which Amazon EC2 pricing model provides the most significant discount for fault-tolerant and flexible workloads?",
+    "options": {
+      "A": "Spot Instances",
+      "B": "On-Demand Instances",
+      "C": "Reserved Instances",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 42,
+    "question": "A media company needs to store millions of high-resolution images for their public website. These images must be accessible via a URL and the storage must scale automatically. Which service is best suited for this?",
+    "options": {
+      "A": "Amazon EBS",
+      "B": "AWS Snowball",
+      "C": "Amazon EFS",
+      "D": "Amazon S3"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 43,
+    "question": "A company has a dataset with unpredictable access patterns. Sometimes the data is used daily, and other times it is not touched for months. They want to minimize costs without manually moving data. Which S3 feature helps?",
+    "options": {
+      "A": "S3 Intelligent-Tiering",
+      "B": "S3 Lifecycle Policies",
+      "C": "S3 One Zone-IA",
+      "D": "S3 Standard"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 44,
+    "question": "You are creating a new EC2 instance and need to choose a volume to store the operating system (the root volume). Which storage type is used for this purpose?",
+    "options": {
+      "A": "Amazon EFS",
+      "B": "AWS Storage Gateway",
+      "C": "Amazon EBS",
+      "D": "Amazon S3"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 45,
+    "question": "An analytics application generates reports every month. These reports are rarely looked at after the first week, but when they are needed, they must be accessible immediately. Which S3 class is best?",
+    "options": {
+      "A": "S3 Glacier Flexible Retrieval",
+      "B": "S3 Standard",
+      "C": "Amazon EFS",
+      "D": "S3 Standard-IA"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 46,
+    "question": "What happens to the data stored on an â€™Instance Storeâ€™ volume if the associated EC2 instance is stopped or terminated?",
+    "options": {
+      "A": "The data is moved to a new EBS volume.",
+      "B": "The data is automatically backed up to S3.",
+      "C": "The data is lost (Ephemeral).",
+      "D": "The data is preserved and can be re-attached."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 47,
+    "question": "A data processing firm runs batch jobs that are stateless and can be interrupted at any time. They are looking for the absolute lowest cost for compute. Which option is best?",
+    "options": {
+      "A": "Saving Plans",
+      "B": "On-Demand Instances",
+      "C": "Spot Instances",
+      "D": "Capacity Reservation"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 48,
+    "question": "Which EC2 pricing model allows you to bid for unused AWS capacity?",
+    "options": {
+      "A": "On-Demand",
+      "B": "Dedicated Hosts",
+      "C": "Reserved Instances",
+      "D": "Spot Instances"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 49,
+    "question": "A company needs to run a specialized compliance-heavy workload that requires software licenses bound to a specific physical serverâ€™s sockets and cores. Which EC2 tenancy model is the only one that supports this requirement?",
+    "options": {
+      "A": "Dedicated Instances",
+      "B": "Dedicated Hosts",
+      "C": "On-Demand Capacity Reservations",
+      "D": "Reserved Instances"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 50,
+    "question": "An organization is looking to migrate to AWS and wants to commit to a 3-year term. They need a discount that applies to EC2 instances regardless of the instance family, AWS Region, or even if they switch to AWS Fargate or Lambda. Which Savings Plan fits this best?",
+    "options": {
+      "A": "EC2 Instance Savings Plans",
+      "B": "SageMaker Savings Plans",
+      "C": "Compute Savings Plans",
+      "D": "Standard Reserved Instaces"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 51,
+    "question": "A developer is using Spot Instances for a non-critical test environment. If AWS needs the capacity back, how much notice does the developer receive before the instance is terminated?",
+    "options": {
+      "A": "5 minutes",
+      "B": "No notice is provided",
+      "C": "30 seconds",
+      "D": "2 minutes"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 52,
+    "question": "A company wants to receive the maximum possible discount on their EC2 usage. They have a predictable workload for the next 3 years and are willing to pay for the entire term upfront. Which payment option provides the highest savings?",
+    "options": {
+      "A": "Monthly Billing",
+      "B": "All Upfront",
+      "C": "No Upfront",
+      "D": "Partial Upfront"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 53,
+    "question": "If an On-Demand Capacity Reservation is not being used (no instances are running in it), how is the customer billed?",
+    "options": {
+      "A": "They are billed a small \"holding fee\"(10",
+      "B": "They are billed at the full On-Demand rate for the reserved capacity",
+      "C": "They receive a credit for future use",
+      "D": "They are not billed at all"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 54,
+    "question": "Which AWS tool can provide recommendations on which Reserved Instances or Savings Plans to buy based on your historical usage?",
+    "options": {
+      "A": "AWS Budgets",
+      "B": "AWS Cost Explorer",
+      "C": "AWS Trusted Advisor",
+      "D": "Amazon Inspector"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 55,
+    "question": "A retail company expects unpredictable traffic spikes during a flash sale. They need to automatically add servers to handle demand and remove them afterward to save costs",
+    "options": {
+      "A": "Spot Instances and Placement Groups",
+      "B": "Auto Scaling Group (ASG) and Elastic Load Balancing (ELB)",
+      "C": "Reserved Instances and CloudWatch",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 56,
+    "question": "A biotech startup needs high parallel processing power for complex genomic analysis that standard CPUs process too slowly. They require specialized hardware accelerator",
+    "options": {
+      "A": "Compute Optimized",
+      "B": "Memory Optimized",
+      "C": "Accelerated Computing",
+      "D": "Storage Optimized"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 57,
+    "question": "A financial company must retain data for 10 years for compliance at the lowest possible cost. Data is rarely accessed, and a retrieval time of 12â€“48 hours is acceptable. Which Amazon S3 storage class is the best fit for this use case?",
+    "options": {
+      "A": "Amazon S3 Standard-IA",
+      "B": "Amazon S3 Glacier Deep Archive",
+      "C": "Amazon S3 Glacier Flexible Retrieval",
+      "D": "Amazon S3 Intelligent-Tiering"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 58,
+    "question": "In Amazon EC2, what acts as a virtual firewall at the instance level to control inbound and outbound traffic?",
+    "options": {
+      "A": "Security Group",
+      "B": "Network Access Control List (NACL)",
+      "C": "AWS WAF",
+      "D": "Route Table"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 59,
+    "question": "Which EC2 purchasing option is the most cost-effective for fault-tolerant, flexible workloads (such as batch processing) and can offer discounts up to 90",
+    "options": {
+      "A": "On-Demand Instances",
+      "B": "Spot Instances",
+      "C": "Reserved Instances",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 60,
+    "question": "To optimize applications that require extremely low network latency and high network bandwidth between instances within the same Availability Zone (AZ), which type of Placement Group should you use?",
+    "options": {
+      "A": "Cluster Placement Group",
+      "B": "Spread Placement Group",
+      "C": "Partition Placement Group",
+      "D": "Auto Scaling Group"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 61,
+    "question": "A company needs to store data for a Big Data system that requires high throughput but does not require a high number of Input/Output Operations Per Second (IOPS). Which of the following Amazon EBS volume types is the most cost-effective choice?",
+    "options": {
+      "A": "Cold HDD (sc1)",
+      "B": "Throughput Optimized HDD (st1)",
+      "C": "Provisioned IOPS SSD (io2)",
+      "D": "General Purpose SSD (gp3)"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 62,
+    "question": "You have a large amount of old image data that is infrequently accessed (about once every few months). However, when needed, the data must be immediately available in milliseconds. Which Amazon S3 storage class is the most cost-optimized choice?",
+    "options": {
+      "A": "S3 Standard-IA",
+      "B": "S3 Glacier Flexible Retrieval",
+      "C": "S3 One Zone-IA",
+      "D": "S3 Standard"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 63,
+    "question": "A financial institution is migrating its core banking database to AWS. Due to strict regulatory compliance, the database must run on isolated physical hardware. The database runs 24/7, requires a consistent sub-millisecond latency, and needs up to 100,000 IOPS. The institution wants the most cost-effective purchasing option for a 3-year architecture plan. Which combination of compute and storage should the solutions architect choose?",
+    "options": {
+      "A": "EC2 Dedicated Instances with a 3-year Compute Savings Plan + Amazon EBS gp3.",
+      "B": "EC2 Default Tenancy with a 3-year All Upfront Reserved Instance + Amazon EBS io1.",
+      "C": "EC2 Dedicated Hosts with a 3-year Reserved Instance + Amazon EBS io2 Block Express.",
+      "D": "EC2 Capacity Reservations with On-Demand pricing + Amazon EBS st1."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 64,
+    "question": "You are designing a global leaderboard for a popular mobile game using AWS API Gateway, AWS Lambda, and Amazon DynamoDB. During special events, read traffic becomes highly unpredictable, spiking to millions of requests per second as users constantly refresh to see the \"Top 10 Players\". This causes DynamoDB to return ProvisionedThroughputExceededException errors despite Auto Scaling being enabled. Which serverless-friendly solution will resolve the throttling issue and provide microsecond latency for the read-heavy workload?",
+    "options": {
+      "A": "Switch DynamoDB to On-Demand capacity mode to instantly handle the millions of read requests.",
+      "B": "Implement Amazon DynamoDB Accelerator (DAX) to cache the frequently accessed leaderboard data.",
+      "C": "Use Amazon Kinesis Data Streams to buffer the read requests before they hit DynamoDB.",
+      "D": "Enable DynamoDB Global Tables to distribute the read requests across multiple AWS"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 65,
+    "question": "An AI company stores massive amounts of raw training data (petabytes) in Amazon S3. The data is heavily accessed for model training in the first 30 days. After 30 days, the data is only accessed once a month for model evaluation, but it requires millisecond retrieval times when accessed. After 1 year, the data is kept only for historical compliance and is rarely accessed (retrieval time of several hours is acceptable). Which S3 Lifecycle configuration is the most cost-effective?",
+    "options": {
+      "A": "S3 Standard -> Transition to S3 Standard-IA at day 30 -> Transition to S3 Glacier Deep Archive at day 365.",
+      "B": "S3 Standard -> Transition to S3 One-Zone IA at day 30 ->T ransitiontoS3GlacierInstantRetrievalat",
+      "C": "S3 Standard -> Transition to S3 Standard-IA at day 30 -> Transition to S3 Glacier Instant Retrieval at day 365."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 66,
+    "question": "A web application is running on an Auto Scaling Group (ASG) of EC2 instances behind an Application Load Balancer (ALB). The ASG spans across two Availability Zones: AZ-1 and AZ-2. Due to a recent scale-out event triggered by an AZ-specific metric, AZ-1 currently has 8 instances, while AZ-2 has only 2 instances. Users suddenly report 502 Bad Gateway errors. Upon investigation, you notice the 2 instances in AZ-2 are crashing due to 100",
+    "options": {
+      "A": "The ASG is using a Partition Placement Group, causing traffic to isolate in AZ-2.",
+      "B": "Cross-Zone Load Balancing is currently disabled (OFF) on the load balancer.",
+      "C": "The Elastic Network Interfaces (ENIs) in AZ-1 have detached from the EC2 instances.",
+      "D": "The Application Load Balancer is misconfigured to use Layer 4 (TCP) instead of Layer 7 (HTTP)."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 67,
+    "question": "A development team is modernizing a monolithic application by containerizing it into microservices. The containers will be deployed using Amazon ECS. The team demands a fully serverless compute environment where they do not have to manage the underlying OS or instances. However, the microservices must share a common, persistent storage volume that can be mounted simultaneously by multiple containers running across different Availability Zones. Which architecture satisfies all these requirements?",
+    "options": {
+      "A": "ECS EC2 Launch Type with Amazon EBS Multi-Attach.",
+      "B": "ECS Fargate Launch Type with Amazon EBS gp3.",
+      "C": "ECS EC2 Launch Type with Amazon S3 mounted via a gateway.",
+      "D": "ECS Fargate Launch Type with Amazon EFS."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 68,
+    "question": "A company wants to distribute traffic across multiple servers. What service should they use?",
+    "options": {
+      "A": "EBS for storage expansion",
+      "B": "Auto Scaling Group for scaling capacity",
+      "C": "AMI for launching instances",
+      "D": "Elastic Load Balancer for traffic distribution"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 69,
+    "question": "Among Amazon EC2â€™s payment options, which entity type allows users to leverage AWSâ€™s excess capacity at a cost up to 90",
+    "options": {
+      "A": "Dedicated Hosts",
+      "B": "Spot Instances",
+      "C": "Capacity Reservations",
+      "D": "On-Demand Instances"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 70,
+    "question": "A startup is building an event-driven image-processing pipeline. Every time a user uploads a file, the application must resize the image, add a watermark, and store metadata. Traffic is highly unpredictable, ranging from almost zero to sudden spikes of thousands of requests per minute. The team does not want to provision or manage servers, and they are comfortable packaging any required libraries with the application. Which statement best identifies the customerâ€™s remaining responsibility if AWS Lambda is selected?",
+    "options": {
+      "A": "Managing the physical servers that execute the function",
+      "B": "Updating the operating system and Lambda runtime",
+      "C": "Writing and maintaining the function code and its dependencies",
+      "D": "Configuring the underlying AWS networking infrastructure for the Lambda service"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Containers & Serverless",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 71,
+    "question": "What are the core differences in operating models between AWS Lambda and Amazon EC2?",
+    "options": {
+      "A": "Lambda executes event-driven code and automatically manages the infrastructure, while EC2 requires users to manage and maintain virtual machines.",
+      "B": "Lambda is designed to run tasks continuously for extended periods, while EC2 can only run for short durations.",
+      "C": "Lambda only supports Python, while EC2 supports a variety of different operating systems.",
+      "D": "EC2 scales automatically without configuration, while Lambda requires setting up an Auto Scaling Group."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 72,
+    "question": "How does Horizontal Scalability (Scaling Out) differ fundamentally from Vertical Scalability (Scaling Up)?",
+    "options": {
+      "A": "Horizontal scaling involves adding more RAM to an existing instance, while vertical scaling adds more instances.",
+      "B": "Vertical scaling is restricted by hardware limits of a single machine, while horizontal scaling is theoretically limitless by adding more nodes.",
+      "C": "Horizontal scaling is preferred for non-distributed systems like traditional databases.",
+      "D": "Vertical scaling requires a Load Balancer, whereas horizontal scaling does not."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 73,
+    "question": "What is the benefit of using a Cluster Placement Group?",
+    "options": {
+      "A": "It spreads instances across different physical hardware to minimize correlated failures",
+      "B": "It partitions instances across different racks to support distributed data systems.",
+      "C": "It packs instances close together in a single Availability Zone to achieve low-latency, highthroughput networking.",
+      "D": "It automatically distributes traffic across multiple Availability Zones."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 74,
+    "question": "A student is reviewing core AWS services related to EC2, scaling, networking, and availability. They want to verify which statements are correct.How many of the following statements are correct? (1) Elastic Load Balancer distributes incoming traffic across multiple EC2 instances; (2) Auto Scaling Group automatically increases or decreases the number of EC2 instances based on demand; (3) An AMI is used to route traffic between multiple servers; (4) Private IP addresses allow EC2 instances to communicate within a VPC; (5) Deploying resources in multiple Availability Zones improves high availability.",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 75,
+    "question": "A company is planning to run a batch data processing job that is fault-tolerant and can be interrupted without affecting the final output. Which Amazon EC2 purchasing option provides the most cost-effective solution for this workload?",
+    "options": {
+      "A": "On-Demand Instances",
+      "B": "Reserved Instances",
+      "C": "Dedicated Hosts",
+      "D": "Spot Instances"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 76,
+    "question": "Which AWS service allows developers to run code in response to events without provisioning or managing the underlying servers?",
+    "options": {
+      "A": "Amazon EC2",
+      "B": "AWS Lambda",
+      "C": "Amazon Elastic Kubernetes Service (EKS)",
+      "D": "Amazon Cognito"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 77,
+    "question": "A cloud architect needs to distribute incoming HTTP and HTTPS web traffic across multiple Amazon EC2 instances. The architecture requires advanced routing capabilities, such as routing traffic based on the URL path. Which AWS service should be used?",
+    "options": {
+      "A": "Network Load Balancer (NLB)",
+      "B": "Amazon API Gateway",
+      "C": "Application Load Balancer (ALB)",
+      "D": "Auto Scaling Group (ASG)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 78,
+    "question": "Which statement is FALSE?",
+    "options": {
+      "A": "Amazon S3 objects can be transitioned between storage classes using Lifecycle Rules.",
+      "B": "Amazon EFS is designed as a shared file system for multiple instances.",
+      "C": "Amazon EBS is mainly used for EC2 volumes, database storage, and low-latency workloads.",
+      "D": "Amazon S3 is the best option for high-transaction relational databases because it has lower latency than block storage."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 79,
+    "question": "A team stores huge backup archives and AI training datasets. They want very high durability, very large scale, and low cost. However, developers also complain that they cannot make small in-place edits to stored items. Which service is most likely being used?",
+    "options": {
+      "A": "Amazon EBS",
+      "B": "Amazon EFS",
+      "C": "Amazon S3",
+      "D": "Amazon RDS"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 80,
+    "question": "A company wants to back up an EBS volume today and later restore that backup in another Availability Zone or even another Region. Which option should they use?",
+    "options": {
+      "A": "Amazon EFS lifecycle policy",
+      "B": "Amazon S3 lifecycle rule",
+      "C": "Amazon EBS Snapshot",
+      "D": "Amazon S3 replication only"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 81,
+    "question": "An application runs on a single EC2 instance and uses a relational database that must support high transaction volume and low latency. Which option is the most appropriate?",
+    "options": {
+      "A": "Amazon S3, because it has high durability",
+      "B": "Amazon EFS, because it can be mounted like a filesystem",
+      "C": "Amazon EBS, because block storage is efficient for databases",
+      "D": "Amazon Glacier, because archival tiers reduce cost"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 82,
+    "question": "1. Which of the following is an example of horizontal scaling in the AWS Cloud?",
+    "options": {
+      "A": "Replacing an existing EC2 instance with a larger, more powerful one.",
+      "B": "Increasing the compute capacity of a single EC2 instance to address the growing demands of an application.",
+      "C": "Adding more RAM capacity to an EC2 instance.",
+      "D": "Adding more EC2 instances of the same size to handle an increase in traffic."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 83,
+    "question": "You have deployed your application on multiple Amazon EC2 instances. Your customers complain that sometimes they canâ€™t reach your application. Which AWS service allows you to monitor the performance of your EC2 instances to assist in troubleshooting these issues?",
+    "options": {
+      "A": "AWS Lambda",
+      "B": "AWS Config",
+      "C": "Amazon CloudWatch",
+      "D": "AWS CloudTrail"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 84,
+    "question": "Which service provides object-level storage in AWS?",
+    "options": {
+      "A": "Amazon EBS",
+      "B": "Amazon Instance Store",
+      "C": "Amazon EFS",
+      "D": "Amazon S3"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 85,
+    "question": "Which type of Load Balancer of Amazon ELB service can be reached via Route Table Entry?",
+    "options": {
+      "A": "Application Load Balancer",
+      "B": "Network Load Balancer",
+      "C": "Gateway Load Balancer",
+      "D": "Classic Load Balancer"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 86,
+    "question": "Which statement best describes Elastic Load Balancing?",
+    "options": {
+      "A": "It translates a domain name into an IP address using DNS",
+      "B": "It distributes incoming application traffic across one or more Amazon EC2 instances",
+      "C": "It collects metrics on connected Amazon EC2 instances",
+      "D": "It automatically adjusts the number of Amazon EC2 instances to support incoming traffic"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 87,
+    "question": "Which AWS service provides a simple and scalable shared file storage solution for use with Linux-based AWS and on-premises servers?",
+    "options": {
+      "A": "Amazon S3",
+      "B": "Amazon Glacier",
+      "C": "Amazon EBS",
+      "D": "Amazon EFS"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 88,
+    "question": "A company wants to host a web application on Amazon EC2 and ensure it remains operational even if an entire data center fails. Which of the following is the BEST architectural choice?",
+    "options": {
+      "A": "Deploy all EC2 instances into a Cluster Placement Group within one Region",
+      "B": "Use an Auto Scaling Group to distribute instances across multiple Availability Zones (AZs)",
+      "C": "Assign an Elastic IP address to a single high-capacity EC2 instance",
+      "D": "Deploy the instances on a Dedicated Host within a single private subnet"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 89,
+    "question": "A media companyâ€™s video streaming platform is hosted in the AWS ap-southeast-1 Region. Users in Europe report slow load times for static content such as thumbnails and video previews. Which AWS infrastructure concept would BEST reduce this latency?",
+    "options": {
+      "A": "Deploy additional EC2 instances in a second AZ",
+      "B": "Use Edge Locations to cache and serve static content closer to users",
+      "C": "Migrate the application to a Region closer to Europe",
+      "D": "Enable Multi-Region replication for the primary database"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 90,
+    "question": "Which EC2 purchasing option is best suited for batch processing jobs that are fault-tolerant, can be interrupted without losing progress, and offers the HIGHEST cost savings?",
+    "options": {
+      "A": "Reserved Instances",
+      "B": "On-Demand Instances",
+      "C": "Spot Instances",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 91,
+    "question": "A company needs shared file storage accessible concurrently by multiple Linux EC2 instances across 3 Availability Zones. Which storage service is the most appropriate?",
+    "options": {
+      "A": "Amazon EBS",
+      "B": "EC2 Instance Store",
+      "C": "Amazon EFS",
+      "D": "Amazon S3"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 92,
+    "question": "A startup uploads log files to Amazon S3 Standard. They are accessed frequently in the first month, but rarely used after that. Which S3 feature helps automatically minimize storage costs without manual intervention?",
+    "options": {
+      "A": "S3 Lifecycle Rules",
+      "B": "EBS Snapshots",
+      "C": "Amazon EFS replication",
+      "D": "EBS Multi-Attach"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 93,
+    "question": "A machine learning platform needs temporary, extremely high-speed storage for caching intermediate computation results during model training on an EC2 instance. The data does not need to be retained after the instance stops. Which storage option is BEST?",
+    "options": {
+      "A": "Amazon EBS gp3",
+      "B": "Amazon EFS Standard",
+      "C": "EC2 Instance Store",
+      "D": "Amazon S3 Standard"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 94,
+    "question": "A company needs to store compliance audit logs for 7 years to meet regulatory requirements. They are almost never accessed. The PRIMARY requirement is to optimize for the lowest cost. Which S3 storage class is most appropriate?",
+    "options": {
+      "A": "Amazon S3 Standard-IA",
+      "B": "Amazon S3 Glacier Instant Retrieval",
+      "C": "Amazon S3 Glacier Deep Archive",
+      "D": "Amazon S3 One Zone-IA"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 95,
+    "question": "Which AWS service is best suited for storing a large amount of unstructured data (images, videos, documents) with high durability and low cost?",
+    "options": {
+      "A": "Amazon EBS",
+      "B": "Amazon S3",
+      "C": "Amazon EFS",
+      "D": "EC2 Instance Store"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 96,
+    "question": "Which AWS storage type is best suited for running a relational database that requires high I/O performance on Amazon EC2?",
+    "options": {
+      "A": "Amazon S3",
+      "B": "Amazon EBS",
+      "C": "Amazon EFS",
+      "D": "Amazon Glacier"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 97,
+    "question": "Which component acts as a virtual firewall to control inbound and outbound traffic for EC2 instances?",
+    "options": {
+      "A": "Route Table",
+      "B": "Security Group",
+      "C": "IAM",
+      "D": "Elastic Load Balancer"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 98,
+    "question": "What is the primary function of â€™User Dataâ€™ in Amazon EC2 when configuring a new instance launch?",
+    "options": {
+      "A": "To store personal user files in the cloud",
+      "B": "To run a bootstrap script to configure the server",
+      "C": "To define firewall rules for the instance",
+      "D": "To monitor CPU and memory usage"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 99,
+    "question": "What is the primary function of an Amazon Machine Image (AMI)?",
+    "options": {
+      "A": "To serve as a preconfigured template for launching EC2 instances",
+      "B": "To act as a firewall for incoming network traffic",
+      "C": "To provide persistent block storage for running instances",
+      "D": "To automatically scale the number of instances based on demand"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 100,
+    "question": "How can you encrypt an existing, unencrypted Amazon EBS volume?",
+    "options": {
+      "A": "Change the setting directly in the AWS Console for that volume",
+      "B": "Take a snapshot and copy that snapshot with encryption enabled",
+      "C": "Use a script to encrypt the data while the instance is running",
+      "D": "Attach an IAM policy to force the system to automatically encrypt this volume"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 101,
+    "question": "What is the primary difference between the EC2 Launch Type and the Fargate Launch Type in Amazon ECS?",
+    "options": {
+      "A": "Fargate requires the user to install the ECR Agent manually",
+      "B": "Fargate is a serverless architecture that removes the need to manage EC2 instances",
+      "C": "Only the EC2 Launch Type supports Docker containers",
+      "D": "The EC2 Launch Type is always more cost-effective for short-lived, small-scale tasks"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 102,
+    "question": "Which AWS service allows you to run code without provisioning or managing servers (Serverless compute)?",
+    "options": {
+      "A": "Amazon EC2",
+      "B": "Amazon ECS",
+      "C": "Amazon EBS",
+      "D": "AWS Lambda"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 103,
+    "question": "A company has an application with unpredictable traffic spikes and wants a database solution where they only pay for the exact read and write requests they perform. Which Amazon DynamoDB capacity mode should they choose?",
+    "options": {
+      "A": "Provisioned Mode",
+      "B": "On-Demand Mode",
+      "C": "Standard-IA Mode",
+      "D": "Global Tables Mode"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 104,
+    "question": "A company hosts a video streaming platform with its main servers located in the US. However, users in Asia frequently experience high latency and slow video loading times. Which AWS infrastructure component is specifically designed to cache content closer to these users to reduce latency?",
+    "options": {
+      "A": "Availability Zones",
+      "B": "AWS Regions",
+      "C": "Edge Locations",
+      "D": "AWS Outposts"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 105,
+    "question": "A startup needs to provision an EC2 instance to run a database for a long-term duration (at least 3 years). They want to achieve the lowest possible cost but must guarantee that the instance will never be interrupted by AWS. Which purchasing option should they recommend?",
+    "options": {
+      "A": "EC2 Spot Instance",
+      "B": "EC2 On-Demand Instance",
+      "C": "EC2 Dedicated Host",
+      "D": "EC2 Reserved Instance (RI)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 106,
+    "question": "A developer is designing an Amazon DynamoDB table to store user profiles and session data. What is the maximum allowed size for a single item (row) in this table?",
+    "options": {
+      "A": "128 KB",
+      "B": "256 KB",
+      "C": "400 KB",
+      "D": "1 MB"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 107,
+    "question": "A company is hosting a web application in a Docker container on Amazon EC2. AWS is responsible for which of the following tasks?",
+    "options": {
+      "A": "Scaling the web application and services developed with Docker",
+      "B": "Provisioning or scheduling containers to run on clusters and maintain their availability",
+      "C": "Performing hardware maintenance in the AWS facilities that run the AWS Cloud",
+      "D": "Managing the guest operating system, including updates and security patches"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 108,
+    "question": "Where can you store files in AWS?",
+    "options": {
+      "A": "Amazon EFS",
+      "B": "Amazon SNS",
+      "C": "Amazon ECS",
+      "D": "Amazon EMR"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 109,
+    "question": "Which EC2 storage option provides temporary block storage located on the physical host machine and loses its data if the instance is stopped or terminated?",
+    "options": {
+      "A": "Amazon Elastic Block Store (Amazon EBS)",
+      "B": "Amazon Elastic File System (Amazon EFS)",
+      "C": "EC2 Instance Store",
+      "D": "Amazon S3"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 110,
+    "question": "Using Amazon EC2 falls under which of the following cloud computing models?",
+    "options": {
+      "A": "Iaas SaaS",
+      "B": "IaaS",
+      "C": "SaaS",
+      "D": "PaaS"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 111,
+    "question": "Amazon Glacier is an Amazon S3 storage class that is suitable for storing which type of data?",
+    "options": {
+      "A": "Active archives",
+      "B": "Dynamic websitesâ€™ assets",
+      "C": "Active databases",
+      "D": "Cached data"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 112,
+    "question": "Which EC2 placement group strategy divides instances into logical segments, ensuring that each segment runs on separate underlying hardware racks to support large distributed systems like Hadoop or Cassandra?",
+    "options": {
+      "A": "Cluster Placement Group",
+      "B": "Spread Placement Group",
+      "C": "Partition Placement Group",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 113,
+    "question": "Which is not a type of Storage in AWS services?",
+    "options": {
+      "A": "Block Storage",
+      "B": "File Storage",
+      "C": "Disk Storage",
+      "D": "Object Storage"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 114,
+    "question": "Which feature allows you to fully initialize an Amazon EBS volume created from a snapshot to eliminate initial read latency?",
+    "options": {
+      "A": "Snapshot Archive",
+      "B": "Recycle Bin for Snapshots",
+      "C": "Fast Snapshot Restore (FSR)",
+      "D": "Cross-Region Snapshot Copy"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 115,
+    "question": "When deploying containers using Amazon Elastic Container Service (Amazon ECS), which launch type allows you to run tasks on AWS-managed infrastructure without provisioning or managing the underlying EC2 instances?",
+    "options": {
+      "A": "EC2 Launch Type",
+      "B": "Fargate Launch Type",
+      "C": "External Launch Type",
+      "D": "Kubernetes Launch Type"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 116,
+    "question": "What must be enabled as a prerequisite before you can set up Amazon DynamoDB Global Tables for cross-region data replication?",
+    "options": {
+      "A": "DynamoDB Accelerator (DAX)",
+      "B": "Amazon Kinesis Data Streams",
+      "C": "On-Demand Capacity Mode",
+      "D": "DynamoDB Streams"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 117,
+    "question": "Which of the following procedures will help reduce your Amazon S3 costs?",
+    "options": {
+      "A": "Use the Import/Export feature to move old files automatically to Amazon Glacier",
+      "B": "Use the right combination of storage classes based on different use cases",
+      "C": "Pick the right Availability Zone for your S3 bucket",
+      "D": "Move all the data stored in S3 standard to EBS"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 118,
+    "question": "If an Application Load Balancer is configured to route incoming traffic based on the domain name, such as routing one.example.com to Service A and other.example.com to Service B, which routing method is being utilized?",
+    "options": {
+      "A": "Host-based routing",
+      "B": "Request-based routing",
+      "C": "Path-based routing",
+      "D": "Header-based routing"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 119,
+    "question": "An application runs on multiple Amazon EC2 instances that access a shared file system simultaneously. Which AWS storage service should be used?",
+    "options": {
+      "A": "Amazon EBS",
+      "B": "Amazon EFS",
+      "C": "Amazon S3",
+      "D": "AWS Artifact"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 120,
+    "question": "Which Amazon API Gateway endpoint type is designed for worldwide users by routing requests through CloudFront Edge Locations to reduce latency?",
+    "options": {
+      "A": "Regional",
+      "B": "Edge-Optimized",
+      "C": "Private",
+      "D": "Global"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 121,
+    "question": "Which of the following is a key limitation of object storage systems like Amazon S3?",
+    "options": {
+      "A": "They cannot store massive datasets cost-effectively.",
+      "B": "They provide very limited metadata capabilities.",
+      "C": "They require a rigid, hierarchical folder structure to operate.",
+      "D": "They do not support partial edits; the entire object must be overwritten to make a change."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 122,
+    "question": "A data science team is setting up a shared ML dataset for distributed cluster training. Which storage option provides the moderate speed and high scalability required for this specific workload?",
+    "options": {
+      "A": "Amazon Elastic File System (Amazon EFS)",
+      "B": "Amazon S3 Glacier",
+      "C": "Relational Database running on Amazon EBS",
+      "D": "Single Disk Storage"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 123,
+    "question": "How does block storage manage and locate data on the backend?",
+    "options": {
+      "A": "By nesting files within a hierarchy of directories and folders using file paths.",
+      "B": "By breaking data into fixed-size blocks, each with a unique address stored in a mapping table.",
+      "C": "By using a flat address space with globally unique identifiers and customizable metadata.",
+      "D": "By organizing data into relational tables with primary and foreign keys."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 124,
+    "question": "A company needs to process large-scale log files where the lowest storage cost is the primary priority, and the data is accessed infrequently. Which Amazon EBS volume type is most appropriate?",
+    "options": {
+      "A": "Provisioned IOPS SSD (io1)",
+      "B": "General Purpose SSD (gp3)",
+      "C": "Cold HDD (sc1)",
+      "D": "Throughput Optimized HDD (st1)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 125,
+    "question": "When configuring an Amazon S3 Lifecycle rule to transition objects to a cheaper storage class, what is the recommended minimum object size to transition so that the transition costs do not outweigh the storage savings?",
+    "options": {
+      "A": "16 KiB",
+      "B": "128 KiB",
+      "C": "1 MiB",
+      "D": "1 GiB"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 126,
+    "question": "Which component is a pre-configured template (including operating system, software, etc.) used to launch an EC2 instance?",
+    "options": {
+      "A": "EBS Snapshot",
+      "B": "Amazon Machine Image (AMI)",
+      "C": "User Data",
+      "D": "Security Group"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 127,
+    "question": "You want to execute automated commands (such as installing applications) as soon as an EC2 instance is launched for the first time. Which feature should you use?",
+    "options": {
+      "A": "Instance Metadata",
+      "B": "Elastic IP",
+      "C": "User Data",
+      "D": "Lifecycle Rules"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 128,
+    "question": "Which EC2 instance type is designed for workloads that require heavy data processing in memory (RAM), such as distributed databases?",
+    "options": {
+      "A": "Compute Optimized",
+      "B": "Memory Optimized",
+      "C": "Storage Optimized",
+      "D": "General Purpose"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 129,
+    "question": "You have deployed your application on multiple Amazon EC2 instances. Your customers complain that sometimes they canâ€™t reach your application. Which AWS service allows you to monitor the performance of your EC2 instances to assist in troubleshooting these issues?",
+    "options": {
+      "A": "AWS Lambda.",
+      "B": "AWS Config.",
+      "C": "Amazon CloudWatch.",
+      "D": "AWS CloudTrail."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 130,
+    "question": "A company is expecting a short-term spike in internet traffic for its application. During the traffic increase, the application cannot be interrupted. The company also needs to minimize cost and maximize flexibility. Which Amazon EC2 instance type should the company use to meet these requirements?",
+    "options": {
+      "A": "On-Demand Instances",
+      "B": "Spot Instances",
+      "C": "Reserved Instances",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 131,
+    "question": "Which service stores objects, provides real-time access to those objects, and offers versioning and lifecycle capabilities?",
+    "options": {
+      "A": "Amazon Glacier.",
+      "B": "AWS Storage Gateway.",
+      "C": "Amazon S3.",
+      "D": "Amazon EBS."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 132,
+    "question": "A company runs a data analytics platform that processes large amounts of data every night. The workload is fault-tolerant and can handle interruptions. The company wants to minimize costs as much as possible.",
+    "options": {
+      "A": "On-Demand Instances",
+      "B": "Reserved Instances",
+      "C": "Savings Plans",
+      "D": "Spot Instances"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 133,
+    "question": "Which of the following statement about Amazon EC2 Security Groups is TRUE?",
+    "options": {
+      "A": "A security group can only be associated with one EC2 instance",
+      "B": "Security group rules require a reboot of the instance to take effect",
+      "C": "An EC2 instance can be associated with multiple security groups",
+      "D": "Security groups only control inbound traffic"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 134,
+    "question": "A company is running an application on an Amazon EC2 instance in Region A. The company wants to deploy the same application in Region B with identical configuration, including OS, installed software, and settings, for disaster recovery purposes. What is the MOST appropriate way to achieve this?",
+    "options": {
+      "A": "Create a snapshot of the EC2 instance and directly launch it in Region B",
+      "B": "Create an AMI from the EC2 instance, copy the AMI to Region B, and launch a new instance from it",
+      "C": "Export the EC2 instance as a file and manually import it into Region B",
+      "D": "Use Auto Scaling to automatically replicate the instance to another region"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 135,
+    "question": "A machine learning team is training models on large datasets stored in Amazon S3. The training jobs run on EC2 instances that repeatedly read the same subset of data during each training epoch. Which storage strategy will most effectively reduce network bottlenecks and improve training performance without changing the data lake architecture?",
+    "options": {
+      "A": "Use EBS or instance store as a local cache of frequently accessed S3 objects",
+      "B": "Use Amazon S3 with S3 Select for every training batch read",
+      "C": "Move all data from S3 to dedicated EBS volumes before each training job",
+      "D": "Migrate all S3 data to EFS and mount it on training instances"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 136,
+    "question": "A distributed application running across hundreds of EC2 instances accesses the same EFS file system. You observe increased latency at scale. Which configuration change is most appropriate to improve scalability?",
+    "options": {
+      "A": "Switch the EFS performance mode from General Purpose to Max I/O",
+      "B": "Add more EFS mount targets in the same Availability Zone",
+      "C": "Increase the size of the EFS file system by writing dummy data",
+      "D": "Convert the EFS file system to One Zone storage class"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 137,
+    "question": "You run a big data analytics workload on EC2 that processes large, sequentially accessed files. The workload is cost-sensitive and can tolerate moderate latency but needs high throughput. Which Amazon EBS volume type is most cost-effective while still meeting these needs?",
+    "options": {
+      "A": "Cold HDD (sc1)",
+      "B": "Throughput Optimized HDD (st1)",
+      "C": "Provisioned IOPS SSD (io2)",
+      "D": "General Purpose SSD (gp3)"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 138,
+    "question": "You have deployed a web application on multiple Amazon EC2 instances behind an Application Load Balancer. Traffic fluctuates significantly throughout the day. You want to: Automatically scale based on demand; Reduce cost during low traffic periods; Ensure high availability without interruption. Which solution is MOST optimal?",
+    "options": {
+      "A": "Use an Auto Scaling Group with Scheduled Scaling based on fixed times",
+      "B": "Use an Auto Scaling Group with Dynamic Scaling (target tracking) based on CPU utilization",
+      "C": "Use a fixed number of On-Demand instances and manually scale when needed",
+      "D": "Use only Spot Instances without any On-Demand instances"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 139,
+    "question": "You store log files in Amazon S3: 0â€“30 days -> frequently accessed; 30â€“90 days -> infrequently accessed; 90 days -> rarely accessed but must be retained long-term. You want to minimize cost as much as possible while still allowing retrieval when needed. Which strategy is the best fit?",
+    "options": {
+      "A": "Keep all data in S3 Standard",
+      "B": "Lifecycle: Standard â†’ Standard-IA â†’ Glacier Flexible Retrieval",
+      "C": "Lifecycle: Standard â†’ One Zone-IA â†’ Glacier Deep Archive",
+      "D": "Lifecycle: Standard â†’ Intelligent-Tiering only (no further transitions)"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 140,
+    "question": "You are running a mission-critical relational database on Amazon EC2. The workload has the following characteristics: Requires consistently high IOPS; Low latency is critical; Cannot tolerate performance variability; Data durability is very important. Which Amazon EBS volume type is the MOST appropriate?",
+    "options": {
+      "A": "gp3 (General Purpose SSD)",
+      "B": "io2 (Provisioned IOPS SSD)",
+      "C": "st1 (Throughput Optimized HDD)",
+      "D": "sc1 (Cold HDD)"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 141,
+    "question": "A company is designing a storage architecture for its AI platform. They need to handle: (1) raw data ingestion at petabyte scale with low cost, (2) feature serving with low latency and consistency between training and serving, and (3) experiment metadata tracking with easy querying and lineage tracking. Based on the Storage Layer in AI Systems, which combination of storage layers and their associated tools correctly matches all three requirements?",
+    "options": {
+      "A": "Raw Data Storage (Data Warehouse/Data Lake) â†’ Feature Storage (Feast) â†’ Metadata Storage (MLflow)",
+      "B": "Raw Data Storage (Pinecone) â†’ Feature Storage (FAISS) â†’ Metadata Storage (Feast)",
+      "C": "Raw Data Storage (Feast) â†’ Feature Storage (MLflow) â†’ Metadata Storage (Pinecone)",
+      "D": "Raw Data Storage (MLflow) â†’ Feature Storage (Pinecone) â†’ Metadata Storage (FAISS)"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 142,
+    "question": "A machine learning team needs to store a shared NLP dataset that will be used for distributed training across multiple compute instances in different Availability Zones. The dataset needs moderate read speed and high scalability. Based on the storage impact analysis for ML training, which AWS storage service and reasoning is most appropriate?",
+    "options": {
+      "A": "Amazon S3 â€” because it offers the lowest latency for ML I/O operations",
+      "B": "Amazon EBS â€” because it supports multi-attach across Availability Zones for all volume types",
+      "C": "AWS Glacier â€” because it provides the most cost-effective solution for large datasets",
+      "D": "Amazon EFS â€” because it offers moderate speed, high scalability, and is suitable for distributed training with shared access across AZs"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 143,
+    "question": "Regarding Amazon S3 Storage Classes, what happens when you configure Lifecycle Rules to transition objects automatically?",
+    "options": {
+      "A": "Objects can only move from Glacier Deep Archive to Standard",
+      "B": "Objects can transition from Standard â†’ Standard IA â†’ Glacier tiers, and this movement can be automated using Lifecycle Rules",
+      "C": "Lifecycle Rules only apply to objects smaller than 128 KB",
+      "D": "Transition between storage classes requires manual intervention and cannot be automated"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 144,
+    "question": "In the AI system storage pipeline, what are the key requirements for Embedding Storage?",
+    "options": {
+      "A": "Version control, reproducibility, and deployment tracking",
+      "B": "Massive scalability (TB â†’ PB), low cost, and high durability",
+      "C": "Fast similarity search (ANN), semantic retrieval, and low latency",
+      "D": "Query experiments easily, track lineage, and debug models"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 145,
+    "question": "Which storage type is most suitable for running relational databases (SQL) and Virtual Machine (VM) disks?",
+    "options": {
+      "A": "Object Storage â€” because of its rich metadata capabilities",
+      "B": "File Storage â€” because of its hierarchical directory structure",
+      "C": "Block Storage â€” because of its extremely fast performance and support for high-transaction workloads",
+      "D": "Archival Storage â€” because of its low cost"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 146,
+    "question": "A customer showed interest in a company product and wanted to quickly review its application. To do it, the boss wants to launch an instance as fast as it can and optimizing the cost shows we can easily stop it after the customerâ€™s review. Which purchasing options below are preferred?",
+    "options": {
+      "A": "Spot instance",
+      "B": "Reserved Instance",
+      "C": "On-demand Instance",
+      "D": "Saving Plans"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 147,
+    "question": "Which of the following that an ALB canâ€™t route traffic to?",
+    "options": {
+      "A": "S3 Buckets",
+      "B": "EC2 Instances",
+      "C": "Lambda Functions",
+      "D": "IP Addresses"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 148,
+    "question": "Which service provides temporary block storage that is physically attached to the host computer?",
+    "options": {
+      "A": "Instance store",
+      "B": "EBS",
+      "C": "S3 standard",
+      "D": "Amazon EFS"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 149,
+    "question": "What attaching an EBS volume to an EC2 instance, where must the volume be located?",
+    "options": {
+      "A": "In any AWS region",
+      "B": "Should be at your physical service where you company placed",
+      "C": "In the same AZ as the EC2 instance",
+      "D": "In the same VPC as the EC2 instance"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 150,
+    "question": "What is the keys difference between EBS and EFS in terms of Availability Zones?",
+    "options": {
+      "A": "EFS is only available in a single AZ",
+      "B": "Neither service supports multiple AZs",
+      "C": "EBS is locked to a single AZ, while EFS data is stored redundantly across multiple AZs.",
+      "D": "EBS can work across multiple AZs by default"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 151,
+    "question": "A company is building a distributed ML training system on multiple EC2 instances. The training nodes must access the same dataset at the same time. The workload does not require ultra-low latency like a relational database, but it does require shared access and scalability. Which storage option is the best fit?",
+    "options": {
+      "A": "Amazon EBS",
+      "B": "Amazon EFS",
+      "C": "Amazon S3",
+      "D": "Instance store"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 152,
+    "question": "How does EFS scale its storage capacity?",
+    "options": {
+      "A": "Manually increase the size in the AWS console",
+      "B": "It scales automatically as you add or remove files",
+      "C": "It scales based on the number of EC2 instances attached",
+      "D": "You must use Auto Scaling Groups to scale EFS"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 153,
+    "question": "Which ELB is best suited for handling millions of requests per second while maintaining ultra-low latency?",
+    "options": {
+      "A": "Application Load Balancer",
+      "B": "Network Load Balancer",
+      "C": "Classic Load Balancer",
+      "D": "Amazon Load Balancer"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 154,
+    "question": "A company needs storage for a content platform where data is stored as files in folders, accessed by file path, and shared by several application servers. Which storage type and AWS service best match this requirement?",
+    "options": {
+      "A": "Block storage â€” Amazon EBS",
+      "B": "File storage â€” Amazon EFS",
+      "C": "Object storage â€” Amazon S3",
+      "D": "Archival storage â€” Amazon Glacier"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 155,
+    "question": "Which statement is TRUE about object storage?",
+    "options": {
+      "A": "It is best for high-transaction relational databases because it supports partial in-place edits efficiently.",
+      "B": "It has lower latency than block storage and is the default choice for SQL databases.",
+      "C": "It is cost-effective for massive datasets, supports rich metadata, and is suitable for backups and AI/ML training sets.",
+      "D": "It is mainly designed for EC2 root volumes and ultra-low-latency workloads."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 156,
+    "question": "A solutions architect is choosing between S3, EBS, and EFS for a workload. The workload is single-instance, random I/O heavy, latency-sensitive, and behaves like a transactional system. Which is the best choice?",
+    "options": {
+      "A": "Amazon S3",
+      "B": "Amazon EFS",
+      "C": "Amazon EBS",
+      "D": "Amazon S3 Glacier Instant Retrieval"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 157,
+    "question": "Which service allows multiple EC2 instances to access the same file system simultaneously across different AZs ?",
+    "options": {
+      "A": "EBS",
+      "B": "EFS",
+      "C": "ELB",
+      "D": "ENI"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 158,
+    "question": "Elastic block storage (EBS), Elastic network interfaces (ENI), Elastic load balancer (ELB), Elastic file system (EFS). Which service here, its setup default can only work with a single EC2 instance?",
+    "options": {
+      "A": "EBS",
+      "B": "ENI",
+      "C": "ELB",
+      "D": "EFS"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 159,
+    "question": "A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. Which AWS service can meet these requirements?",
+    "options": {
+      "A": "Amazon Inspector",
+      "B": "Amazon Macie",
+      "C": "Amazon GuardDuty",
+      "D": "AWS Secrets Manager"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 160,
+    "question": "What kind of database is Amazon DynamoDB?",
+    "options": {
+      "A": "Document database",
+      "B": "Relational database",
+      "C": "NoSQL database",
+      "D": "Graph database"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 161,
+    "question": "Which Amazon S3 storage class has the lowest cost?",
+    "options": {
+      "A": "S3 Intelligent-Tiering",
+      "B": "S3 Standard",
+      "C": "S3 Glacier Deep Archive",
+      "D": "S3 One Zone-IA"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 162,
+    "question": "What is AWS EFS?",
+    "options": {
+      "A": "AWS Elastic File System",
+      "B": "AWS Efficient File System",
+      "C": "AWS Enterprise File System",
+      "D": "AWS External File Storage"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 163,
+    "question": "Economies of scale continually reduce AWS Cloud pricing.",
+    "options": {
+      "A": "False",
+      "B": "True",
+      "C": "Only for enterprise customers",
+      "D": "Only for storage services"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 164,
+    "question": "Which database is ideal for large organizations and enterprises?",
+    "options": {
+      "A": "PostgreSQL",
+      "B": "MySQL",
+      "C": "Amazon Aurora",
+      "D": "SQLite"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 165,
+    "question": "A company needs to run a large-scale data analysis workload that is fault-tolerant and can handle interruptions. Which Amazon EC2 purchasing option provides the lowest cost (up to 90",
+    "options": {
+      "A": "On-Demand Instances",
+      "B": "Reserved Instances",
+      "C": "Spot Instances",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 166,
+    "question": "Which of the following is a key characteristic of AWS Lambda?",
+    "options": {
+      "A": "You must provision and manage the underlying virtual servers.",
+      "B": "It is a serverless compute service that runs code in response to events and scales automatically.",
+      "C": "It is designed for long-running applications that must stay active 24/7.",
+      "D": "You are billed based on the number of instances you have running per hour."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 167,
+    "question": "What is the primary advantage of using AWS Fargate for containerized applications?",
+    "options": {
+      "A": "It provides a physical server fully dedicated to a single customer.",
+      "B": "It allows you to choose and manage the specific EC2 instances that run your containers.",
+      "C": "It is a serverless compute engine for containers that removes the need to provision or manage servers.",
+      "D": "It acts as a static public IPv4 address for your container environment."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 168,
+    "question": "A developer wants to automatically install software packages and update the operating system the first time an Amazon EC2 instance starts. Which feature should they use?",
+    "options": {
+      "A": "Amazon Machine Image (AMI)",
+      "B": "EC2 User Data",
+      "C": "Security Groups",
+      "D": "Elastic Block Store (EBS) Snapshots"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 169,
+    "question": "A developer accidentally terminated an EC2 instance. They noticed that the root volume (which contained the operating system) was automatically deleted, but an additional data volume attached to the same instance was kept. What is the default behavior of Amazon EBS regarding the DeleteOnTermination attribute?",
+    "options": {
+      "A": "Both root and additional volumes are deleted by default.",
+      "B": "Both root and additional volumes are kept by default.",
+      "C": "The root volume is deleted by default, but additional volumes are kept by default.",
+      "D": "The root volume is kept by default, but additional volumes are deleted by default."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 170,
+    "question": "You are building a serverless web application. You have written your backend logic using AWS Lambda. You now need to expose these Lambda functions as RESTful APIs so your frontend application can call them over HTTPS. Which AWS service should you use to create and manage these APIs?",
+    "options": {
+      "A": "Amazon API Gateway",
+      "B": "Elastic Load Balancer (ELB)",
+      "C": "AWS Step Functions",
+      "D": "Amazon Route 53"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 171,
+    "question": "A media production company has petabytes of raw 4K video footage. Once a video project is finished, the raw footage is archived. The company wants the absolute lowest storage cost possible. If an old project needs to be reopened, the video editors are completely fine waiting up to 12 hours for the files to be restored. Which Amazon S3 storage class should they use?",
+    "options": {
+      "A": "S3 Standard-IA",
+      "B": "S3 Glacier Instant Retrieval",
+      "C": "S3 Glacier Flexible Retrieval",
+      "D": "S3 Glacier Deep Archive"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 172,
+    "question": "You are configuring an S3 Lifecycle Rule to automate storage costs. Your goal is to keep objects in S3 Standard for the first 30 days. After 30 days, the objects are infrequently accessed but need immediate retrieval. After 365 days, the objects are kept only for compliance and can take a day to retrieve. Which transition sequence is valid and most cost-effective?",
+    "options": {
+      "A": "S3 Standard S3 Glacier Deep Archive S3 Standard-IA",
+      "B": "S3 Standard S3 Intelligent-Tiering S3 One Zone-IA",
+      "C": "S3 Standard S3 Standard-IA S3 Glacier Deep Archive",
+      "D": "S3 Standard S3 Glacier Flexible Retrieval S3 Glacier Instant Retrieval"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 173,
+    "question": "The identification process of an online financial services company requires that new users must complete an online interview with their security team. The completed recorded interviews are only required in the event of a legal issue or a regulatory compliance breach. What is the most cost-effective service to store the recorded videos?",
+    "options": {
+      "A": "S3 Intelligent-Tiering.",
+      "B": "AWS Marketplace.",
+      "C": "Amazon S3 Glacier Deep Archive.",
+      "D": "Amazon EBS."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 174,
+    "question": "A company wants to focus on business activities instead of managing compute and capacity. Which AWS service can be used to automatically add or remove Amazon EC2 instances based on demand?",
+    "options": {
+      "A": "Elastic Load Balancer.",
+      "B": "Amazon EC2 Auto Scaling.",
+      "C": "Amazon Route 53.",
+      "D": "Amazon CloudFront."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 175,
+    "question": "If an instance store reboots, does the data persist?",
+    "options": {
+      "A": "Yes, always",
+      "B": "No",
+      "C": "Only for Linux instances",
+      "D": "Only if backed up"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 176,
+    "question": "A company needs to physically migrate 50 Petabytes of data from their local data center to AWS because transferring it over their internet connection would take several years. Which service is designed for this?",
+    "options": {
+      "A": "AWS Storage Gateway",
+      "B": "AWS Snowball Edge",
+      "C": "AWS Snowmobile",
+      "D": "AWS Direct Connect"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 177,
+    "question": "Which services are parts of the AWS serverless platform?",
+    "options": {
+      "A": "Amazon EC2, Amazon S3, Amazon Athena.",
+      "B": "Amazon Kinesis, Amazon SQS, Amazon EMR.",
+      "C": "AWS Step Functions, Amazon DynamoDB, Amazon SNS.",
+      "D": "Amazon Athena, Amazon Cognito, Amazon EC2."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 178,
+    "question": "Which of the following are characteristics of Amazon S3?",
+    "options": {
+      "A": "A global file system",
+      "B": "A cloud-based object storage service",
+      "C": "A local file store",
+      "D": "A network file system"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 179,
+    "question": "A startup wants to store secondary backup copies of data that can be easily recreated if lost at the absolute lowest cost possible, without needing high resilience. Which storage class is best?",
+    "options": {
+      "A": "Amazon S3 Standard",
+      "B": "Amazon S3 One Zone-IA",
+      "C": "Amazon S3 Standard-IA",
+      "D": "Amazon S3 Intelligent-Tiering"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 180,
+    "question": "A global corporation has a predictable baseline of compute usage across multiple AWS Regions. They use a mix of EC2 instances, AWS Lambda, and AWS Fargate. Which purchasing model provides the highest level of flexibility to cover all these services?",
+    "options": {
+      "A": "Standard Reserved Instances",
+      "B": "EC2 Instance Savings Plans",
+      "C": "Compute Savings Plans",
+      "D": "Regional Reserved Instances"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 181,
+    "question": "A solutions architect is designing a system for a tightly coupled scientific simulation that requires extremely low-latency communication between nodes using a Cluster Placement Group. What is a true limitation of this strategy?",
+    "options": {
+      "A": "It cannot span across multiple Availability Zones",
+      "B": "It is limited to a maximum of 7 instances per Region",
+      "C": "It requires the use of Dedicated Hosts for all instances.",
+      "D": "It only supports T-series instance types"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 182,
+    "question": "AWS Elastic Block Store Snapshot is",
+    "options": {
+      "A": "Differential data backup",
+      "B": "Full data backup",
+      "C": "Incremental data backup",
+      "D": "Manual data copy"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 183,
+    "question": "What is the maximum amount of RAM you can allocate to an AWS Lambda function?",
+    "options": {
+      "A": "10 GB",
+      "B": "3 GB",
+      "C": "1 GB",
+      "D": "32 GB"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Containers & Serverless",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 184,
+    "question": "Which Amazon EFS storage class offers the lowest â€œfirst byte read latencyâ€?",
+    "options": {
+      "A": "EFS Standard",
+      "B": "EFS Infrequent Access (IA)",
+      "C": "EFS Archive",
+      "D": "They all have the same latency."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 185,
+    "question": "Which AWS storage service is designed to transfer petabytes of data in and out of the cloud?",
+    "options": {
+      "A": "AWS Snowmobile",
+      "B": "AWS Redshift",
+      "C": "Amazon S3",
+      "D": "AWS DataSync"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 186,
+    "question": "Which tool lets you visualize and manage your AWS costs?",
+    "options": {
+      "A": "AWS Cost Explorer",
+      "B": "AWS Budgets",
+      "C": "AWS Price Calculator",
+      "D": "AWS Billing Dashboard"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 187,
+    "question": "Which service lets you run code without managing servers",
+    "options": {
+      "A": "AWS ECS",
+      "B": "AWS Lambda",
+      "C": "Amazon EC2 Auto Scaling",
+      "D": "AWS Fargate"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 188,
+    "question": "Which of the following factors directly affects the training speed of a machine learning model (ML Training Speed)?",
+    "options": {
+      "A": "Monthly storage cost",
+      "B": "Maximum capacity of a single disk",
+      "C": "User API interface",
+      "D": "Storage system I/O performance"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 189,
+    "question": "Which AWS service provides a history of application data changes with immutability?",
+    "options": {
+      "A": "AWS Quantum Ledger Database",
+      "B": "AWS Neptune",
+      "C": "AWS DocumentDB",
+      "D": "AWS ElastiCache"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 190,
+    "question": "Why is AWS Glacier considered NOT suitable for directly training machine learning models?",
+    "options": {
+      "A": "Extremely high latency",
+      "B": "Storage cost is too expensive",
+      "C": "Does not support log data storage",
+      "D": "Low data durability"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 191,
+    "question": "Which AWS storage service is recommended for distributed training thanks to its high scalability and moderate speed?",
+    "options": {
+      "A": "Amazon EBS",
+      "B": "Amazon EFS",
+      "C": "Amazon S3 Glacier",
+      "D": "Local Storage Device"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 192,
+    "question": "In the scenario of enabling the Hibernate feature for an EC2 instance, which of the following technical requirements is mandatory for the root volume?",
+    "options": {
+      "A": "The root volume must have a size at least twice the instanceâ€™s RAM.",
+      "B": "The root volume must be an Instance Store volume to ensure RAM write speed.",
+      "C": "The root volume must be an encrypted Amazon EBS volume.",
+      "D": "The root volume must have the \"Delete on Termination\"attribute set to false"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 193,
+    "question": "A solutions architect needs to run a cluster of 7 EC2 instances such that each instance is placed on a separate physical hardware rack within the same Availability Zone to avoid simultaneous failures. Which type of Placement Group best meets this requirement?",
+    "options": {
+      "A": "Dedicated Placement Group",
+      "B": "Cluster Placement Group",
+      "C": "Partition Placement Group",
+      "D": "Spread Placement Group"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 194,
+    "question": "A company runs a web application on Amazon EC2. Traffic spikes during peak hours and drops at night. The company wants a solution that automatically adjusts the number of instances based on actual load while minimizing operational effort. Which solution is the most appropriate?",
+    "options": {
+      "A": "Use Scheduled Scaling",
+      "B": "Use Target Tracking Scaling",
+      "C": "Manually increase instance size",
+      "D": "Use Reserved Instances"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 195,
+    "question": "What is the key difference in hardware control capabilities between Dedicated Hosts and Dedicated Instances?",
+    "options": {
+      "A": "Dedicated Instances allow users to choose the exact physical rack location in the data center.",
+      "B": "Both provide the same level of control over the physical serverâ€™s BIOS configuration.",
+      "C": "Dedicated Instances always remain on the same physical hardware even after a Stop/Start operation.",
+      "D": "Dedicated Hosts provide visibility and control over instance placement on physical servers to meet software licensing requirements (BYOL)."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 196,
+    "question": "An application requires high availability and fault tolerance. If one instance fails, traffic must automatically be routed to another instance, and the system must self-recover. Which solution is the most appropriate?",
+    "options": {
+      "A": "Use EC2 only",
+      "B": "EC2 + Auto Scaling",
+      "C": "EC2 + Load Balancer",
+      "D": "EC2 + Load Balancer + Auto Scaling"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 197,
+    "question": "What is Amazon DynamoDB Accelerator (DAX) capable of?",
+    "options": {
+      "A": "Improves visualization of graphs",
+      "B": "Improves write performance",
+      "C": "Improves read performance of NoSQL data",
+      "D": "Improves relational queries"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "General",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 198,
+    "question": "A company wants to run short-term workloads at the lowest possible cost and is willing to accept that instances may be terminated at any time. Which solution is the most appropriate?",
+    "options": {
+      "A": "On-Demand",
+      "B": "Reserved",
+      "C": "Spot Instances",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 199,
+    "question": "What problem is the Amazon EBS â€œSnapshot Archiveâ€ feature specifically designed to solve?",
+    "options": {
+      "A": "Increase the speed of creating new volumes from snapshots through Fast Snapshot Restore.",
+      "B": "Protect important snapshots from accidental deletion for up to one year.",
+      "C": "Automatically create incremental backups based on real-time data changes.",
+      "D": "Optimize costs for infrequently accessed backups with an expected restore time of 24 to 72 hours."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 200,
+    "question": "A company runs a steady workload on EC2 over a long period of time. They want to minimize costs as much as possible without changing the architecture. Which solution is the most appropriate?",
+    "options": {
+      "A": "On-Demand Instances",
+      "B": "Spot Instances",
+      "C": "Reserved Instances",
+      "D": "Auto Scaling"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 201,
+    "question": "A developer is using an AWS Lambda function to process large video files uploaded to S3. The function consistently takes 18 minutes to complete the processing. To ensure the function finishes successfully, which action should be taken?",
+    "options": {
+      "A": "Increase the Memory (RAM) allocation to the maximum (10GB) to provide more CPU power.",
+      "B": "Change the Timeout setting in the Lambda configuration to 20 minutes",
+      "C": "Migrate the workload to Amazon EC2 or AWS Fargate.",
+      "D": "Enable Provisioned Concurrency to keep the function \"warm\"for longer processing."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 202,
+    "question": "A company wants to quickly deploy multiple instances with the same configuration and preinstalled software, while minimizing setup time. Which solution is the best?",
+    "options": {
+      "A": "Configure each instance via SSH",
+      "B": "Use snapshots each time",
+      "C": "Create an AMI and use it in a Launch Template",
+      "D": "Manually copy files"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 203,
+    "question": "You are using an Amazon EBS Volume (General Purpose SSD) attached to an EC2 instance in Availability Zone (AZ) us-east-1a. There is a major power outage that takes down the entire us-east-1a zone. How can you access your data in another zone (us-east-1b)?",
+    "options": {
+      "A": "EBS is a Regional service, so you can simply attach the volume to a new instance in us-east-1b.",
+      "B": "You cannot; EBS volumes are tied to a specific AZ. You must restore the data from a Snapshot.",
+      "C": "AWS automatically replicates EBS volumes across all AZs in a Region for high availability.",
+      "D": "Use S3 Transfer Acceleration to move the EBS data to the new zone."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 204,
+    "question": "How much time does the Auto Scaling Group need to take the next activates (default) ?",
+    "options": {
+      "A": "3 seconds",
+      "B": "300 miliseconds",
+      "C": "300 seconds",
+      "D": "3000 seconds"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 205,
+    "question": "What is an Amazon Machine Image (AMI) primarily used for?",
+    "options": {
+      "A": "To automatically scale EC2 resources",
+      "B": "To provide a preconfigured template to launch EC2 instances",
+      "C": "To distribute network traffic across instances",
+      "D": "To provide network-attached storage for EC2"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 206,
+    "question": "A company is using a third-party service to back up 10 TB of data to a tape library. The on-premises backup server is running out of space. The company wants to use AWS services for the backups without changing its existing backup workflows. Which AWS service should the company use to meet these requirements?",
+    "options": {
+      "A": "Amazon Elastic Block Store (Amazon EBS)",
+      "B": "AWS Storage Gateway",
+      "C": "Amazon Elastic Container Service (Amazon ECS)",
+      "D": "AWS Lambda"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 207,
+    "question": "A company runs a web application on multiple EC2 instances behind an Application Load Balancer (ALB). The instances need to share a common directory containing user-uploaded files with low latency. Which solution is the most appropriate?",
+    "options": {
+      "A": "Store the files in Amazon S3 and mount it directly to the EC2 instances",
+      "B": "Use an EBS volume and attach it to all instances",
+      "C": "Use Amazon EFS and mount it to all instances",
+      "D": "Store the files in the instance store"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 208,
+    "question": "Which feature allows you to run a startup script automatically when an EC2 instance first boots?",
+    "options": {
+      "A": "Auto Scaling Groups",
+      "B": "AWS Step Functions",
+      "C": "EC2 User Data",
+      "D": "Elastic Network Interfaces"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 209,
+    "question": "A company wants a fully managed Windows file server for its Windows-based applications. Which AWS service will meet this requirement?",
+    "options": {
+      "A": "Amazon FSx",
+      "B": "Amazon Elastic Kubernetes Service (Amazon EKS)",
+      "C": "Amazon Elastic Container Service (Amazon ECS)",
+      "D": "Amazon EMR"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Containers & Serverless",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 210,
+    "question": "A company has an uninterruptible application that runs on Amazon EC2 instances. The application constantly processes a backlog of files in an Amazon Simple Queue Service (Amazon SQS) queue. This usage is expected to continue to grow for years. What is the MOST costeffective EC2 instance purchasing model to meet these requirements?",
+    "options": {
+      "A": "Spot Instances",
+      "B": "On-Demand Instances",
+      "C": "Savings Plans",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 211,
+    "question": "A company needs to store millions of log files. The files will be accessed frequently during the first 30 days, after which they will rarely be accessed but must be retained for a long period. Which solution is the most cost-effective?",
+    "options": {
+      "A": "Amazon S3 Standard with a lifecycle policy transitioning to Glacier",
+      "B": "Amazon S3 Standard",
+      "C": "Amazon S3 Intelligent-Tiering",
+      "D": "Amazon EFS Infrequent Access"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 212,
+    "question": "A company plans to deploy containers on AWS. The company wants full control of the compute resources that host the containers. Which AWS service will meet these requirements?",
+    "options": {
+      "A": "Amazon Elastic Kubernetes Service (Amazon EKS)",
+      "B": "AWS Fargate",
+      "C": "Amazon EC2",
+      "D": "Amazon Elastic Container Service (Amazon ECS)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 213,
+    "question": "Which EC2 purchasing option allows you to use spare AWS capacity at up to a 90",
+    "options": {
+      "A": "Spot Instances",
+      "B": "Eco Plans",
+      "C": "Savings Instances",
+      "D": "Savings Plans"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 214,
+    "question": "Which Amazon EC2 pricing model is the MOST cost efficient for an uninterruptible workload that runs once a year for 24 hours?",
+    "options": {
+      "A": "On-Demand Instances",
+      "B": "Reserved Instances",
+      "C": "Spot Instances",
+      "D": "Dedicated Instances"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 215,
+    "question": "A system needs to store static files (images, CSS, JavaScript) for a public website, with high scalability and CDN integration. Which solution is the best?",
+    "options": {
+      "A": "EBS",
+      "B": "EFS",
+      "C": "S3 + CloudFront",
+      "D": "Instance Store"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 216,
+    "question": "What is the maximum number of instances per Availability Zone allowed in a Spread Placement Group?",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "Based on developerâ€™s settings"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 217,
+    "question": "A company needs to run a batch processing job. This task can be abruptly interrupted and resumed later without causing errors or affecting the final result. Which Amazon EC2 pricing model will provide the lowest cost for the company in this scenario?",
+    "options": {
+      "A": "On-Demand Instances",
+      "B": "Spot Instances",
+      "C": "Reserved Instances",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 218,
+    "question": "What is the default termination behavior for the root EBS volume when an EC2 instance is terminated?",
+    "options": {
+      "A": "It is kept and must be manually deleted.",
+      "B": "It is automatically backed up to a snapshot, then deleted.",
+      "C": "It is automatically deleted.",
+      "D": "It is moved to the Recycle Bin."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 219,
+    "question": "An e-commerce website frequently experiences unpredictable spikes in traffic. Which of the following architectures combines two AWS services to automatically increase the number of servers during high load and evenly distribute incoming traffic across them?",
+    "options": {
+      "A": "AWS Lambda and Amazon Route 53",
+      "B": "Amazon CloudFront and Amazon S3",
+      "C": "Amazon EC2 Auto Scaling and Elastic Load Balancing (ELB)",
+      "D": "AWS Elastic Beanstalk and Amazon RDS"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 220,
+    "question": "An engineer notices that Amazon EFS has higher latency than Amazon EBS when running database workloads. What is the main reason?",
+    "options": {
+      "A": "Amazon EFS does not use SSDs",
+      "B": "Amazon EFS is a network file system",
+      "C": "Amazon EFS is object storage",
+      "D": "Amazon EFS does not support caching"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 221,
+    "question": "Which EBS volume type provides the lowest-cost storage option and is designed specifically for infrequently accessed data?",
+    "options": {
+      "A": "Provisioned IOPS SSD (io1/io2)",
+      "B": "Throughput Optimized HDD (st1)",
+      "C": "General Purpose SSD (gp2/gp3)",
+      "D": "Cold HDD (sc1)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 222,
+    "question": "A developer wants to automatically run a code script to compress an image immediately every time a user uploads a new image to Amazon S3. They only want to pay for the exact compute time the code consumes and do not want to provision, configure, or manage any servers. Which compute service is best suited for this requirement?",
+    "options": {
+      "A": "Amazon EC2",
+      "B": "Amazon ECS",
+      "C": "AWS Elastic Beanstalk",
+      "D": "AWS Lambda"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 223,
+    "question": "A developer wants to increase the CPU power for an AWS Lambda function. Which configuration change is required to achieve this?",
+    "options": {
+      "A": "Switch the Lambda execution environment to a dedicated EC2 instance.",
+      "B": "Enable â€™Turbo Modeâ€™ in the Lambda configuration.",
+      "C": "Increase the Memory (RAM) allocated to the function.",
+      "D": "Update the CPU allocation setting in the Lambda Console."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 224,
+    "question": "In order to use the EC2 Hibernate feature, which requirement must be met for the root volume?",
+    "options": {
+      "A": "The root volume must be stored on an Instance Store.",
+      "B": "The root volume must be an encrypted Amazon EBS volume.",
+      "C": "The root volume must be detached before hibernating.",
+      "D": "The root volume must be backed by an EFS file system."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 225,
+    "question": "Your company is planning to migrate its microservices architecture, currently packaged as Docker containers, to AWS. The technical team wants to use a fully managed container orchestration service that natively supports the open-source Kubernetes engine. Which service should they choose?",
+    "options": {
+      "A": "Amazon Elastic Container Service (Amazon ECS)",
+      "B": "Amazon Elastic Kubernetes Service (Amazon EKS)",
+      "C": "AWS Fargate",
+      "D": "AWS Elastic Beanstalk"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Containers & Serverless",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 226,
+    "question": "Which Amazon EC2 purchasing option is best suited for a 24/7 database workload with a predictable traffic pattern for the next 3 years?",
+    "options": {
+      "A": "On-Demand Instances",
+      "B": "Dedicated Hosts",
+      "C": "Spot Instances",
+      "D": "Reserved Instances (RI)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 227,
+    "question": "A company is designing a shared storage solution for a containerized application running on multiple Amazon EC2 instances across different Availability Zones. The application requires a POSIX-compliant file system with automatic scaling and high availability. Which solution is the most appropriate?",
+    "options": {
+      "A": "Use Amazon EBS volumes and attach them to all EC2 instances across Availability Zones",
+      "B": "Use Amazon EFS and mount it on all EC2 instances",
+      "C": "Store data in Amazon S3 and access it using the S3 API",
+      "D": "Use instance store volumes for shared storage"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 228,
+    "question": "A company is looking for a storage solution that can store a vast amount of unstructured data, such as images and videos. Each item must be stored with a unique identifier and descriptive metadata. Which storage type should they use?",
+    "options": {
+      "A": "Block Storage",
+      "B": "File Storage",
+      "C": "Object Storage",
+      "D": "Single Disk Storage"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 229,
+    "question": "A company needs to store large volumes of AI training datasets (images and text files) that are accessed frequently during model training. The solution must scale to petabytes, minimize cost, and require no strict schema. Which AWS storage service best fits this requirement?",
+    "options": {
+      "A": "Amazon EBS (gp3 volume)",
+      "B": "Amazon EFS Standard",
+      "C": "Amazon S3 Standard",
+      "D": "Amazon RDS on EBS"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 230,
+    "question": "Compared to a Single Disk Storage, which of the following is a key characteristic of a Distributed Storage System (Max Scale)?",
+    "options": {
+      "A": "Lowest Durability and High Speed",
+      "B": "Very High Durability and Very High Throughput",
+      "C": "Low Cost and Limited Throughput",
+      "D": "Low Latency and High Speed"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 231,
+    "question": "Which OSI layer does the Application Load Balancer (ALB) operate at in AWS Structure ?",
+    "options": {
+      "A": "Layer 3",
+      "B": "Layer 4",
+      "C": "Layer 7",
+      "D": "Layer 2"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Load Balancing & Scaling",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 232,
+    "question": "A developer is building a real-time AI recommendation system. They need a storage layer that ensures the data used for training is the same as the data used for serving (consistency) and requires low latency for instant predictions. Which storage layer should they use?",
+    "options": {
+      "A": "Raw Data Storage",
+      "B": "Feature Storage",
+      "C": "Metadata Storage",
+      "D": "Model Storage"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 233,
+    "question": "A data engineering team uploads log files to Amazon S3. The logs are actively analyzed for the first 30 days, rarely accessed from day 31â€“90, and must be archived cheaply from day 91 onward. Which feature of Amazon S3 automates this storage class transition?",
+    "options": {
+      "A": "S3 Replication Rules",
+      "B": "S3 Lifecycle Rules",
+      "C": "S3 Bucket Versioning",
+      "D": "S3 Access Points"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 234,
+    "question": "A developer is running a temporary test environment where Low Cost and Low Latency (High Speed) are the top priorities. Data loss is not a concern for this specific task. Which storage type should they choose?",
+    "options": {
+      "A": "Storage Cluster",
+      "B": "Distributed Storage System",
+      "C": "Single Disk Storage",
+      "D": "Object Storage"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 235,
+    "question": "A big data analytics platform requires Very High Throughput to process massive datasets and Very High Durability to ensure no data is ever lost. They can tolerate higher latency (slower response time). Which storage is most suitable?",
+    "options": {
+      "A": "Single Disk Storage",
+      "B": "Distributed Storage System (Max Scale)",
+      "C": "Block Storage",
+      "D": "Local Storage"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 236,
+    "question": "An AI startup stores 500 TB of raw training data in an S3 bucket. The data is accessed frequently for the first 30 days, but after that, the access pattern becomes unpredictableâ€”some files are never touched again, while others are needed randomly for re-training. Which S3 storage strategy offers the best balance between cost-optimization and performance without manual intervention?",
+    "options": {
+      "A": "S3 Standard-IA with a lifecycle policy to move data after 30 days.",
+      "B": "S3 One Zone-IA.",
+      "C": "S3 Glacier Deep Archive.",
+      "D": "S3 Intelligent-Tiering."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 237,
+    "question": "Which of the following storage options provides High Durability and High Throughput while maintaining Normal Latency (Medium Speed)?",
+    "options": {
+      "A": "Single Disk Storage",
+      "B": "Distributed Storage System",
+      "C": "Storage Cluster",
+      "D": "Tape Drive Storage"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 238,
+    "question": "A startup is building a distributed ML training cluster where multiple EC2 instances across different Availability Zones must simultaneously read from a shared dataset. Which AWS storage service is most appropriate?",
+    "options": {
+      "A": "Amazon EBS io2",
+      "B": "Amazon S3 Glacier",
+      "C": "Amazon EBS gp3",
+      "D": "Amazon EFS"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 239,
+    "question": "A student is reviewing AWS storage services. He learns that one service is designed to store data as objects in a flat structure, supports REST API access, and is highly scalable and durable for storing large datasets such as logs, backups, and AI training data. Which AWS service is being described?",
+    "options": {
+      "A": "Amazon S3 provides object storage with high scalability and durability.",
+      "B": "Amazon EBS provides block storage attached to EC2 for low latency workloads.",
+      "C": "Amazon EFS provides shared file storage for multiple EC2 instances.",
+      "D": "Amazon EC2 provides virtual servers for running applications."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 240,
+    "question": "Your image data uploaded to S3 is frequently accessed during the first 30 days, then access gradually declines, and after 90 days, it is rarely used. You want to automate the transition of this data from S3 Standard to cheaper storage classes. Which feature should you use?",
+    "options": {
+      "A": "S3 Replication Rules",
+      "B": "S3 Lifecycle Rules",
+      "C": "EBS Snapshots",
+      "D": "EFS Infrequent Access"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 241,
+    "question": "In the structure of an object in object storage, which component contains descriptive information such as Content-Type and other custom attributes?",
+    "options": {
+      "A": "Unique ID",
+      "B": "Metadata",
+      "C": "Data",
+      "D": "Storage Pool"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 242,
+    "question": "In the architecture of an Object Storage system (like Amazon S3), what is the primary characteristic of its addressing system compared to traditional file systems?",
+    "options": {
+      "A": "It uses a nested directory tree with file paths.",
+      "B": "It uses a flat address space where each object has a unique identifier.",
+      "C": "It organizes data into fixed-size 4KB blocks with physical addresses.",
+      "D": "It relies on a Master Boot Record (MBR) to locate data across clusters."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 243,
+    "question": "In the context of AI systems, what is a key requirement for â€™Raw Data Storageâ€™?",
+    "options": {
+      "A": "Extremely low latency for real-time inference.",
+      "B": "Massive scalability from TB -> PB and low cost.",
+      "C": "Strict schema enforcement and relational consistency.",
+      "D": "Frequent partial edits to individual data blocks."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 244,
+    "question": "A startup is building an AI data lake to store raw datasets, processed outputs, model artifacts, and logs. The team wants virtually unlimited scalability, high durability, low-cost storage, and API-based access for cloud-native applications. Which AWS storage service is the best fit?",
+    "options": {
+      "A": "Amazon EBS",
+      "B": "Amazon EFS",
+      "C": "Amazon S3",
+      "D": "EC2 Instance Store"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 245,
+    "question": "A company stores compliance audit logs in Amazon S3. The logs are accessed only once or twice per year for regulatory review. The company wants to minimize storage costs while maintaining data durability. Which S3 storage class is MOST cost-effective for this use case?",
+    "options": {
+      "A": "S3 Glacier Deep Archive",
+      "B": "S3 Standard",
+      "C": "S3 Standard-IA",
+      "D": "S3 Intelligent-Tiering"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 246,
+    "question": "A developer configures a lifecycle rule on an Amazon S3 bucket to transition objects to Amazon S3 Glacier after 60 days. What will happen when objects reach 60 days?",
+    "options": {
+      "A": "Objects are automatically deleted and permanently removed from the bucket storage.",
+      "B": "Objects are automatically moved to Glacier and become cheaper but slower to access.",
+      "C": "Objects are copied to Glacier while the original objects remain unchanged in S3.",
+      "D": "Objects are compressed and stored in the same storage class with reduced cost."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 247,
+    "question": "A machine learning team runs training jobs on multiple Amazon EC2 instances across different Availability Zones, and all instances must read and update the same shared dataset using a standard file system interface without managing storage capacity manually. Which AWS storage service is the most appropriate?",
+    "options": {
+      "A": "Amazon S3",
+      "B": "Amazon EFS",
+      "C": "Amazon EBS",
+      "D": "Amazon S3 Glacier Deep Archive"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 248,
+    "question": "A company applies a lifecycle rule to transition objects to Amazon S3 Glacier after 90 days and to delete them after 365 days. What is the expected outcome?",
+    "options": {
+      "A": "Objects remain in S3 Standard and only metadata is moved to Glacier after 90 days.",
+      "B": "Objects are archived in Glacier and cannot be deleted after the lifecycle policy is applied.",
+      "C": "Objects are moved to Glacier after 90 days and automatically deleted after 365 days",
+      "D": "Objects are duplicated into Glacier and the original objects remain until deleted manually"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 249,
+    "question": "A company is designing a data pipeline where raw CSV logs are ingested daily. After 30 days, these logs are rarely accessed but must be retained for 3 years for regulatory compliance. If an audit occurs, the logs must be retrievable immediately without a restore step. What is the most cost-effective Amazon S3 Lifecycle configuration?",
+    "options": {
+      "A": "Keep the objects in S3 Standard for 3 years, then expire them.",
+      "B": "Transition the objects to S3 Standard-IA after 30 days, then transition them to S3 Glacier Flexible Retrieval after 3 years.",
+      "C": "Transition the objects to S3 Standard-IA after 30 days, then expire them after 1,095 days (3 years).",
+      "D": "Transition the objects to S3 Glacier Instant Retrieval after 30 days, then expire them after 3 years."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 250,
+    "question": "A developer needs block storage for an EC2 instance running a relational database requiring consistent sub-millisecond latency and more than 80,000 IOPS. Which Amazon EBS volume type should be selected?",
+    "options": {
+      "A": "st1 (Throughput Optimized HDD)",
+      "B": "gp2 (General Purpose SSD)",
+      "C": "sc1 (Cold HDD)",
+      "D": "io2 Block Express (Provisioned IOPS SSD)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 251,
+    "question": "Why is Amazon Glacier considered unsuitable for active Machine Learning (ML) training tasks?",
+    "options": {
+      "A": "It has extremely high latency that prevents timely data access.",
+      "B": "It is too expensive for large datasets.",
+      "C": "It lacks the durability required for training datasets.",
+      "D": "It cannot store unstructured data like images or video."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 252,
+    "question": "What is an AMI (Amazon Machine Image) used for?",
+    "options": {
+      "A": "Monitoring EC2 performance",
+      "B": "Storing backups of databases",
+      "C": "Launching EC2 instances with predefined configurations",
+      "D": "Encrypting EC2 data"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 253,
+    "question": "What is the main purpose of EC2 User Data?",
+    "options": {
+      "A": "Store user credentials",
+      "B": "Run scripts during instance startup",
+      "C": "Monitor CPU usage",
+      "D": "Assign IP addresses"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 254,
+    "question": "Which EC2 instance type is best suited for memory-intensive workloads like large databases?",
+    "options": {
+      "A": "Memory Optimized",
+      "B": "Compute Optimized",
+      "C": "General Purpose",
+      "D": "Storage Optimized"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 255,
+    "question": "Which statement about Elastic IP (EIP) is correct?",
+    "options": {
+      "A": "It changes every time the instance restarts",
+      "B": "It is a private IP address",
+      "C": "It can only be used within a VPC",
+      "D": "It is a static public IPv4 address"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 256,
+    "question": "What is a key characteristic of Amazon EBS?",
+    "options": {
+      "A": "Data is lost when the instance stops",
+      "B": "It is shared across multiple instances by default",
+      "C": "It provides persistent block storage",
+      "D": "It only works with serverless services"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 257,
+    "question": "Which EC2 pricing option provides the lowest cost but can be interrupted?",
+    "options": {
+      "A": "On-Demand Instances",
+      "B": "Dedicated Hosts",
+      "C": "Reserved Instances",
+      "D": "Spot Instances"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 258,
+    "question": "You successfully push a new Docker image tagged v2.0 to Amazon ECR, but your website still runs the old v1.0 code. You verify the v2.0 image is physically present in the ECR repository. What should you do to run your new v2.0 Docker Image to your website?",
+    "options": {
+      "A": "Restart Run the Docker Image with v2.0 tag in Amazon ECR.",
+      "B": "Update the Amazon ECS Task Definition to point to the v2.0 tag.",
+      "C": "Increase the storage quota for the Amazon ECR registry.",
+      "D": "Wait for Amazon ECR to automatically deploy the image to the servers."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 259,
+    "question": "A research intern needs to process a short video dataset that is â€™interrupt-tolerantâ€™. Which purchasing model would minimize costs for this non-critical task?",
+    "options": {
+      "A": "Reserved Instances",
+      "B": "Spot Instances",
+      "C": "On-Demand Instances",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 260,
+    "question": "What does horizontal scaling (scale out) mean?",
+    "options": {
+      "A": "Adding more instances to handle load",
+      "B": "Increasing CPU and RAM of one instance",
+      "C": "Reducing storage size",
+      "D": "Moving to a different region"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 261,
+    "question": "Which statement best describes AWS Lambda?",
+    "options": {
+      "A": "Requires manual server provisioning",
+      "B": "Runs continuously like EC2",
+      "C": "Executes code in response to events",
+      "D": "Only supports Java"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 262,
+    "question": "Which of the following workload types is least suited for Reserved Instances?",
+    "options": {
+      "A": "Long-term workloads",
+      "B": "Batch jobs",
+      "C": "Permanent workloads",
+      "D": "Non-changing workloads"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 263,
+    "question": "A European bank with a stable customer base needs a database server running 24/7. They need a specific EC2 configuration, want to save costs while ensuring high availability. Which EC2 pricing model is most appropriate?",
+    "options": {
+      "A": "On-Demand Instances",
+      "B": "Reserved Instances",
+      "C": "Savings Plans",
+      "D": "Spot Instances"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 264,
+    "question": "Which of the following is not a valid EC2 instance type?",
+    "options": {
+      "A": "Data Lake Optimized",
+      "B": "General Purpose",
+      "C": "Compute Optimized",
+      "D": "Memory Optimized"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 265,
+    "question": "A development team has multiple Linux-based EC2 instances across different Availability Zones that need concurrent read/write access to a shared, POSIX-compliant file system. The solution must be highly available, automatically scale, and require no management of underlying servers. Which storage service is the most appropriate?",
+    "options": {
+      "A": "Amazon Elastic Block Store (Amazon EBS)",
+      "B": "Amazon Elastic File System (Amazon EFS)",
+      "C": "Amazon FSx for Windows File Server",
+      "D": "Amazon S3"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 266,
+    "question": "What is statement is WRONG about EBS and EFS file systems?",
+    "options": {
+      "A": "EFS works across multiple AZs.",
+      "B": "EBS can be mounted by only one EC2 instance.",
+      "C": "Both are only compatible with Linux-based AMIs.",
+      "D": "EFS can be mounted by multiple EC2 instances simultaneously."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 267,
+    "question": "A company plans to host its database on one or more EC2 instances to store persistent transaction data. Which storage option is not suitable for this use case?",
+    "options": {
+      "A": "Elastic File System",
+      "B": "Instance Store",
+      "C": "Elastic Block Store",
+      "D": "nan"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 268,
+    "question": "Which AWS service provides virtual servers in the cloud?",
+    "options": {
+      "A": "Amazon S3",
+      "B": "Amazon EC2",
+      "C": "AWS Lambda",
+      "D": "Amazon RDS"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 269,
+    "question": "A company is building an application on AWS. The application stores: - Website images and video files that need to be accessed over the internet, - A database running on one EC2 instance that requires low-latency block storage, - Shared application files that must be accessed by multiple EC2 instances at the same time. Which combination of AWS storage services is the most appropriate?",
+    "options": {
+      "A": "Use Amazon EBS for website images, Amazon S3 for the database, and Amazon EFS for shared files",
+      "B": "Use Amazon S3 for website images and video files, Amazon EBS for the database, and Amazon EFS for shared files",
+      "C": "Use Amazon EFS for website images and video files, Amazon S3 for the database, and Amazon EBS for shared files",
+      "D": "Use Amazon S3 for website images and video files, Amazon EFS for the database, and Amazon EBS for shared files"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 270,
+    "question": "Your ML classification model is now in production. It serves a global user base with a stable, predictable baseline of traffic 24/7. Your primary goal is to minimize long-term operating costs (OPEX) over the next three years. Which combination of AWS features should you choose?",
+    "options": {
+      "A": "EC2 Spot Instances using the T-family (General Purpose burstable).",
+      "B": "EC2 Reserved Instances using the Inf2-family (Compute Optimized)",
+      "C": "AWS Lambda triggered by API Gateway.",
+      "D": "EC2 Reserved Instances using the G-family (Accelerated Computing)"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 271,
+    "question": "A company stores backup files that are accessed infrequently (about once every 3â€“6 months) but must be available in milliseconds when needed for compliance audits. The data is missioncritical and should remain highly durable across multiple Availability Zones. The team wants to minimize storage costs without sacrificing immediate access or high availability. Which Amazon S3 storage class is the most appropriate choice for these backups?",
+    "options": {
+      "A": "S3 Standard",
+      "B": "S3 Intelligent-Tiering",
+      "C": "S3 Standard-Infrequent Access (S3 Standard-IA)",
+      "D": "S3 Glacier Instant Retrieval"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 272,
+    "question": "A company with no remote offices wants to host an internal website that is used only during business hours. Which EC2 purchasing option is most suitable?",
+    "options": {
+      "A": "On-Demand",
+      "B": "Reserved Instances",
+      "C": "Spot Instances",
+      "D": "Savings Plans"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 273,
+    "question": "Which EC2 Placement Group type is best for applications that require very low latency between instances?",
+    "options": {
+      "A": "Spread",
+      "B": "Cluster",
+      "C": "Partition",
+      "D": "Regional"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 274,
+    "question": "A batch processing application is highly fault-tolerant and can be paused and restarted later without affecting the results. Which Amazon EC2 instance purchasing option provides the most cost savings (up to 90",
+    "options": {
+      "A": "A. Spot Instances",
+      "B": "B. On-Demand Instances",
+      "C": "C. Dedicated Hosts",
+      "D": "D. Reserved Instances"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 275,
+    "question": "What is the default behavior of an EBS root volume when an EC2 instance is terminated?",
+    "options": {
+      "A": "It is moved to another instance",
+      "B": "It is deleted automatically",
+      "C": "It is archived to Amazon Glacier",
+      "D": "It remains and must be deleted manually"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 276,
+    "question": "A web system is deployed using an Application Load Balancer and Auto Scaling Group across multiple Availability Zones. What is the primary purpose of this architecture?",
+    "options": {
+      "A": "Reduce operational cost",
+      "B": "Increase availability and prevent downtime",
+      "C": "Improve EC2 CPU performance",
+      "D": "Reduce storage usage"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 277,
+    "question": "A financial services company has a workload that runs continuously 24/7 for the next 3 years with a fixed instance type and region. The company wants to minimize cost while ensuring the instance is never interrupted. Which purchasing option provides the GREATEST discount under these conditions?",
+    "options": {
+      "A": "EC2 Spot Instance",
+      "B": "EC2 Reserved Instance with All Upfront payment on a 3-year term",
+      "C": "EC2 On-Demand Instance",
+      "D": "EC2 Reserved Instance with No Upfront payment on a 1-year term"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 278,
+    "question": "In the lab, why does the Web Server Security Group only allow traffic from the ALB, instead of allowing public access (0.0.0.0/0)?",
+    "options": {
+      "A": "To improve system performance",
+      "B": "To reduce costs",
+      "C": "To enhance security by preventing direct internet access",
+      "D": "Because ALB does not support public traffic"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 279,
+    "question": "You want to automatically install a Web Server as soon as the EC2 instance is finished launching for the first time. Which feature should you use?",
+    "options": {
+      "A": "EC2 Metadata",
+      "B": "Amazon Machine Image (AMI)",
+      "C": "EC2 User Data",
+      "D": "Elastic Network Interface (ENI)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 280,
+    "question": "If EC2 CPU utilization exceeds 50",
+    "options": {
+      "A": "EC2 instances will be terminated",
+      "B": "Auto Scaling Group will launch additional instances",
+      "C": "The Load Balancer will stop working",
+      "D": "Security Groups will automatically change"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 281,
+    "question": "What is the main difference between a Public IP and an Elastic IP on AWS?",
+    "options": {
+      "A": "An Elastic IP can be remapped from one instance to another, whereas a Public IP cannot.",
+      "B": "A Public IP can only be used within a VPC, while an Elastic IP is used on the Internet.",
+      "C": "A Public IP is fixed, while an Elastic IP changes every time the instance reboots.",
+      "D": "There is no functional difference."
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 282,
+    "question": "What is the greatest benefit of using â€™Hibernateâ€™ compared to a normal instance â€™Stopâ€™?",
+    "options": {
+      "A": "Data in the Instance Store will be preserved.",
+      "B": "Saves on EBS storage costs.",
+      "C": "No need to encrypt the Root volume.",
+      "D": "Applications can resume from their previous running state (in-memory state)."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 283,
+    "question": "A financial services company needs to retain its data for 10 years to meet compliance norms. Which Amazon Simple Storage Service (Amazon S3) storage class is the best fit for this use case considering that the data has to be stored at a minimal cost?",
+    "options": {
+      "A": "Amazon S3 Standard-Infrequent Access (S3 Standard-IA)",
+      "B": "Amazon S3 Glacier Flexible Retrieval",
+      "C": "Amazon S3 Intelligent-Tiering",
+      "D": "Amazon S3 Glacier Deep Archive"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 284,
+    "question": "An e-commerce company has its on-premises data storage on an NFS file system that is accessed in parallel by multiple applications. The company is looking at moving the applications and data stores to AWS Cloud. Which storage service should the company use to move their files to AWS Cloud seamlessly if the application is hosted on Amazon Elastic Compute Cloud (Amazon EC2) instances?",
+    "options": {
+      "A": "Amazon Simple Storage Service (Amazon S3)",
+      "B": "Amazon Elastic Block Store (Amazon EBS)",
+      "C": "Amazon Elastic File System (Amazon EFS)",
+      "D": "AWS Storage Gateway"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Deployment Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 285,
+    "question": "When using EBS Multi-Attach (io1/io2 family only), how many EC2 instance(s) can it support?",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "16",
+      "D": "All of the above"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 286,
+    "question": "Which of the following Amazon Simple Storage Service (Amazon S3) storage classes has NO constraint of a minimum storage duration charge for objects?",
+    "options": {
+      "A": "Amazon S3 Standard-Infrequent Access (S3 Standard-IA)",
+      "B": "Amazon S3 Glacier Flexible Retrieval",
+      "C": "Amazon S3 Standard",
+      "D": "Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 287,
+    "question": "A compliance team requires that a copy of all S3 objects in a critical bucket be maintained in another AWS Region to protect against regional disasters. The copy must occur automatically when new objects are created. Which feature should you configure?",
+    "options": {
+      "A": "S3 Lifecycle transition to Glacier Deep Archive in the same Region",
+      "B": "Amazon EFS asynchronous replication between Regions",
+      "C": "S3 Cross-Region Replication (CRR) on the bucket",
+      "D": "EBS snapshot copy from the primary Region to the secondary Region"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 288,
+    "question": "You manage an S3 bucket storing log files that grow quickly. Older logs (over 90 days) are rarely accessed, but must remain immediately retrievable when needed. How should you configure storage classes using lifecycle policies?",
+    "options": {
+      "A": "Store all logs in S3 Glacier Deep Archive to minimize cost",
+      "B": "Immediately transition logs to S3 One Zone-IA upon upload",
+      "C": "Delete logs after 90 days using lifecycle expiration",
+      "D": "Transition objects to S3 Standard-IA after 90 days and keep them there"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 289,
+    "question": "A company wants to build a system that allows users to upload files, processes the files immediately after upload, and does not require managing servers. Which architecture is the MOST appropriate?",
+    "options": {
+      "A": "Amazon EC2 with Amazon EBS",
+      "B": "Amazon S3 with AWS Lambda trigger",
+      "C": "Amazon EFS with Amazon EC2",
+      "D": "Amazon RDS with AWS Lambda"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 290,
+    "question": "An application experiences spiky traffic during peak hours, has almost no traffic at night, and needs to optimize cost. Which compute solution is MOST appropriate?",
+    "options": {
+      "A": "Amazon EC2 On-Demand",
+      "B": "Amazon EC2 Reserved Instances",
+      "C": "AWS Lambda",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 291,
+    "question": "An application needs storage that can be attached directly to an EC2 instance like a disk. Which service should be used?",
+    "options": {
+      "A": "Amazon S3",
+      "B": "Amazon EFS",
+      "C": "Amazon EBS",
+      "D": "Amazon S3 Glacier"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 292,
+    "question": "A global web application needs to store static content and reduce latency for users worldwide. Which solution is MOST appropriate?",
+    "options": {
+      "A": "Amazon EC2 with Amazon EBS",
+      "B": "Amazon S3 with Amazon CloudFront",
+      "C": "Amazon EFS with Application Load Balancer",
+      "D": "Amazon RDS with Amazon Route 53"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 293,
+    "question": "A system needs to store data long-term at low cost with infrequent access. Which solution is MOST appropriate?",
+    "options": {
+      "A": "Amazon S3 Standard",
+      "B": "Amazon S3 Glacier",
+      "C": "Amazon EBS",
+      "D": "Amazon EFS"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 294,
+    "question": "What is Amazon EC2?",
+    "options": {
+      "A": "A database service for storing structured data",
+      "B": "A scalable virtual server service in the cloud (IaaS)",
+      "C": "A tool for designing websites only",
+      "D": "A physical data center owned by users"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 295,
+    "question": "What is an AMI (Amazon Machine Image)?",
+    "options": {
+      "A": "A backup file stored in S3",
+      "B": "A preconfigured template used to launch EC2 instances",
+      "C": "A networking protocol",
+      "D": "A monitoring tool only"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 296,
+    "question": "What does EC2 User Data allow you to do?",
+    "options": {
+      "A": "Store files permanently",
+      "B": "Automatically run scripts when the instance starts",
+      "C": "Change instance type after launch",
+      "D": "Delete EC2 instances automatically"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 297,
+    "question": "What is the main purpose of Security Groups in EC2?",
+    "options": {
+      "A": "Store application logs",
+      "B": "Control network traffic to and from EC2 instances",
+      "C": "Increase CPU performance",
+      "D": "Backup EC2 instances"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 298,
+    "question": "What is an Elastic IP (EIP)?",
+    "options": {
+      "A": "A dynamic IP that changes frequently",
+      "B": "A static public IPv4 address provided by AWS",
+      "C": "A private IP inside VPC",
+      "D": "A DNS service"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 299,
+    "question": "Which AWS service allows you to run code in response to events without provisioning or managing any servers, and charges you only for the compute time you consume?",
+    "options": {
+      "A": "AWS Elastic Beanstalk",
+      "B": "Amazon ECS",
+      "C": "Amazon EC2",
+      "D": "AWS Lambda"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 300,
+    "question": "Which AWS service provides resizable compute capacity in the cloud, allowing you to launch virtual servers?",
+    "options": {
+      "A": "Amazon VPC",
+      "B": "Amazon S3",
+      "C": "Amazon RDS",
+      "D": "Amazon EC2"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 301,
+    "question": "A company has a steady-state, predictable workload that will run continuously for the next 3 years. Which Amazon EC2 pricing model provides the most cost-effective solution?",
+    "options": {
+      "A": "Reserved Instances",
+      "B": "Spot Instances",
+      "C": "Dedicated Hosts",
+      "D": "On-Demand Instances"
+    },
+    "answer": [
+      "A"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 302,
+    "question": "According to the architectural concepts of storage systems, which type of storage stores data in a flat address space, utilizes rich metadata, and is accessed primarily via REST APIs",
+    "options": {
+      "A": "File Storage",
+      "B": "Object Storage",
+      "C": "Block Storage",
+      "D": "Single-Disk Storage"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 303,
+    "question": "You are designing a system for big data processing and data warehousing that requires high sequential throughput. You need a low-cost EBS volume type, and it will NOT be used as a boot volume. Which EBS volume type is the most appropriate",
+    "options": {
+      "A": "Cold HDD(s1)",
+      "B": "General purpose SSD(gp3)",
+      "C": "Object Storage",
+      "D": "Throughput Optimized SSD(st1)"
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 304,
+    "question": "Which kind of storage is the most relevant for normal latency and high durability",
+    "options": {
+      "A": "Distributed Storage System",
+      "B": "Spot Instances",
+      "C": "Storage Cluster",
+      "D": "Single-Disk Storage"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 305,
+    "question": "Which of the following best describes an Availability Zone (AZ) in the AWS Global Infrastructure?",
+    "options": {
+      "A": "A single geographic area containing multiple AWS Regions.",
+      "B": "One or more discrete data centers with redundant power, cooling, and networking.",
+      "C": "A global network of edge locations used for content delivery.",
+      "D": "A virtual server environment used to host web applications."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 306,
+    "question": "A company wants to reduce latency for users by caching content (such as images or videos) closer to their geographic location. Which AWS component should they use?",
+    "options": {
+      "A": "AWS Regions.",
+      "B": "Availability Zones.",
+      "C": "Edge Locations.",
+      "D": "Backup Regions."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 307,
+    "question": "According to the Cloud Service Models, which model provides the most control to Network Architects and IT Administrators over the underlying infrastructure?",
+    "options": {
+      "A": "Software as a Service (SaaS).",
+      "B": "Platform as a Service (PaaS).",
+      "C": "Infrastructure as a Service (IaaS).",
+      "D": "Function as a Service (FaaS)."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Service Models",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 308,
+    "question": "Which service is a serverless, pay-as-you-go compute service that scales automatically based on incoming requests?",
+    "options": {
+      "A": "Amazon EC2",
+      "B": "AWS Lambda",
+      "C": "Amazon Lightsail",
+      "D": "AWS Outposts"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 309,
+    "question": "Which S3 feature allows you to automatically transition objects to a cheaper storage class after a certain period?",
+    "options": {
+      "A": "S3 Versioning",
+      "B": "S3 Replication",
+      "C": "S3 Lifecycle Policy",
+      "D": "S3 Transfer Acceleration"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 310,
+    "question": "Which of the following is a managed, elastic file system that supports the NFS protocol and allows multiple EC2 instances to access data simultaneously?",
+    "options": {
+      "A": "Amazon EBS.",
+      "B": "Amazon S3.",
+      "C": "Amazon EFS.",
+      "D": "Amazon S3 Glacier."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 311,
+    "question": "Which AWS service provides a managed registry for storing, managing, and deploying Docker container images?",
+    "options": {
+      "A": "Amazon ECS",
+      "B": "Amazon EKS",
+      "C": "Amazon ECR",
+      "D": "AWS App Runner"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Containers & Serverless",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 312,
+    "question": "Which storage type is characterized by a \"flat address space\"where data is stored as objects with unique IDs and rich metadata?",
+    "options": {
+      "A": "Block Storage.",
+      "B": "File Storage.",
+      "C": "Object Storage.",
+      "D": "Local Instance Store."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 313,
+    "question": "What can be used to create a point-in-time backup of an Amazon EBS volume and can be copied across different AWS Regions?",
+    "options": {
+      "A": "EBS Multi-attach.",
+      "B": "EBS Snapshots.",
+      "C": "S3 Lifecycle Rules.",
+      "D": "EFS Mount Targets."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 314,
+    "question": "Which storage option is best for low-latency database workloads?",
+    "options": {
+      "A": "S3",
+      "B": "Glacier",
+      "C": "EBS SSD",
+      "D": "EFS Infrequent Access"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 315,
+    "question": "For long-term backup with infrequent access, which service should you use?",
+    "options": {
+      "A": "S3 Standard",
+      "B": "EFS",
+      "C": "Glacier",
+      "D": "EBS"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Storage",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 316,
+    "question": "According to the AWS Shared Responsibility Model, which of the following is AWS responsible for?",
+    "options": {
+      "A": "Managing guest OS on EC2",
+      "B": "Securing physical data centers",
+      "C": "Configuring Security Groups",
+      "D": "Encrypting application data"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Shared Responsibility",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 317,
+    "question": "How many EC2 instances can an EBS volume be attached to at the same time?",
+    "options": {
+      "A": "Multiple instances",
+      "B": "One instance (except Multi-Attach)",
+      "C": "nan",
+      "D": "Unlimited"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 318,
+    "question": "In AWS infrastructure terminology, the ability of a system to continue functioning correctly even when some of its components fail is called:",
+    "options": {
+      "A": "Scalability.",
+      "B": "Consistency.",
+      "C": "Fault Tolerance.",
+      "D": "Decoupling."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Architecture & DR",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 319,
+    "question": "Which AWS S3 feature allows a user to define rules to move objects to cheaper storage classes or delete them after a specific number of days?",
+    "options": {
+      "A": "Bucket Versioning.",
+      "B": "Object Tags.",
+      "C": "Lifecycle Policies.",
+      "D": "Cross-Region Replication."
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "Global Infrastructure",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 320,
+    "question": "Which AWS service allows you to deploy applications without managing infrastructure but still gives access to underlying EC2 instances?",
+    "options": {
+      "A": "AWS Lambda",
+      "B": "AWS Elastic Beanstalk",
+      "C": "Amazon S3",
+      "D": "Amazon DynamoDB"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 321,
+    "question": "A company needs to store archive data that is accessed less than once a year but must be preserved for several years at the lowest possible cost. Which S3 storage class is best?",
+    "options": {
+      "A": "S3 Standard.",
+      "B": "S3 Intelligent-Tiering.",
+      "C": "S3 Glacier Instant Retrieval.",
+      "D": "S3 Glacier Deep Archive."
+    },
+    "answer": [
+      "D"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 322,
+    "question": "Which EC2 pricing model is best for fault-tolerant workloads with the lowest cost?",
+    "options": {
+      "A": "On-Demand.",
+      "B": "Reserved.",
+      "C": "Spot Instances",
+      "D": "Dedicated Hosts"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 323,
+    "question": "What is a key limitation of Amazon EBS compared to Amazon EFS regarding instance attachment?",
+    "options": {
+      "A": "EBS is object-based",
+      "B": "EFS only attaches to one instance",
+      "C": "EBS usually attaches to one instance at a time",
+      "D": "EFS is much slower"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 324,
+    "question": "What is the main benefit of using AWS Lambda?",
+    "options": {
+      "A": "Full control of OS.",
+      "B": "No need to manage servers.",
+      "C": "Unlimited compute power.",
+      "D": "Fixed pricing."
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "Cloud Fundamentals",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 325,
+    "question": "What happens to the data in an Instance Store if the associated EC2 instance is terminated?",
+    "options": {
+      "A": "Data is saved to S3",
+      "B": "Data is persistent",
+      "C": "Data is lost",
+      "D": "Data is moved to EBS"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 326,
+    "question": "Which AWS service is used for storing objects with high durability?",
+    "options": {
+      "A": "Amazon EC2",
+      "B": "Amazon S3",
+      "C": "Amazon RDS",
+      "D": "AWS Lambda"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 327,
+    "question": "Which of the following services can automatically scale EC2 instances based on demand?",
+    "options": {
+      "A": "AWS Lambda",
+      "B": "AWS Auto Scaling",
+      "C": "Amazon CloudWatch",
+      "D": "AWS IAM"
+    },
+    "answer": [
+      "B"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  },
+  {
+    "id": 328,
+    "question": "Where are Amazon EBS snapshots stored to ensure high durability and availability?",
+    "options": {
+      "A": "Inside the EC2 instance",
+      "B": "On an Instance Store",
+      "C": "In Amazon S3",
+      "D": "On a Tape Gateway"
+    },
+    "answer": [
+      "C"
+    ],
+    "topic": "EC2",
+    "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
+    "level": "NB"
+  }
+];

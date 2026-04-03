@@ -1,0 +1,577 @@
+ĐÁP ÁN & GIẢI THÍCH
+════════════════════════════════
+[Câu 1] Đáp án: A ✔ Tại sao đúng: Back-End là lớp hạ tầng nằm ở phía Data Center, bao gồm máy chủ,
+mạng, lưu trữ. ✘ Các đáp án khác sai: Front-End / Client là lớp giao diện nơi người dùng tương tác.
+[Câu 2] Đáp án: A ✔ Tại sao đúng: Điện toán lưới (Grid Computing) là tiền thân của Cloud, kết nối nhiều
+tài nguyên phân tán thành lưới để tính toán. ✘ Các đáp án khác sai: Local/Monolithic không đại diện cho
+tính phân tán kết nối.
+[Câu 3] Đáp án: A ✔ Tại sao đúng: Kết hợp giữa hạ tầng riêng (Private - ngân hàng) và nền tảng công
+cộng (Public - AWS) chính là Hybrid Cloud. ⚠ Lỗi sinh viên hay mắc: Dễ nhầm với Multi-cloud (dùng
+nhiều Public Cloud cùng lúc).
+[Câu 4] Đáp án: A ✔ Tại sao đúng: Yêu cầu sở hữu phần cứng riêng, cách ly tuyệt đối và do nội bộ quản
+lý là định nghĩa cốt lõi của Private Cloud.
+[Câu 5] Đáp án: A ✔ Tại sao đúng: Thuê tài nguyên qua internet của nhà cung cấp thứ ba, trả tiền theo
+giờ mà không đầu tư hạ tầng là đặc điểm Public Cloud.
+[Câu 6] Đáp án: A ✔ Tại sao đúng: AMI (Amazon Machine Image) cung cấp thông tin (OS, software) để
+khởi chạy máy ảo. ✘ Các đáp án khác sai: EBS là ổ cứng, IGW/SG thuộc về Networking.
+[Câu 7] Đáp án: A, B, D (Đáp án chuẩn theo phân loại của môn học) ✔ Tại sao đúng: Hardware
+Virtualization thường chia thành Host-based (Type 2), Hypervisor-based (Type 1) và kiến trúc Hybrid kết
+hợp cả hai.
+[Câu 8] Đáp án: A, B, C ✔ Tại sao đúng: Kiến trúc Type 1 (Hypervisor-based) gồm phần cứng
+(Hardware), lớp Hypervisor (VMM) đặt trực tiếp trên phần cứng, và trên cùng là các máy ảo (Guest OS).
+✘ Các đáp án khác sai: Không cần Host OS làm trung gian.
+[Câu 9] Đáp án: A, B, D ✔ Tại sao đúng: Đám mây được xây dựng nhờ Ảo hóa, Tính toán phân tán và
+Tự động hóa điều phối.
+[Câu 10] Đáp án: A ✔ Tại sao đúng: CloudWatch là dịch vụ duy nhất để giám sát các Metric (như CPU,
+RAM) và tạo Alarm trong danh sách thiết yếu. ✘ Các đáp án khác sai: IAM là bảo mật, VPC là mạng.
+[Câu 11] Đáp án: A ✔ Tại sao đúng: Hypervisor (VMM) là phần mềm lõi để phân chia CPU/RAM vật lý
+thành nhiều máy ảo độc lập.
+[Câu 12] Đáp án: A, B ✔ Tại sao đúng: Đặc thù của Hybrid Virtualization là lớp VMM/Hypervisor chạy
+song song cùng hệ điều hành chủ, cho phép cả Guest và Host OS can thiệp sâu vào tài nguyên phần
+cứng.
+[Câu 13] Đáp án: A ✔ Tại sao đúng: Public, Private, Hybrid là mô hình triển khai (Deployment). ⚠ Lỗi
+sinh viên hay mắc: Rất hay nhầm giữa mô hình triển khai (Public/Private) với mô hình dịch vụ
+(IaaS/PaaS/SaaS).
+
+[Câu 14] Đáp án: A ✔ Tại sao đúng: AWS Lambda cung cấp môi trường tính toán phi máy chủ
+(Serverless), bạn chỉ cần up code để chạy mà không cần cấu hình EC2.
+[Câu 15] Đáp án: A ✔ Tại sao đúng: IaaS (Infrastructure as a Service) cung cấp tầng hạ tầng gốc (Server
+ảo, Mạng, Ổ cứng). Các môi trường code (B) là PaaS, phần mềm (C) là SaaS.
+[Câu 16] Đáp án: A ✔ Tại sao đúng: PaaS (Platform as a Service) cung cấp sẵn nền tảng phần mềm, OS
+và runtime, giúp dev chỉ tập trung deploy code.
+[Câu 17] Đáp án: A ✔ Tại sao đúng: Thuê một phần mềm hoàn chỉnh dùng qua web (như ứng dụng kho)
+là định nghĩa chuẩn của SaaS (Software as a Service).
+[Câu 18] Đáp án: A ✔ Tại sao đúng: CRM là ứng dụng hoàn thiện dùng ngay, người dùng không quản lý
+OS hay phần cứng, do đó nó là SaaS.
+[Câu 19] Đáp án: A ✔ Tại sao đúng: Môi trường có sẵn framework/development tools để phát triển ứng
+dụng thuộc về PaaS.
+[Câu 20] Đáp án: A ✔ Tại sao đúng: Lambda giấu đi lớp hạ tầng máy chủ ảo, cung cấp môi trường chạy
+code (Serverless), mang bản chất tương tự PaaS.
+[Câu 21] Đáp án: A ✔ Tại sao đúng: Họp trực tuyến qua web là một phần mềm dịch vụ hoàn chỉnh
+(SaaS).
+[Câu 22] Đáp án: A ✔ Tại sao đúng: Phát biểu A sai vì Public Cloud đặt server tại data center của nhà
+cung cấp (AWS), KHÔNG đặt tại nội bộ khách hàng.
+[Câu 23] Đáp án: A ✔ Tại sao đúng: AWS cung cấp toàn diện IaaS (như EC2), PaaS (như Elastic
+Beanstalk/Lambda) và cả một số dịch vụ SaaS của riêng họ.
+[Câu 24] Đáp án: A ✔ Tại sao đúng: Phục vụ độc quyền cho một tổ chức và có sự cô lập cao là tính chất
+cốt lõi của Private Cloud.
+[Câu 25] Đáp án: A ✔ Tại sao đúng: Khi một hệ thống đám mây phục vụ chung cho một cộng đồng có
+cùng mục đích (như 5 trường đại học), nó là Community Cloud. ⚠ Lỗi sinh viên hay mắc: Dễ nhầm với
+Public Cloud do có "nhiều đơn vị" cùng dùng.
+[Câu 26] Đáp án: A ✔ Tại sao đúng: Type 1 Hypervisor (Bare-metal) cài trực tiếp lên phần cứng, KHÔNG
+chạy trên hệ điều hành có sẵn (Type 2 mới chạy trên Host OS). ✘ Các đáp án khác sai: Các vị trí B, C, D
+mô tả đúng bản chất của Type 1.
+[Câu 27] Đáp án: A ✔ Tại sao đúng: Ý tưởng ban đầu của Cloud xuất phát từ các máy mainframe chia sẻ
+tài nguyên tính toán từ xa thông qua các Job (Remote Job Entry).
+[Câu 28] Đáp án: A ✔ Tại sao đúng: Để bỏ qua quản trị OS và chỉ tập trung vào ứng dụng, PaaS (hoặc
+Serverless) là lựa chọn duy nhất.
+[Câu 29] Đáp án: A ✔ Tại sao đúng: Nhà cung cấp thứ ba sở hữu toàn bộ phần cứng và cho thuê qua
+Internet là định nghĩa của Public Cloud.
+[Câu 30] Đáp án: A ✔ Tại sao đúng: Amazon EC2 là xương sống của AWS Compute IaaS. Hệ thống API
+của EC2 mạnh đến mức các nền tảng open-source như Eucalyptus hay OpenStack đều mô phỏng theo
+chuẩn API này.
+[Câu 31] Đáp án: A ✔ Tại sao đúng: Chu trình quản lý dự án an toàn tiêu chuẩn bắt đầu bằng việc Lập
+kế hoạch (Planning), tiến hành Triển khai (Deployment), Đánh giá/Kiểm thử (Evaluation) và cuối cùng là
+Vận hành/Duy trì (Maintenance).
+[Câu 32] Đáp án: D ✔ Tại sao đúng: AWS sử dụng kết hợp nhiều lớp bảo vệ: vật lý (Sinh trắc học tại
+DC), lập trình (Access Key) và giao diện người dùng (MFA).
+[Câu 33] Đáp án: C ✔ Tại sao đúng: Việc kết nối hệ thống riêng (On-premises / Private Cloud) với môi
+trường đám mây công cộng (AWS VPC) thông qua Direct Connect chính là định nghĩa chuẩn của Hybrid
+Cloud (Đám mây lai).
+[Câu 34] Đáp án: C ✔ Tại sao đúng: Type 2 Hypervisor có 4 lớp cơ bản: Hardware (Phần cứng) -> Host
+OS (HĐH gốc như Windows) -> Hypervisor (VirtualBox) -> Guest OS (HĐH máy ảo).
+[Câu 35] Đáp án: B ✔ Tại sao đúng: Type 1 Hypervisor loại bỏ lớp HĐH trung gian, chỉ còn 3 lớp:
+Hardware (Phần cứng) -> Hypervisor -> Guest OS.
+[Câu 36] Đáp án: B ✔ Tại sao đúng: Đặc trưng của Cloud theo NIST là truy cập qua mạng, dùng chung
+tài nguyên (resource pooling), co giãn nhanh và tính phí theo thực tế (measured service).
+[Câu 37] Đáp án: C ✔ Tại sao đúng: NIST định nghĩa 5 đặc tính cốt lõi (On-demand self-service, Broad
+network access, Resource pooling, Rapid elasticity, Measured service).
+[Câu 38] Đáp án: A, B, C ✔ Tại sao đúng: Ảo hóa, Tính toán phân tán và Tự động hóa điều phối
+(Orchestration) là bộ 3 công nghệ xương sống của Cloud. Làm mát bằng nitơ lỏng là kỹ thuật vật lý,
+không phải công nghệ lõi của Cloud.
+[Câu 39] Đáp án: A, B ✔ Tại sao đúng: Máy ảo chia sẻ và tiêu thụ tài nguyên phần cứng vật lý, nhưng về
+mặt logic nó hoạt động cô lập và độc lập hoàn toàn với các máy ảo khác.
+[Câu 40] Đáp án: B ✔ Tại sao đúng: Năm 2006, AWS chính thức phát hành S3 và tiếp sau đó là EC2,
+mở ra kỷ nguyên điện toán đám mây công cộng hiện đại.
+[Câu 41] Đáp án: B ✔ Tại sao đúng: Ở IaaS, AWS chịu trách nhiệm "Security OF the Cloud" (Vật lý,
+Mạng lõi, Hypervisor). Khách hàng chịu trách nhiệm phần Hệ điều hành (cài patch, cấu hình SG, mã hóa
+dữ liệu).
+[Câu 42] Đáp án: A ✔ Tại sao đúng: Với EBS (IaaS block storage), AWS quản lý máy chủ vật lý chứa ổ
+đĩa. Khách hàng phải tự format, quản lý thư mục và thiết lập mã hóa dữ liệu.
+[Câu 43] Đáp án: A ✔ Tại sao đúng: AWS Management Console là tài nguyên thuộc hạ tầng dịch vụ gốc
+do AWS quản lý và bảo vệ. Các cấu hình bên trong tài khoản (VPC Route, Code ứng dụng, Password) là
+của khách hàng.
+[Câu 44] Đáp án: A, C ✔ Tại sao đúng: AWS chịu trách nhiệm cho kiến trúc Hypervisor để đảm bảo cô
+lập dữ liệu (Data isolation) và duy trì phần cứng (Hardware). Khách hàng quản lý MFA và khóa SSH.
+[Câu 45] Đáp án: A ✔ Tại sao đúng: Chuỗi logic đánh giá của IAM là:
+1. Mặc định từ chối (Default Deny).
+2. Kiểm tra Explicit Deny (Ưu tiên cao nhất - Deny).
+3. Kiểm tra Explicit Allow (Cho phép - Allow).
+4. Nếu có Allow hợp lệ thì Allow.
+5. Nếu không khớp bất kỳ chính sách nào thì quay lại Default Deny.
+[Câu 46] Đáp án: B, C ✔ Tại sao đúng: Trong cú pháp JSON của IAM Policy, Action định nghĩa hành
+động được làm (VD: s3:PutObject ), và Service Name / Resource định nghĩa đích đến. Effect
+quyết định Allow/Deny.
+[Câu 47] Đáp án: C ✔ Tại sao đúng: AWS định dạng toàn bộ các IAM Policy Documents bằng ngôn ngữ
+JSON (JavaScript Object Notation).
+[Câu 48] Đáp án: B, D ✔ Tại sao đúng: IAM quản lý quyền truy cập API của các dịch vụ AWS (như
+Launch EC2, Upload S3). ✘ Các đáp án khác sai: IAM không can thiệp vào bên trong hệ điều hành máy
+
+--- TRANG 13 ---
+ảo (Cấu hình Firewall OS) hay cấu trúc dữ liệu bên trong phần mềm do khách hàng tự cài (Database
+Schema trên EC2).
+[Câu 49] Đáp án: A, B, C ✔ Tại sao đúng: Để khóa tài khoản khẩn cấp, cần bảo vệ lớp cao nhất (Đổi mật
+khẩu Root + MFA, Giới hạn IP cho Root) và niêm phong lớp truy cập ủy quyền (Đổi mật khẩu IAM User).
+⚠ Lỗi sinh viên hay mắc: Chọn xóa hạ tầng (D) - việc này gây sập hệ thống doanh nghiệp, không phải
+cách xử lý bảo mật chuẩn.
+[Câu 50] Đáp án: A, B ✔ Tại sao đúng: Quản lý nhóm (Group + Managed Policy) hoặc gắn Policy riêng lẻ
+cho từng User là các thực hành cấp quyền IAM hợp lệ trên AWS. ✘ Các đáp án khác sai: Cấp tài khoản
+Root hoặc dùng chung 1 tài khoản vi phạm nghiêm trọng nguyên tắc bảo mật và truy xuất nguồn gốc
+(Non-repudiation).
+[Câu 51] Đáp án: B ✔ Tại sao đúng: IAM User không phải là người thật, mà là một thực thể danh tính
+(identity) được cấp thông tin xác thực (Credentials) để hệ thống AWS nhận diện và phân quyền.
+[Câu 52] Đáp án: A ✔ Tại sao đúng: Policy là cốt lõi của hệ thống cấp quyền AWS, được lưu dưới dạng
+tài liệu JSON quy định chính xác "Ai được làm gì với cái gì".
+[Câu 53] Đáp án: A, B, C ✔ Tại sao đúng: Để EC2 giao tiếp tự động với AWS Services khác, luồng thiết
+lập luôn là: Tạo Policy -> Gắn vào IAM Role -> Gắn Role cho EC2 Instance (Assume Role). Cơ chế này
+cung cấp thông tin xác thực tạm thời (Temporary Credentials).
+[Câu 54] Đáp án: A, B, C ✔ Tại sao đúng: Niêm phong Root, kích hoạt MFA cho admin, và bật kiểm toán
+CloudTrail là bộ 3 nguyên tắc sống còn khi khởi tạo tài khoản AWS chuẩn Enterprise.
+[Câu 55] Đáp án: A ✔ Tại sao đúng: Quản lý định danh (Identity) và cấp quyền truy cập (Access
+Management) là chức năng định nghĩa nên cái tên IAM.
+[Câu 56] Đáp án: A ✔ Tại sao đúng: Kiến trúc IAM xoay quanh 4 trụ cột: User (Người dùng cá nhân),
+Group (Nhóm quản lý User), Role (Vai trò với quyền tạm thời), và Policy (Luật phân quyền).
+[Câu 57] Đáp án: A, B, C ✔ Tại sao đúng: Tương tự câu 53, đây là luồng cấu hình Role bắt buộc (Tạo
+Policy -> Gắn vào Role -> Gắn Role vào EC2) để cấp quyền tự động.
+[Câu 58] Đáp án: A ✔ Tại sao đúng: Sử dụng IAM Role loại bỏ hoàn toàn việc phải lưu trữ Hard-coded
+Credentials. AWS tự động luân chuyển khóa bí mật (key rotation) cho EC2 thông qua Metadata endpoint.
+[Câu 59] Đáp án: A ✔ Tại sao đúng: Với dịch vụ IaaS (EC2, EBS), AWS chịu trách nhiệm bảo vệ cơ sở
+hạ tầng ảo hóa bên dưới. Khách hàng chịu trách nhiệm từ lớp Hệ điều hành, Ứng dụng đến Dữ liệu
+(Backup, Tối ưu hóa Database).
+[Câu 60] Đáp án: A ✔ Tại sao đúng: AWS IAM là dịch vụ duy nhất để tạo lập User, Group và áp đặt các
+quy định truy cập (Permissions) vào hệ thống AWS.
+Tôi đã thay đổi hoàn toàn bối cảnh sang các tình huống triển khai thực tế của các công ty Game, E-
+commerce, Fintech và Healthcare theo đúng quy tắc Bắt buộc.
+[Câu 61] Đáp án: B ✔ Tại sao đúng: Mỗi mạng con (Subnet) 10.1.x.0/24 có tổng 256 IP. AWS tự động
+giữ lại 5 IP cho các mục đích mạng nội bộ (Network IP, Router, DNS, Broadcast, dự trữ). Số IP khả dụng
+của 1 subnet là 256 - 5 = 251. Với 4 subnet: 251 * 4 = 1004. ⚠ Lỗi sinh viên hay mắc: Chọn 1024 vì quên
+trừ đi 5 địa chỉ IP dự trữ bắt buộc của AWS.
+[Câu 62] Đáp án: A ✔ Tại sao đúng: Khi tạo VPC, một Route Table mặc định luôn được sinh ra kèm theo
+một quy tắc tên là local route , cho phép mọi dải mạng trong VPC giao tiếp thông suốt với nhau.
+[Câu 63] Đáp án: A, B ✔ Tại sao đúng: Khối CIDR xác định quy mô mạng lưới và Region xác định vị trí
+vật lý là hai yếu tố gốc rễ phải chọn trước khi tạo bất kỳ VPC nào. ✘ Vì sao sai: Internet Gateway hay
+Route 53 là tùy chọn cài đặt sau.
+[Câu 64] Đáp án: A ✔ Tại sao đúng: Quy tắc local là thành phần lõi của VPC Router đảm bảo các
+subnet luôn nhìn thấy nhau. Quản trị viên không thể chỉnh sửa hay xóa bỏ quy tắc hệ thống này.
+[Câu 65] Đáp án: A ✔ Tại sao đúng: 0.0.0.0/0 đại diện cho toàn bộ các địa chỉ IPv4. Do đó Inbound từ
+0.0.0.0/0 mang ý nghĩa là cho phép truy cập công khai (Public) từ bất cứ đâu trên thế giới.
+[Câu 66] Đáp án: A ✔ Tại sao đúng: Để chống chịu được thiên tai quét qua một vùng lãnh thổ, kiến trúc
+phải phân tán ra tận cấp độ Multi-Region và Multi-AZ. ✘ Vì sao sai: Dùng một máy chủ to (B) hoặc đặt
+chung 1 Data Center (C, D) sẽ dẫn tới hiện tượng Điểm lỗi duy nhất (Single point of failure).
+[Câu 67] Đáp án: A ✔ Tại sao đúng: CloudFront là dịch vụ Mạng phân phối nội dung (CDN) bằng cách
+copy dữ liệu tĩnh mang đến đặt tại các Edge Locations sát vị trí khách hàng, giúp giảm triệt để độ trễ.
+[Câu 68] Đáp án: A ✔ Tại sao đúng: Security Group bọc quanh Network Interfaces (ENI) của từng máy
+chủ EC2. Trong khi đó, NACL hoạt động ở tầng ngoài rộng hơn (bọc quanh Subnet).
+[Câu 69] Đáp án: A, B ✔ Tại sao đúng: Lớp bảo vệ bao quanh máy chủ gọi là Security Group, lớp tường
+lửa rào quanh mạng con (Subnet) gọi là NACL. Đây là hai chốt chặn an ninh mạng kinh điển của VPC.
+[Câu 70] Đáp án: A ✔ Tại sao đúng: Internet Gateway (IGW) đóng vai trò là "cửa ngõ" logic kết nối mạng
+nội bộ VPC với mạng Internet ngoài. Dù có Public IP, nếu không có IGW, EC2 vẫn bị kẹt bên trong.
+[Câu 71] Đáp án: A, B ✔ Tại sao đúng: Tương tự câu 69, NACL và Security Group là hai quy tắc định
+nghĩa Allow/Deny luồng gói tin đi qua hạ tầng VPC. IAM Policies (D) chỉ kiểm soát lời gọi API chứ không
+chặn gói tin mạng (network packet).
+[Câu 72] Đáp án: A ✔ Tại sao đúng: Triết lý thiết kế nhiều AZ nhằm đảm bảo nếu lũ lụt/cháy nổ phá hủy 1
+AZ, các AZ còn lại trong Region vẫn duy trì được hệ thống kinh doanh cho doanh nghiệp.
+[Câu 73] Đáp án: A ✔ Tại sao đúng: Mục đích tối thượng của Multi-AZ là Tính sẵn sàng cao (High
+Availability). Nó tự động fail-over (chuyển đổi dự phòng) khi một Data Center chết.
+[Câu 74] Đáp án: A ✔ Tại sao đúng: API cho phép máy móc nói chuyện với máy móc. Thay vì con người
+click chuột, hạ tầng có thể được tự động hóa triển khai thành hàng ngàn bản sao bằng các file code
+(Infrastructure as Code).
+[Câu 75] Đáp án: A, B ✔ Tại sao đúng: Để nối mạng nội bộ của doanh nghiệp lên Cloud, AWS cung cấp
+giải pháp nối bằng đường dây cáp quang vật lý riêng (Direct Connect) hoặc đường hầm mã hóa qua
+Internet (Site-to-Site VPN).
+[Câu 76] Đáp án: A, B ✔ Tại sao đúng: Kiến trúc vật lý toàn cầu của AWS dựa trên mạng lưới các
+Regions (Khu vực địa lý như Singapore, Tokyo) và mỗi Region chứa nhiều Availability Zones (Cụm trung
+tâm dữ liệu độc lập).
+[Câu 77] Đáp án: A, B ✔ Tại sao đúng: VPC Dashboard là nơi quản trị hạ tầng mạng, do đó Subnets và
+Security Groups là các thành phần mạng được khởi tạo trực tiếp tại đây. CloudFront và Lambda thuộc
+dịch vụ khác.
+[Câu 78] Đáp án: A ✔ Tại sao đúng: AWS là nền tảng Self-service toàn cầu. Tài khoản của bạn mặc định
+được phép truy cập nhiều Regions. Bạn chỉ cần chọn Region mới trên Console và triển khai hạ tầng. ✘
+Các đáp án khác sai: Không thể chuyển vật lý AZ từ nước này sang nước khác, và không cần ký thêm
+hợp đồng phụ.
+[Câu 79] Đáp án: A ✔ Tại sao đúng: Cấu trúc phân cấp là: 1 Region chứa từ 2 đến nhiều AZs. Mỗi AZ là
+một hoặc một cụm trung tâm dữ liệu độc lập về nguồn điện, mạng để đảm bảo dự phòng rủi ro.
+[Câu 80] Đáp án: A ✔ Tại sao đúng: Internet Gateway (IGW) là cổng giao tiếp mạng. Để một mạng nội
+bộ được tính là "Public", Bảng định tuyến (Route Table) của nó bắt buộc phải có một route trỏ đích
+(0.0.0.0/0) đến IGW.
+[Câu 81] Đáp án: A ✔ Tại sao đúng: AMI (Amazon Machine Image) lưu trữ thông tin hệ điều hành, cài đặt
+phần mềm và cấu hình để dùng làm bản gốc cho việc nhân bản các máy chủ EC2 sau này.
+[Câu 82] Đáp án: A ✔ Tại sao đúng: Theo nguyên tắc an ninh dữ liệu, AWS có trách nhiệm hủy bỏ bằng
+các phương pháp vật lý (nghiền nát, từ hóa) các ổ cứng cũ để ngăn chặn việc khôi phục dữ liệu trái phép.
+[Câu 83] Đáp án: A ✔ Tại sao đúng: Câu A là sai vì EC2 là dịch vụ IaaS (Infrastructure as a Service),
+khách hàng BẮT BUỘC phải tự quản trị hệ điều hành (patching, config). Dịch vụ "phi máy chủ"
+(Serverless) là AWS Lambda.
+[Câu 84] Đáp án: A ✔ Tại sao đúng: AWS Lambda là dịch vụ tính toán hướng sự kiện, không cần quản lý
+máy chủ (Serverless), nó chỉ chạy code (và tính phí) khi sự kiện tải ảnh lên S3 diễn ra.
+[Câu 85] Đáp án: A ✔ Tại sao đúng: EC2 có tính đàn hồi và trả tiền theo mức sử dụng thực tế (Pay-as-
+you-go). Khởi chạy khi cao điểm và tắt đi khi thấp điểm sẽ tiết kiệm chi phí tối đa so với mua máy chủ vật
+lý "đắp chiếu".
+[Câu 86] Đáp án: A ✔ Tại sao đúng: Các quy tắc của Security Group mang tính chất "cộng gộp"
+(Additive). Máy chủ sẽ nhận được quyền truy cập bằng tổng của cả 2 Group: Mở 443 cho toàn cầu VÀ
+mở 22 cho IP nội bộ. Không có xung đột xảy ra.
+[Câu 87] Đáp án: A, B ✔ Tại sao đúng: AWS cung cấp 3 cách chính để tương tác với hạ tầng: Qua giao
+diện web (Console), qua giao diện dòng lệnh (CLI), và qua việc lập trình gọi hàm (SDK/API).
+[Câu 88] Đáp án: A ✔ Tại sao đúng: Auto Scaling tự động phát hiện tình trạng quá tải (thường dựa vào
+CloudWatch CPU) để kích hoạt quá trình Scale-out (thêm EC2) và Scale-in (hủy EC2) tự động.
+[Câu 89] Đáp án: A, B ✔ Tại sao đúng: Trải dài trên Multi-AZ bảo vệ ứng dụng khỏi thảm họa mức độ
+Data Center. Đặt phía sau Load Balancer (ELB) giúp tự động bỏ qua (health check fail) các máy chủ bị
+hỏng để đảm bảo End-user không bị gián đoạn.
+[Câu 90] Đáp án: A ✔ Tại sao đúng: Elastic Load Balancer là điểm tiếp nhận lưu lượng duy nhất từ
+Internet và phân bổ nó qua nhiều Availability Zones/EC2 Instances ở phía sau.
+[Câu 91] Đáp án: A ✔ Tại sao đúng: S3 (Simple Storage Service) là dịch vụ Object Storage lưu trữ
+ảnh/video qua API/Internet tĩnh cực tốt. EBS là ổ cứng gắn server, RDS/DynamoDB là DB.
+[Câu 92] Đáp án: A ✔ Tại sao đúng: S3 dùng chung một không gian định tuyến toàn cầu (Global
+namespace). Tên bucket giống như tên miền web, không được trùng với bất kỳ ai trên toàn thế giới.
+[Câu 93] Đáp án: A, B ✔ Tại sao đúng: EFS là File Storage, hỗ trợ truy cập chia sẻ từ hàng ngàn EC2
+cùng lúc. EBS là Block Storage, mặc định (ngoại trừ EBS Multi-Attach chuyên biệt) chỉ gắn được vào 1
+EC2 tại một thời điểm.
+[Câu 94] Đáp án: A ✔ Tại sao đúng: EFS được thiết kế ở mức Regional, cho phép các EC2 nằm ở nhiều
+Availability Zones khác nhau truy cập chung vào một thư mục (mount target). EBS bị giới hạn trong 1 AZ.
+[Câu 95] Đáp án: A ✔ Tại sao đúng: Ổ cứng ảo EBS được tạo ra trên các thiết bị vật lý tại một Availability
+Zone cụ thể và không thể tự động gắn vào máy chủ EC2 nằm ở AZ khác.
+[Câu 96] Đáp án: A ✔ Tại sao đúng: RDS là Managed Service cho SQL/Relational Database (như
+MySQL, PostgreSQL). AWS tự lo việc vá lỗi OS, quản lý backup và HA.
+[Câu 97] Đáp án: A ✔ Tại sao đúng: DynamoDB là dịch vụ NoSQL, lý tưởng cho dữ liệu Key-Value,
+schema-less và yêu cầu độ trễ mức mili-giây (thích hợp cho Game Leaderboard).
+[Câu 98] Đáp án: A ✔ Tại sao đúng: Tính năng Multi-AZ của RDS tự động duy trì bản sao đồng bộ. Khi
+AZ chính sập, RDS tự động đổi DNS (failover) sang AZ phụ mà không làm mất dữ liệu.
+[Câu 99] Đáp án: A ✔ Tại sao đúng: KMS (Key Management Service) quản lý tập trung các khóa mã hóa
+(Customer Master Keys), tích hợp sâu với S3 và EBS.
+[Câu 100] Đáp án: A, C ✔ Tại sao đúng: Cơ chế SSE-KMS mã hóa dữ liệu trên đĩa của AWS. Khi tải về,
+nếu IAM User có quyền, AWS sẽ tự giải mã trên máy chủ và trả về file nguyên bản. Trải nghiệm này là
+"trong suốt" (transparent) với ứng dụng.
+[Câu 101] Đáp án: A ✔ Tại sao đúng: CloudWatch là dịch vụ cốt lõi giám sát số liệu (Metric) về CPU,
+Network, Disk I/O cho tất cả tài nguyên AWS.
+[Câu 102] Đáp án: A ✔ Tại sao đúng: CloudWatch Alarms đánh giá các Metrics theo ngưỡng thời gian
+(threshold) và kích hoạt hành động (VD: gửi cảnh báo SNS).
+[Câu 103] Đáp án: A, B ✔ Tại sao đúng: Bộ đôi kinh điển: CloudWatch phát hiện tải cao -> Kích hoạt
+Alarm -> Auto Scaling nhận lệnh thực hiện Scale-out (thêm EC2 theo chiều ngang).
+[Câu 104] Đáp án: A ✔ Tại sao đúng: ELB có cơ chế Health Check (thử kết nối định kỳ). Nếu EC2 chết,
+ELB dán nhãn "Unhealthy" và tự động ngừng gửi request vào máy đó, đảm bảo gián đoạn dịch vụ bằng
+không.
+[Câu 105] Đáp án: A ✔ Tại sao đúng: ELB làm cửa ngõ (Traffic distribution), Auto Scaling làm quản gia
+kho máy chủ (Capacity management). Chúng kết hợp tạo nên hệ thống đàn hồi và chịu lỗi cao.
+[Câu 106] Đáp án: A ✔ Tại sao đúng: AWS CLI cho phép điều khiển tự động toàn bộ hạ tầng AWS thông
+qua việc gõ lệnh (scripting) thay vì dùng giao diện đồ họa.
+[Câu 107] Đáp án: A, B ✔ Tại sao đúng: Khóa truy cập (Access Keys) có quyền hạn rất lớn. Phải xoay
+vòng (đổi khóa mới) thường xuyên và tuyệt đối không chèn trực tiếp vào code để tránh lộ lọt trên các kho
+lưu trữ công cộng.
+[Câu 108] Đáp án: A ✔ Tại sao đúng: Trong môi trường IaaS (EC2), AWS chỉ lo lớp vật lý và Hypervisor
+(Security OF the Cloud). Khách hàng phải tự lo từ OS (vá lỗi Linux), Mạng (Security Group) đến Dữ liệu
+(Security IN the Cloud).
+[Câu 109] Đáp án: A ✔ Tại sao đúng: Thiết kế trải dài qua nhiều Vùng khả dụng (Multi-AZ) là nguyên tắc
+sống còn để tránh thảm họa vật lý cấp độ Data Center (như hỏa hoạn, mất điện lưới).
+[Câu 110] Đáp án: A ✔ Tại sao đúng: Tính đàn hồi (Elasticity) là khả năng hạ tầng nở ra khi cần và co lại
+khi hết tải, đảm bảo hiệu năng cao lúc cần thiết và tiết kiệm túi tiền lúc rảnh rỗi.
+[Câu 111] Đáp án: A, B ✔ Tại sao đúng: Bản chất của CloudWatch là thu thập Metrics (số liệu) và tạo
+Alarms (báo động). Nó là công cụ giám sát, không phải công cụ lập trình hay quản lý danh tính.
+[Câu 112] Đáp án: A ✔ Tại sao đúng: Elastic Load Balancer (ELB) làm nhiệm vụ chia bài (phân tán
+traffic) một cách công bằng vào các máy chủ rảnh rỗi, đồng thời tự động loại bỏ các máy chủ bị treo
+(unhealthy) khỏi luồng phục vụ.
+[Câu 113] Đáp án: A ✔ Tại sao đúng: Một Subnet chỉ có thể kết nối với Internet nếu Bảng định tuyến
+(Route Table) của nó có một luật trỏ đường ra thiết bị Internet Gateway (IGW).
+[Câu 114] Đáp án: A ✔ Tại sao đúng: Local Route là xương sống mạng nội bộ của VPC. Bất cứ Subnet
+nào tạo ra trong VPC đều tự động kế thừa luật này để nhìn thấy nhau, và luật này bị khóa (không thể
+xóa).
+[Câu 115] Đáp án: A ✔ Tại sao đúng: Cấu hình Inbound với Source là dải IP 10.0.1.0/24 có nghĩa là
+bức tường lửa này đóng kín với toàn thế giới, chỉ đục duy nhất một lỗ cho các thiết bị nằm trong dải IP nội
+bộ trên đi qua.
+[Câu 116] Đáp án: A, B ✔ Tại sao đúng: Microservices chia nhỏ ứng dụng nguyên khối thành các dịch vụ
+tí hon. Điều này giúp cô lập rủi ro (lỗi ở đâu sập ở đó, không sập chùm) và tối ưu mở rộng phần cứng cục
+bộ.
+[Câu 117] Đáp án: A ✔ Tại sao đúng: Nếu máy chủ EC2 lưu trữ trạng thái người dùng (ví dụ: Session
+đăng nhập), khi Auto Scaling hủy máy chủ đó (Scale-in), khách hàng sẽ bị văng ra ngoài. Thiết kế
+Stateless đẩy session ra Database giúp EC2 trở thành các bản sao vô danh, có thể bị xóa hoặc thêm vào
+một cách an toàn tuyệt đối.
+[Câu 118] Đáp án: A ✔ Tại sao đúng: Lợi ích tài chính lớn nhất của Auto Scaling là khả năng Scale-in
+(hủy máy chủ) khi hết nhu cầu, giúp hóa đơn tiền Cloud của doanh nghiệp lập tức ngừng tăng (Pay-as-
+you-go).
+[Câu 119] Đáp án: A ✔ Tại sao đúng: S3 lưu dữ liệu dưới dạng các Đối tượng (Object) trong một mặt
+phẳng (không có cây thư mục thật). EBS chia ổ đĩa vật lý thành các Khối (Block) yêu cầu phải có File
+System (như NTFS/ext4) để hệ điều hành đọc được.
+[Câu 120] Đáp án: A ✔ Tại sao đúng: Nhu cầu tự quản trị tận gốc Hệ điều hành và Tường lửa (như
+EC2/VPC) phản ánh chính xác nhất tính chất của mô hình IaaS.
+[Câu 121] Đáp án: A ✔ Tại sao đúng: Object Storage (S3) chứa dữ liệu kèm metadata trong một không
+gian phẳng, cực tốt để chứa file tĩnh. Block Storage (EBS) chia ổ đĩa thành các block nhỏ cần file system
+(NTFS/ext4) để HĐH xử lý tốc độ cao.
+[Câu 122] Đáp án: A ✔ Tại sao đúng: Đặc trưng ăn tiền nhất của Microservices là khả năng Mở rộng độc
+lập (Independent Scalability). Mỗi tính năng là một module riêng, tải tính năng nào cao thì tự động nhân
+bản module đó.
+[Câu 123] Đáp án: A ✔ Tại sao đúng: Automation/DevOps thông qua AWS CLI hoặc mã hóa (IaC) giúp
+loại bỏ lỗi con người (Human errors) và cho phép triển khai hàng ngàn máy chủ chỉ trong vài giây gõ lệnh.
+[Câu 124] Đáp án: A, B, C ✔ Tại sao đúng: Bộ 3 tiêu chuẩn của dự án thực tế: Tự mở rộng (Auto
+Scaling), Cân bằng tải tránh lỗi (ELB) và Bảo vệ dữ liệu nhạy cảm bằng mã hóa (KMS).
+[Câu 125] Đáp án: A ✔ Tại sao đúng: Bản chất của HA (High Availability) là phân tán rủi ro. ELB là chốt
+chặn phân tán traffic vào nhiều máy chủ. Nếu 1 máy sập, ELB ngắt traffic tới máy đó để hệ thống sống sót
+(Fault tolerance).
+[Câu 126] Đáp án: A, B ✔ Tại sao đúng: Quản trị chi phí cốt lõi là giám sát (CloudWatch Billing Alarm) và
+chỉ dùng khi cần (Auto Scaling - scale in để tắt server khi rảnh).
+[Câu 127] Đáp án: A ✔ Tại sao đúng: Công nghệ Cloud thay đổi từng ngày, nhưng tư duy kiến trúc phân
+tán (Distributed System, Scalability) là nền tảng không bao giờ cũ.
+[Câu 128] Đáp án: A ✔ Tại sao đúng: Subnet 10.0.1.0/28 có 24=16 IP tĩnh. Theo luật của AWS, 5 IP
+đầu cuối của bất kỳ Subnet nào bị AWS khóa lại dùng cho định tuyến nội bộ. Số IP cho EC2 = 16−5=11.
+[Câu 129] Đáp án: A ✔ Tại sao đúng: Điều kiện tiên quyết để 1 EC2 nối Internet là nó nằm trong Public
+Subnet (có Public IP) và Route Table của nó có luật 0.0.0.0/0 trỏ ra cổng Internet Gateway (igw) .
+[Câu 130] Đáp án: A, B ✔ Tại sao đúng: SG bọc ở tầng máy ảo (Instance level) và là Stateful (chỉ có luật
+Allow). NACL bọc ở tầng ngoài Subnet (Subnet level) và là Stateless (Hỗ trợ cấu hình chặn - Explicit
+Deny).
+[Câu 131] Đáp án: A ✔ Tại sao đúng: Với bài toán High Throughput (Hàng trăm nghìn request/giây) và
+Schema-less (cấu trúc tùy biến linh hoạt), NoSQL Amazon DynamoDB là sự lựa chọn duy nhất đánh bại
+Relational DB (RDS).
+[Câu 132] Đáp án: A ✔ Tại sao đúng: EFS (Elastic File System) là lưu trữ File dùng chung chuẩn NFS,
+cho phép hàng ngàn EC2 gắn (mount) vào và cùng chỉnh sửa tệp đồng thời.
+[Câu 133] Đáp án: A ✔ Tại sao đúng: RDS là dịch vụ Managed. Theo Mô hình trách nhiệm chung, việc
+bảo trì OS, cài Patch và nâng cấp phiên bản Engine DB là trách nhiệm của AWS.
+[Câu 134] Đáp án: A ✔ Tại sao đúng: Logic IAM Evaluation cực kỳ nghiêm ngặt: Mặc định là Deny. Nếu
+có Explicit Allow thì được cho qua. NHƯNG nếu có Explicit Deny xuất hiện, nó luôn đè bẹp tất cả các luật
+Allow khác (Deny overrides Allow).
+[Câu 135] Đáp án: A ✔ Tại sao đúng: Kiến trúc Stateless loại bỏ việc EC2 phải tự nhớ trạng thái người
+dùng. Do đó máy EC2 trở thành các công nhân "vô danh", có thể bị Auto Scaling sa thải bất cứ lúc nào
+mà hệ thống không hề bị lỗi mất phiên đăng nhập.
+[Câu 136] Đáp án: A ✔ Tại sao đúng: S3 là giải pháp lưu trữ Object chuyên dụng, lý tưởng cho các tệp
+đa phương tiện (audio/video) phân phối qua mạng với dung lượng không giới hạn.
+[Câu 137] Đáp án: B ✔ Tại sao đúng: Khối /24 cung cấp 28=256 IP. AWS luôn dự trữ 5 IP đầu cuối của
+bất kỳ Subnet nào cho các dịch vụ mạng nền tảng. Do đó, 256−5=251 địa chỉ khả dụng.
+[Câu 138] Đáp án: A ✔ Tại sao đúng: DynamoDB là NoSQL, ghi dữ liệu cực nhanh với độ trễ tính bằng
+mili-giây, cực kỳ phù hợp cho dữ liệu IoT vô định hình.
+[Câu 139] Đáp án: A ✔ Tại sao đúng: Hệ thống kế toán/nhân sự yêu cầu ACID, bảng biểu quan hệ chặt
+chẽ và truy vấn SQL phức tạp -> RDS (Relational Database Service) là lựa chọn duy nhất đúng.
+[Câu 140] Đáp án: A ✔ Tại sao đúng: EFS (Elastic File System) cho phép hàng ngàn EC2 gắn (mount)
+đồng thời vào cùng một File System để làm việc nhóm (như render video). EBS chỉ gắn được vào 1 EC2
+thông thường.
+[Câu 141] Đáp án: A, B ✔ Tại sao đúng: Khi chạy EC2, AMI có thể lấy từ kho chuẩn của AWS (AWS
+Quick Start), từ Cộng đồng (Community AMIs), hoặc từ kho riêng do khách hàng tự tạo (My AMIs).
+[Câu 142] Đáp án: A, B ✔ Tại sao đúng: Để máy ảo chạy được, bạn phải chọn "Chạy hệ điều hành gì?"
+(AMI) và "Chạy trên cấu hình phần cứng CPU/RAM bao nhiêu?" (Instance Type).
+[Câu 143] Đáp án: A ✔ Tại sao đúng: Elastic IP là địa chỉ IPv4 tĩnh do bạn sở hữu. Gắn nó vào Instance
+A, nếu A sập, bạn Remap (gắn lại) sang Instance B. Phía đối tác chỉ gọi 1 IP duy nhất và không hề biết
+server bên dưới đã đổi.
+[Câu 144] Đáp án: A ✔ Tại sao đúng: "Đàn hồi" (Elasticity) khác với mở rộng đơn thuần. Nó bao hàm
+việc nở ra lúc tải cao (Scale-out) VÀ co lại lúc rảnh rỗi (Scale-in) để tối ưu chi phí.
+[Câu 145] Đáp án: A ✔ Tại sao đúng: ELB hứng toàn bộ traffic ở cổng ngoài, sau đó chia bài (routing)
+đồng đều vào nhóm EC2 bên trong, giúp xử lý các đợt tải đột biến một cách mượt mà.
+[Câu 146] Đáp án: A ✔ Tại sao đúng: ASG có cơ chế Tracking Policy. Nếu vượt ngưỡng mục tiêu (90% >
+70%), nó tự động Scale-out (bật thêm server) để san sẻ tải, kéo CPU trung bình xuống lại.
+[Câu 147] Đáp án: A ✔ Tại sao đúng: NLB (Network Load Balancer) hoạt động ở Lớp 4 (TCP/UDP), có
+khả năng xử lý hàng triệu request/s với độ trễ cực thấp, chuyên dụng cho Game Server.
+[Câu 148] Đáp án: A ✔ Tại sao đúng: AWS Lambda là xương sống của Serverless Compute. Lập trình
+viên chỉ cần ném Code lên, Lambda tự chạy khi có sự kiện (Event) và tính tiền theo mili-giây thực thi.
+[Câu 149] Đáp án: A ✔ Tại sao đúng: Sức mạnh của Microservices là khả năng độc lập. Module lỗi
+không làm sập toàn hệ thống; Tải module nào cao thì tự động Scale module đó.
+[Câu 150] Đáp án: A ✔ Tại sao đúng: Định nghĩa chuẩn của NIST/AWS: Cung cấp tài nguyên IT
+(Compute/Storage) qua Internet theo dạng On-demand và trả tiền Pay-as-you-go.
+[Câu 151] Đáp án: A, B, C ✔ Tại sao đúng: IaaS (Hạ tầng), PaaS (Nền tảng), SaaS (Phần mềm) là 3
+phân khúc dịch vụ kinh điển của mọi hãng Cloud.
+[Câu 152] Đáp án: A ✔ Tại sao đúng: DevOps = Development + Operations. Mục tiêu là dùng Automation
+để đập bỏ bức tường ngăn cách giữa hai nhóm, giúp phần mềm deploy ra thị trường nhanh và ít lỗi.
+[Câu 153] Đáp án: A ✔ Tại sao đúng: Cloud Architect không cần là thợ sửa phần cứng, mà phải giỏi tư
+duy thiết kế hệ thống (System Design), kết hợp các dịch vụ để tạo ra kiến trúc bền vững, bảo mật, rẻ.
+[Câu 154] Đáp án: A, B ✔ Tại sao đúng: Bảo mật lõi luôn yêu cầu: MFA cho tài khoản đặc quyền để
+chống hack mật khẩu, và Mã hóa dữ liệu (KMS) để bảo vệ thông tin khi bị lộ lọt đĩa cứng.
+[Câu 155] Đáp án: A ✔ Tại sao đúng: Các Log và Metrics trên CloudWatch cung cấp cái nhìn (Visibility)
+toàn diện để audit hành vi hệ thống và tìm ra nguyên nhân gốc rễ (Root Cause) khi có sự cố.
+[Câu 156] Đáp án: A, B ✔ Tại sao đúng: Khách hàng chịu trách nhiệm "Security IN the Cloud" -> Quản lý
+phân quyền S3, quản lý nhân viên nội bộ (IAM User). AWS lo phần cháy nổ vật lý (Security OF the Cloud).
+[Câu 157] Đáp án: A, B, C ✔ Tại sao đúng: Một đồ án kiến trúc chuẩn (Well-architected) luôn phải có bộ
+3: Phân tải (ELB), Đàn hồi (ASG) và Bảo mật (SG/IAM).
+[Câu 158] Đáp án: A ✔ Tại sao đúng: Để đạt High Availability (HA), kiến trúc mạng tuyệt đối không được
+tập trung vào 1 điểm lỗi duy nhất (Single Point of Failure), mà phải phân tán Multi-AZ.
+[Câu 159] Đáp án: A, B ✔ Tại sao đúng: Quản lý chi phí hiệu quả là chỉ mua thứ mình cần, dùng công cụ
+CloudWatch để cảnh báo nếu tiêu lố ngân sách, và dùng Auto Scaling để tự động tắt máy khi không ai
+dùng.
+[Câu 160] Đáp án: A ✔ Tại sao đúng: Kiến thức Cloud cung cấp tư duy giải quyết vấn đề bằng hệ thống
+phân tán (Distributed System). Công cụ có thể đổi từ AWS sang Azure, nhưng tư duy kiến trúc là mãi mãi.
+[Câu 161] Đáp án: A ✔ Tại sao đúng: DynamoDB là dòng sản phẩm cơ sở dữ liệu phi quan hệ (NoSQL)
+chủ lực của Amazon.
+[Câu 162] Đáp án: A ✔ Tại sao đúng: Scalability (Khả năng co giãn) là vũ khí tối thượng giúp website
+chịu được tải khổng lồ bất ngờ mà doanh nghiệp không cần bỏ tiền mua trước máy chủ để dự phòng.
+[Câu 163] Đáp án: A ✔ Tại sao đúng: Với dịch vụ IaaS như EC2, AWS trao cho bạn toàn quyền
+Root/Admin. Đổi lại, bạn phải tự lo cài Antivirus và vá lỗi hệ điều hành (Guest OS).
+[Câu 164] Đáp án: A ✔ Tại sao đúng: AMI (Amazon Machine Image) chứa bản snapshot của hệ điều
+hành và các ứng dụng cài sẵn, đóng vai trò như đĩa cài đặt mẫu để nhân bản EC2.
+[Câu 165] Đáp án: A ✔ Tại sao đúng: Lại là bài toán HA cốt lõi: Để hệ thống có Fault-Tolerance (chịu lỗi),
+nó phải có kiến trúc Multi-AZ. Nếu AZ 1 chết, AZ 2 gánh.
+[Câu 166] Đáp án: A ✔ Tại sao đúng: S3 là kho lưu trữ Object cực kỳ rẻ, bền bỉ (99.999999999%) và
+sinh ra để lưu trữ các file tĩnh như ảnh/video y tế, có thể truy cập qua URL Internet.
+[Câu 167] Đáp án: A ✔ Tại sao đúng: Ổ cứng ảo để cài HĐH và chạy phần mềm, DB cục bộ trên EC2
+bắt buộc phải là EBS (Block Storage). S3 không thể cài HĐH.
+[Câu 168] Đáp án: A, B ✔ Tại sao đúng: EFS hỗ trợ hàng ngàn EC2 gắn (mount) đồng thời vào dùng
+chung 1 thư mục qua chuẩn NFS. EBS (trừ dòng Multi-Attach đắt đỏ) mặc định chỉ gắn được vào 1 EC2.
+[Câu 169] Đáp án: A ✔ Tại sao đúng: RDS là dịch vụ Managed Database dành cho SQL (PostgreSQL,
+MySQL). AWS gánh vác mọi việc vận hành mệt nhọc như backup, patching.
+[Câu 170] Đáp án: A ✔ Tại sao đúng: Với dữ liệu IoT, JSON cấu trúc thay đổi liên tục, tốc độ ghi cực lớn,
+DynamoDB (NoSQL) là ông vua giải quyết bài toán này.
+[Câu 171] Đáp án: A ✔ Tại sao đúng: Lambda là dịch vụ Serverless Compute (phi máy chủ), chạy code
+tự động ngay khi có sự kiện (như file upload lên S3) mà không cần cấu hình EC2.
+[Câu 172] Đáp án: A ✔ Tại sao đúng: Cân bằng tải (ELB) là "cảnh sát giao thông", hứng traffic từ Internet
+và chia đều vào các EC2 rảnh rỗi ở phía sau.
+[Câu 173] Đáp án: A ✔ Tại sao đúng: EC2 Auto Scaling quản lý số lượng máy chủ bằng các luật Min (2),
+Max (10) và tự động thay đổi số lượng (Desired capacity) dựa trên tải.
+[Câu 174] Đáp án: A ✔ Tại sao đúng: VPC là trung tâm dữ liệu ảo, một dải mạng logic cô lập hoàn toàn
+dành riêng cho tổ chức của bạn trên AWS.
+[Câu 175] Đáp án: A, B ✔ Tại sao đúng: EC2 muốn ra Internet cần 2 thứ: (1) Nó phải có Public IP để
+nhận dạng toàn cầu. (2) Mạng nội bộ (Subnet) của nó phải có Route Table mở đường 0.0.0.0/0 trỏ ra
+Internet Gateway.
+[Câu 176] Đáp án: A ✔ Tại sao đúng: Security Group là tường lửa bọc sát EC2. NACL là tường lửa bọc
+bên ngoài Subnet.
+[Câu 177] Đáp án: A ✔ Tại sao đúng: NACL hoạt động ở biên giới Subnet, và lợi thế của nó là hỗ trợ cấu
+hình chặn (Explicit Deny) một dải IP cụ thể.
+[Câu 178] Đáp án: A ✔ Tại sao đúng: IAM (Identity and Access Management) là dịch vụ cốt lõi để tạo
+User, Group, Role và viết Policies để cấp quyền hoặc cấm quyền.
+[Câu 179] Đáp án: A ✔ Tại sao đúng: Thực hành bảo mật số 1 (Best Practice) là dùng IAM Role để cấp
+quyền cho EC2. Nó cung cấp quyền hạn tự động qua cơ chế thông tin xác thực tạm thời (Temporary
+Credentials), loại bỏ nguy cơ lộ mã khóa.
+[Câu 180] Đáp án: A ✔ Tại sao đúng: KMS (Key Management Service) là trái tim của hệ thống mã hóa
+dữ liệu trên AWS.
+[Câu 181] Đáp án: A ✔ Tại sao đúng: CloudWatch sinh ra để lấy các chỉ số "sức khỏe" (Metrics) như
+CPU, Network của mọi dịch vụ AWS.
+[Câu 182] Đáp án: A ✔ Tại sao đúng: Rải DB trên nhiều AZ (Multi-AZ) đảm bảo hệ thống không có "Điểm
+chết duy nhất" (Single Point of Failure), giúp ứng dụng duy trì HA.
+[Câu 183] Đáp án: A ✔ Tại sao đúng: Đàn hồi (Elasticity) kết hợp Scale-out (mở rộng khi tải cao) và
+Scale-in (thu hẹp khi tải thấp).
+[Câu 184] Đáp án: A, B ✔ Tại sao đúng: Auto Scaling giúp tắt máy khi không cần -> ngừng trả tiền. Đồng
+thời, không cần mua sẵn dàn máy khủng đóng bụi chờ bão sale -> Tối ưu chi phí tuyệt đối.
+[Câu 185] Đáp án: A ✔ Tại sao đúng: Theo Shared Responsibility, với IaaS (như EC2), khách hàng tự lo
+Hệ điều hành (Vá lỗi, cập nhật). AWS chỉ lo vật lý và Hypervisor.
+[Câu 186] Đáp án: A ✔ Tại sao đúng: Bảo vệ vật lý (Tòa nhà, cổng cửa, bảo vệ cầm súng) là nhiệm vụ
+100% của AWS.
+[Câu 187] Đáp án: A ✔ Tại sao đúng: On-Demand Pricing tính tiền theo giây/giờ, không ràng buộc hợp
+đồng. Quá tốt cho Startup thích thử nghiệm nhanh và ngắt nếu thất bại.
+[Câu 188] Đáp án: A ✔ Tại sao đúng: RDS = Relational Database (SQL). DynamoDB = NoSQL
+Database.
+[Câu 189] Đáp án: A, B ✔ Tại sao đúng: Mọi Subnet trong VPC đều nhìn thấy nhau qua luật Route
+"Local" mặc định. Ta chỉ có thể chặn chúng giao tiếp nếu cố tình cấu hình tường lửa SG hoặc NACL chặn
+lại.
+[Câu 190] Đáp án: A ✔ Tại sao đúng: Fault Tolerance (Chịu lỗi) mạnh hơn HA. HA vẫn có thể gián đoạn
+vài giây, còn Fault Tolerance đảm bảo thiết bị hỏng mà hệ thống vẫn chạy như chưa hề có cuộc chia ly
+(Zero downtime).
+[Câu 191] Đáp án: A ✔ Tại sao đúng: Toàn bộ IAM Policies của AWS đều được định dạng bằng cú pháp
+JSON (JavaScript Object Notation).
+[Câu 192] Đáp án: A ✔ Tại sao đúng: AMI (Amazon Machine Image) là khuôn đúc để tạo EC2.
+[Câu 193] Đáp án: A ✔ Tại sao đúng: Khối /28 cung cấp 24=16 địa chỉ. AWS luôn trừ 5 địa chỉ tĩnh. Do
+đó IP khả dụng là 16−5=11.
+[Câu 194] Đáp án: A ✔ Tại sao đúng: CloudWatch thu thập Metric. Khi Metric đạt ngưỡng, nó nổ chuông
+Cảnh báo (Alarm) để đánh thức Auto Scaling hành động.
+[Câu 195] Đáp án: A, B ✔ Tại sao đúng: SG bọc máy chủ (EC2) và lưu trạng thái kết nối (Stateful). NACL
+bọc mạng con (Subnet) và không lưu trạng thái (Stateless - đi ra đi vào đều phải xét luật lại từ đầu).
+[Câu 196] Đáp án: A ✔ Tại sao đúng: VPC là nền tảng cốt lõi của mạng lưới AWS, cung cấp không gian
+mạng biệt lập hoàn toàn về mặt logic.
+[Câu 197] Đáp án: A ✔ Tại sao đúng: EBS Snapshot là cơ chế backup mặc định của ổ cứng EC2, nó
+chụp lại toàn bộ trạng thái dữ liệu và âm thầm cất giữ an toàn bên trong Amazon S3.
+[Câu 198] Đáp án: A ✔ Tại sao đúng: Dùng IAM Role cấp quyền cho máy EC2 là Best Practice kinh điển.
+Nó cấp khóa bí mật dạng tạm thời, loại bỏ nguy cơ lộ lọt mật khẩu nếu mã nguồn bị hack.
+[Câu 199] Đáp án: A ✔ Tại sao đúng: Auto Scaling sinh ra để thực thi tác vụ thêm máy tính (Scale-out)
+khi tải cao và bớt máy (Scale-in) khi tải thấp.
+[Câu 200] Đáp án: A ✔ Tại sao đúng: S3 (Object Storage) cung cấp dung lượng tổng gần như không giới
+hạn, rất phù hợp để chứa vô số các file lớn như video, ảnh, mô hình 3D.
+[Câu 201] Đáp án: A ✔ Tại sao đúng: Multi-AZ Deployment của RDS tự động duy trì một bản sao chờ
+đồng bộ (Standby Replica) ở AZ khác. Nếu AZ chính cháy, nó đổi DNS sang bản sao trong chớp mắt.
+[Câu 202] Đáp án: A, B ✔ Tại sao đúng: ASG lo việc số lượng máy (Thêm/Bớt). ELB lo việc chia traffic
+(Chia đều lượng truy cập vào những máy đang có).
+[Câu 203] Đáp án: A ✔ Tại sao đúng: CloudWatch là bộ máy thu thập "chỉ số sinh tồn" (Metrics) của mọi
+dịch vụ trên AWS.
+[Câu 204] Đáp án: A ✔ Tại sao đúng: Để chặn cứng một IP cụ thể, chỉ có thể dùng NACL bằng cách tạo
+một Deny Rule. Security Group KHÔNG hỗ trợ Deny Rule.
+[Câu 205] Đáp án: A ✔ Tại sao đúng: AWS Lambda là Serverless. Tức là chỉ chạy (và tính tiền) khi có
+Event xảy ra (S3 file upload trigger), tiết kiệm 99% chi phí so với nuôi 1 server EC2 rảnh rỗi chờ ảnh.
+[Câu 206] Đáp án: A ✔ Tại sao đúng: DynamoDB là dịch vụ NoSQL, Serverless, nổi tiếng với độ trễ một
+chữ số mili-giây ở bất kỳ dung lượng nào.
+[Câu 207] Đáp án: A ✔ Tại sao đúng: EFS (Elastic File System) cho phép cấu trúc đa truy cập, hàng
+nghìn EC2 cùng mount chung vào một file system chuẩn NFS.
+[Câu 208] Đáp án: A ✔ Tại sao đúng: Định nghĩa của một Public Subnet là: Subnet có Route Table mở
+đường ra cổng Internet Gateway (IGW). Không có IGW = Kẹt trong mạng nội bộ.
+[Câu 209] Đáp án: A ✔ Tại sao đúng: IAM Policy là những tài liệu JSON định nghĩa rõ ràng: Effect (Cho
+phép/Cấm), Action (Làm gì), Resource (Trên tài nguyên nào).
+[Câu 210] Đáp án: A ✔ Tại sao đúng: KMS là trung tâm quản lý khóa mật mã, tích hợp sâu vào hạ tầng
+AWS để thực hiện mã hóa bảo vệ dữ liệu (Encryption at rest).
+[Câu 211] Đáp án: A ✔ Tại sao đúng: Trả tiền dạng On-Demand (Theo yêu cầu) là đắt nhất vì không có
+cam kết hay chiết khấu. (Lưu ý: Đề bài ngụ ý chạy batch job ngắt quãng thì nên dùng Spot Instance,
+nhưng Spot không thuộc danh sách nên On-demand là câu trả lời mang ý nghĩa chi phí cao nhất ở đây).
+[Câu 212] Đáp án: A ✔ Tại sao đúng: Bảo mật vật lý (Data Center, Phần cứng, Lưới điện) là trách nhiệm
+"Security OF the cloud" do Amazon tự lo.
+[Câu 213] Đáp án: A ✔ Tại sao đúng: Khách hàng quản lý hệ điều hành (Guest OS) bên trong EC2
+(IaaS). Lỗi không update OS dẫn tới hack là trách nhiệm 100% của khách hàng.
+[Câu 214] Đáp án: A, B ✔ Tại sao đúng: High Availability (HA) bắt buộc phải tuân theo 2 bước: 1. Đặt
+server ra nhiều AZ (Chống chết nguyên chùm). 2. Có Load Balancer đằng trước để tự động nắn luồng
+giao thông đi qua những server đang sống.
+[Câu 215] Đáp án: A ✔ Tại sao đúng: EBS là Block Storage, đóng vai trò y hệt một chiếc ổ cứng SSD vật
+lý cắm vào bo mạch chủ của máy ảo EC2 để cài hệ điều hành.
+
+--- TRANG 50 ---
+[Câu 216] Đáp án: A ✔ Tại sao đúng: Khối /24 có 256 IP. AWS luôn trừ 5 IP nội bộ (Network address,
+VPC router, DNS, Dự trữ, Broadcast address). Số IP khả dụng luôn là: Tổng−5.
+[Câu 217] Đáp án: A ✔ Tại sao đúng: Security Group là Stateful. Có nghĩa là nó có "trí nhớ". Một khi nó
+cho phép khách đi vào, nó tự động mở cửa cho khách mang dữ liệu đi ra (mà không cần xét luật
+Outbound).
+[Câu 218] Đáp án: A ✔ Tại sao đúng: Relational Database Service (RDS) chuyên dụng cho cơ sở dữ liệu
+có cấu trúc bảng, khóa ngoại, ACID chuẩn mực.
+[Câu 219] Đáp án: A, B ✔ Tại sao đúng: Health Check là nhịp tim của ELB. Nó liên tục gõ cửa EC2. Máy
+nào không trả lời (Unhealthy), ELB sẽ cắt luồng traffic vào máy đó để bảo vệ trải nghiệm người dùng.
+[Câu 220] Đáp án: A ✔ Tại sao đúng: Trong Monolithic, mọi dòng code dính chung 1 khối. Lỗi 1 module
+nhỏ dễ dẫn tới sập toàn hệ thống. Vi dịch vụ (Microservices) khắc phục điều này bằng cách tách rời
+chúng.
+[Câu 221] Đáp án: A ✔ Tại sao đúng: IAM User cấp cho mỗi con người một danh tính riêng (Kèm mật
+khẩu/Access Key) để kiểm toán và thu hồi quyền dễ dàng. Tuyệt đối không xài chung tài khoản Root.
+[Câu 222] Đáp án: A ✔ Tại sao đúng: CloudWatch giống như Camera cảm biến nhiệt. Khi nhiệt độ (CPU)
+vượt mức, nó kéo còi (Alarm), kích hoạt vòi rồng (Auto Scaling) bơm thêm EC2 để dập lửa.
+[Câu 223] Đáp án: A ✔ Tại sao đúng: Tính năng đáng đồng tiền bát gạo nhất của Cloud là Scale-in.
+Không xài -> Tắt máy -> Hóa đơn về 0.
+[Câu 224] Đáp án: A ✔ Tại sao đúng: S3 lưu trữ trên một hệ thống định tuyến mạng toàn cầu (Global
+DNS). Tên Bucket là duy nhất thế giới để tránh nhầm lẫn khi ai đó truy cập URL.
+[Câu 225] Đáp án: A, B ✔ Tại sao đúng: Server-Side Encryption (SSE-KMS) giải phóng lập trình viên
+khỏi những đoạn mã mã hóa/giải mã phức tạp. Mọi thứ diễn ra ngầm định ở tầng đĩa cứng AWS một cách
+"trong suốt".
+ C226 - A: Đổi từ mua đứt (CapEx) sang thuê bao (OpEx) là triết lý kinh tế cốt lõi của Cloud.
+ C227 - A: RDS Automated Backup tự động sao lưu theo chu kỳ, hỗ trợ Point-in-time recovery.
+ C228 - A: Chia tách Public (cho Web) và Private (cho DB) là nguyên tắc an ninh VPC 101.
+ C229 - A: S3 Trigger Event gọi Lambda là mô hình Event-driven Serverless kinh điển.
+ C230 - A, B: Explicit Deny trong IAM Policy là luật Vua. Đã có Deny thì mọi Allow đều vô nghĩa.
+ C231 - A: KMS mã hóa EBS Volume để bảo vệ dữ liệu nghỉ (at rest).
+ C232 - A: CloudWatch phân biệt rõ: Metrics là con số đo lường (CPU %), Logs là văn bản nhật ký
+(Error messages).
+ C233 - A: Tối ưu chi phí bằng Scale-in. Không xài -> Tắt máy -> Trả tiền ít lại.
+ C234 - A, B: SG là Stateful (thông minh, nhớ luồng). NACL là Stateless (máy móc, phải xét luật cả 2
+chiều).
+ C235 - A: ELB là điểm tiếp nhận và phân tải giao thông.
+ C236 - A: EFS (Elastic File System) sinh ra để share file cho nhiều Linux EC2 cùng lúc.
+ C237 - A: Multi-AZ là câu thần chú để đạt High Availability (Zero downtime khi cháy Data Center).
+ C238 - A: Pay-as-you-go giúp SME không bị chôn vốn đầu tư hạ tầng.
+ C239 - A: DynamoDB (NoSQL) có sức mạnh scale thông lượng vô hạn ở độ trễ mili-giây.
+ C240 - A: On-Demand (trả theo giờ) là hoàn hảo cho sinh viên làm đồ án ngắn hạn, tắt đi là ngưng
+tính tiền.
+ C241 - A: Khách hàng luôn phải tự lo cho Dữ liệu (Customer Data) và mật khẩu cá nhân của mình.
+ C242 - A: Subnet /28 có 16 IP. Trừ 5 IP nội bộ AWS = 11 IP khả dụng cho EC2.
+ C243 - A, B: Tách rời (Decoupling) bằng Lambda/DynamoDB giúp ứng dụng không chết chùm và
+scale độc lập.
+ C244 - A: IAM Role cấp thông tin xác thực tạm thời, là Best Practice để EC2 truy cập S3.
+ C245 - A: CloudWatch Alarms là còi báo động dựa trên sự thay đổi của Metrics.
+
+--- TRANG 56 ---
+ C246 - A: Custom AMI lưu trạng thái cài đặt để nhân bản máy chủ tốc độ cao.
+ C247 - A: Mở đường 0.0.0.0/0 trỏ ra cổng igw trong Route Table là điều kiện bắt buộc để ra
+Internet.
+ C248 - A: EBS = Block Storage = Ổ cứng cài HĐH.
+ C249 - A: Multi-AZ RDS sinh ra để Disaster Recovery và High Availability.
+ C250 - A: Lambda tính tiền theo mili-giây. Chạy 10s/ngày tốn chưa tới $0.0001, rẻ hơn hàng vạn lần
+so với EC2 bật 24/7.
+ C251 - A: KMS quản lý Encryption Keys.
+ C252 - A: Đẩy Session ra DynamoDB giúp EC2 trở thành Stateless. Auto Scaling tắt máy thoải mái
+không lo rớt mạng khách.
+ C253 - A, B: ELB báo lỗi -> ASG bắn bỏ máy lỗi -> ASG sinh ra máy mới thế chỗ để duy trì cấu hình.
+ C254 - A: Giấu DB vào Private Subnet là nguyên tắc sống còn.
+ C255 - A: CloudWatch Billing Alarm cứu sinh viên khỏi cảnh cháy túi vì quên tắt server.
+ C256 - A: Đồ án Cloud luôn phải đi kèm quản trị Auto Scaling và theo dõi báo cáo Billing.
+ C257 - A, B, C: 3 phương pháp luận tối thượng: Theo dõi chi phí, Tự động co giãn, Đánh giá hóa
+đơn.
+ C258 - A: Nền tảng Cloud (phân tán, đàn hồi) là kỹ năng cốt lõi giúp thích nghi với mọi công nghệ
+tương lai.
