@@ -1,6 +1,4 @@
-// AWS Quiz Questions Data
-// Normalized Structure
-export const ALL_Q = [
+[
   {
     "id": 1,
     "question": "Which of the following is an advantage that users experience when they move on-premises workloads to the AWS Cloud?",
@@ -10704,4 +10702,4 @@ export const ALL_Q = [
     "explanation": "Bản thân đây là dữ liệu import thô, chưa có giải thích chi tiết.",
     "level": "NB"
   }
-];
+]

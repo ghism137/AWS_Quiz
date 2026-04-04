@@ -1,15 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useQuizContext } from '../context/QuizContext';
-import { CheckCircle2, XCircle } from 'lucide-react';
+import { CheckCircle2, XCircle, Timer } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 export default function QuizPlayground() {
   const { 
-    currentList, currentIdx, 
-    submitAnswer, nextQuestion 
+    currentList, currentIdx, examTimeLimit,
+    submitAnswer, nextQuestion, finishQuiz 
   } = useQuizContext();
+  const navigate = useNavigate();
+  
+  const [timeLeft, setTimeLeft] = useState(examTimeLimit);
 
   const [answered, setAnswered] = useState(false);
-  const [selectedOpt, setSelectedOpt] = useState(null); // single string or array if we support multiple choice better, but logic in useQuizEngine is string based in old. Wait!
   
   // The old logic used selectAnswer(chosen), and multiple answers could be there?
   // Let's support multi-answer if q.answer is array of > 1.
@@ -17,9 +20,25 @@ export default function QuizPlayground() {
   const isMulti = q.answer.length > 1;
   const [selections, setSelections] = useState([]);
 
+  // 1. Timer element
+  useEffect(() => {
+    if (examTimeLimit <= 0) return;
+    const timerInterval = setInterval(() => {
+      setTimeLeft(prev => prev > 0 ? prev - 1 : 0);
+    }, 1000);
+    return () => clearInterval(timerInterval);
+  }, [examTimeLimit]);
+  
+  // 2. Timer completion side-effects
+  useEffect(() => {
+    if (examTimeLimit > 0 && timeLeft === 0) {
+      finishQuiz();
+      navigate('/result');
+    }
+  }, [timeLeft, examTimeLimit, finishQuiz, navigate]);
+  
   useEffect(() => {
     setAnswered(false);
-    setSelectedOpt(null);
     setSelections([]);
   }, [currentIdx]);
 
@@ -37,25 +56,48 @@ export default function QuizPlayground() {
   const handleConfirm = () => {
     if (answered || selections.length === 0) return;
     setAnswered(true);
-    let correct = true;
-    if (selections.length !== q.answer.length) correct = false;
-    else {
-      selections.forEach(s => {
-        if (!q.answer.includes(s)) correct = false;
-      });
+    
+    // Kiểm tra số lượng và tính chuẩn xác của các opt
+    const isCorrect = selections.length === q.answer.length && 
+                      selections.every(s => q.answer.includes(s));
+                      
+    submitAnswer(selections, q.answer, isCorrect, q);
+  };
+
+  const handleNext = () => {
+    const isFinished = nextQuestion();
+    if (isFinished) {
+      navigate('/result');
     }
-    submitAnswer(selections, q.answer, correct, q);
   };
 
   const pct = Math.round((currentIdx / currentList.length) * 100);
+  
+  const formatTime = (seconds) => {
+    const m = Math.floor(seconds / 60);
+    const s = seconds % 60;
+    return `${m}:${s < 10 ? '0' : ''}${s}`;
+  };
 
   return (
     <div className="quiz-playground fade-in">
-      <div className="q-progress-bar">
-        <div className="q-progress-fill" style={{ width: `${pct}%` }}></div>
-      </div>
-      <div className="text-right text-muted text-sm font-mono mt-1 mb-4">
-        {currentIdx + 1} / {currentList.length}
+      <div className="flex justify-between items-end mb-4">
+        <div className="w-full mr-4">
+          <div className="q-progress-bar w-full">
+            <div className="q-progress-fill" style={{ width: `${pct}%` }}></div>
+          </div>
+          <div className="text-right text-muted text-sm font-mono mt-1">
+            {currentIdx + 1} / {currentList.length}
+          </div>
+        </div>
+        {examTimeLimit > 0 && (
+          <div className="flex items-center gap-2 bg-surface2 px-3 py-2 rounded-lg border border-white/5 mb-6 shadow-md min-w-[100px] justify-center">
+            <Timer className={`w-5 h-5 ${timeLeft < 60 ? 'text-red animate-pulse' : 'text-accent'}`} />
+            <span className={`font-mono text-lg font-bold ${timeLeft < 60 ? 'text-red animate-pulse' : 'text-white'}`}>
+              {formatTime(timeLeft)}
+            </span>
+          </div>
+        )}
       </div>
 
       <div className="q-card glass-panel">
@@ -106,8 +148,12 @@ export default function QuizPlayground() {
 
       <div className="nav-row">
         {answered ? (
-          <button className="btn-primary" onClick={nextQuestion}>
-            Tiếp theo <span>→</span>
+          <button className="btn-primary" onClick={handleNext}>
+            {currentIdx + 1 < currentList.length ? (
+              <>Tiếp theo <span>→</span></>
+            ) : (
+              <>Hoàn thành <span>🏆</span></>
+            )}
           </button>
         ) : (
           <button className="btn-primary" onClick={handleConfirm} disabled={selections.length === 0}>

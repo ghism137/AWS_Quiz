@@ -1,8 +1,9 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
+import { storageService } from '../utils/storageService';
 
 // Fisher-Yates shuffle
 export function shuffleArray(array) {
-  let arr = [...array];
+  const arr = [...array];
   for (let i = arr.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
@@ -11,40 +12,52 @@ export function shuffleArray(array) {
 }
 
 export function useQuizEngine(fullBankData, bankName) {
-  const [quizState, setQuizState] = useState('setup'); // setup, play, result, wrong
   const [currentList, setCurrentList] = useState([]);
   const [currentIdx, setCurrentIdx] = useState(0);
+  const [examTimeLimit, setExamTimeLimit] = useState(0); // 0 means no timer
   
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [bestStreak, setBestStreak] = useState(0);
-  const [totalScore, setTotalScore] = useState(() => {
-    return parseInt(localStorage.getItem(`${bankName}_score`) || '0', 10);
-  });
+  const [totalScore, setTotalScore] = useState(() => 
+    parseInt(storageService.getItem(`${bankName}_score`, '0'), 10)
+  );
   
   // Array of { q, chosen, correct }
   const [wrongAnswers, setWrongAnswers] = useState([]);
-  const [allWrongQs, setAllWrongQs] = useState(() => {
-    try {
-      return JSON.parse(localStorage.getItem(`${bankName}_wrongQ`) || '[]');
-    } catch {
-      return [];
-    }
-  });
+  const [allWrongQs, setAllWrongQs] = useState(() => 
+    storageService.getJSON(`${bankName}_wrongQ`, [])
+  );
 
-  const saveTotalScore = (newScore) => {
-    setTotalScore(newScore);
-    localStorage.setItem(`${bankName}_score`, newScore.toString());
-  };
+  // Reset engine data when bankName changes
+  useEffect(() => {
+    setTotalScore(parseInt(storageService.getItem(`${bankName}_score`, '0'), 10));
+    setAllWrongQs(storageService.getJSON(`${bankName}_wrongQ`, []));
+    setScore(0);
+    setStreak(0);
+    setBestStreak(0);
+    setCurrentList([]);
+    setCurrentIdx(0);
+    setExamTimeLimit(0);
+    setWrongAnswers([]);
+  }, [bankName, fullBankData]);
+
+  const addTotalScore = useCallback((additionalScore) => {
+    setTotalScore((prev) => {
+      const newScore = prev + additionalScore;
+      storageService.setItem(`${bankName}_score`, newScore.toString());
+      return newScore;
+    });
+  }, [bankName]);
 
   const saveWrongData = (newAllWrong) => {
     // Keep max 200 items to avoid locastorage overflow
     const limited = newAllWrong.slice(-200);
     setAllWrongQs(limited);
-    localStorage.setItem(`${bankName}_wrongQ`, JSON.stringify(limited));
+    storageService.setJSON(`${bankName}_wrongQ`, limited);
   };
 
-  const generateQuiz = useCallback((mode, selectedTopics, selectedLevels) => {
+  const generateQuiz = useCallback((mode, selectedTopics, selectedLevels, isExamMode = false) => {
     let pool = [...fullBankData];
     
     if (mode === 'wrong') {
@@ -70,13 +83,15 @@ export function useQuizEngine(fullBankData, bankName) {
     const maxQ = Math.min(pool.length, 50);
     const shuffled = shuffleArray(pool).slice(0, maxQ);
     
+    const timeLimit = isExamMode ? maxQ * 60 : 0; // 1 min per q
+    setExamTimeLimit(timeLimit);
+    
     setCurrentList(shuffled);
     setCurrentIdx(0);
     setScore(0);
     setStreak(0);
     setBestStreak(0);
     setWrongAnswers([]);
-    setQuizState('play');
     return true;
   }, [fullBankData, allWrongQs]);
 
@@ -110,20 +125,17 @@ export function useQuizEngine(fullBankData, bankName) {
     }
   }, [currentIdx, currentList]);
 
-  const finishQuiz = useCallback(() => {
-    const finalScore = score + (streak > 0 ? 1 : 0); // Need to wait for submitAnswer to resolve in UI
-    // The problem is React state async. We better do finish explicitly via the UI.
-    // Let's rely on UI to call finishQuiz explicitly if needed.
-    saveTotalScore(totalScore + score);
-    setQuizState('result');
-  }, [score, streak, totalScore]);
+  const finishQuiz = useCallback((finalScore = null) => {
+    // Prevent double submissions by allowing optional final score
+    const scoreToApply = finalScore !== null ? finalScore : score;
+    addTotalScore(scoreToApply);
+  }, [score, addTotalScore]);
 
   return {
-    quizState, setQuizState,
-    currentList, currentIdx,
+    currentList, currentIdx, examTimeLimit,
     score, streak, bestStreak, totalScore,
     wrongAnswers, allWrongQs,
     generateQuiz, submitAnswer, nextQuestion, finishQuiz,
-    saveTotalScore
+    addTotalScore
   };
 }

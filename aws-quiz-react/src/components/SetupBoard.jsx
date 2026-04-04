@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useQuizContext } from '../context/QuizContext';
-import { BookOpen, Target, Shuffle, XOctagon } from 'lucide-react';
+import { BookOpen, Target, Shuffle, XOctagon, Timer } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 export default function SetupBoard() {
   const { 
@@ -12,6 +13,8 @@ export default function SetupBoard() {
   const [mode, setMode] = useState('random');
   const [selectedTopics, setSelectedTopics] = useState([]);
   const [selectedLevels, setSelectedLevels] = useState([]);
+  const [isExamMode, setIsExamMode] = useState(false);
+  const navigate = useNavigate();
 
   const toggleTopic = (t) => {
     setSelectedTopics(prev => prev.includes(t) ? prev.filter(x => x !== t) : [...prev, t]);
@@ -22,7 +25,10 @@ export default function SetupBoard() {
   };
 
   const handleStart = () => {
-    generateQuiz(mode, selectedTopics, selectedLevels);
+    const success = generateQuiz(mode, selectedTopics, selectedLevels, isExamMode);
+    if (success) {
+      navigate('/play');
+    }
   };
 
   return (
@@ -98,6 +104,25 @@ export default function SetupBoard() {
           </div>
         </div>
       )}
+
+      <div className="section-block mt-4 flex items-center justify-between p-4 bg-surface2 rounded-xl">
+        <div className="flex items-center gap-3">
+          <Timer className="text-accent" />
+          <div>
+            <h4 className="font-bold text-white text-sm">Chế độ thi (Exam Mode)</h4>
+            <p className="text-xs text-slate-400">Giới hạn thời gian 1 phút / câu</p>
+          </div>
+        </div>
+        <label className="relative inline-flex items-center cursor-pointer">
+          <input 
+            type="checkbox" 
+            className="sr-only peer" 
+            checked={isExamMode}
+            onChange={(e) => setIsExamMode(e.target.checked)}
+          />
+          <div className="w-11 h-6 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-accent"></div>
+        </label>
+      </div>
 
       <div className="start-row mt-6">
         <button className="btn-primary start-btn" onClick={handleStart}>

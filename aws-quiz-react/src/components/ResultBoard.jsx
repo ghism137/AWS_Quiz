@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { useQuizContext } from '../context/QuizContext';
+import { useNavigate } from 'react-router-dom';
 
 export default function ResultBoard() {
-  const { score, currentList, wrongAnswers, setQuizState } = useQuizContext();
+  const { score, currentList, wrongAnswers } = useQuizContext();
   const [showWrong, setShowWrong] = useState(false);
+  const navigate = useNavigate();
 
   const total = currentList.length;
   const pct = total > 0 ? Math.round((score / total) * 100) : 0;
@@ -39,7 +41,7 @@ export default function ResultBoard() {
       </div>
 
       <div className="result-btns mt-8 flex justify-center gap-4 flex-wrap">
-        <button className="btn-primary" onClick={() => setQuizState('setup')}>
+        <button className="btn-primary" onClick={() => navigate('/')}>
           Trang Chủ Setup
         </button>
         {wrongAnswers.length > 0 && (

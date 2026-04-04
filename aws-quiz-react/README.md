@@ -1,16 +1,40 @@
-# React + Vite
+# AWS Quiz Cloud Application 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Một ứng dụng SPA (Single Page Application) phong cách thiết kế cao cấp (Glassmorphism + Dark/Light Theme) hỗ trợ ôn luyện trắc nghiệm kiến thức Điện Toán Đám Mây và chứng chỉ **AWS Cloud Practitioner**. 
 
-Currently, two official plugins are available:
+Web App được xây dựng với React và Vite, tích hợp hệ thống bộ đệm bộ nhớ thông minh (Local Storage) giúp tự động cộng dồn điểm, Streak và phân tích ghi chú câu làm sai hoàn toàn ở Client-side.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Tính Năng Nổi Bật
+- **Giao diện Kính Premium**: Animation mượt mà, bộ mã màu hiện đại tuỳ chỉnh được thông qua chế độ `☀️ Sáng / 🌙 Tối`.
+- **Đa Bộ Câu Hỏi**: Hỗ trợ chuyển đổi nhanh (Hot-swap) giữa bộ Tiếng Việt (Điện toán Đám mây) và Tiếng Anh (AWS Practitioner).
+- **Chế Độ Thi (Exam Mode)**: Tái lập môi trường áp lực cao bằng Countdown Timer tự động chốt bài và đẩy kết quả nếu hết giờ (Cấu hình tự động 1 phút/câu).
+- **Review Câu Sai**: Theo dõi tiến độ cá nhân thông qua việc tự động lưu lại những định nghĩa/lỗi thường gặp giúp User rút kinh nghiệm sát sao.
+- **Dữ liệu Offline (Serverless)**: Mọi thao tác xử lý game engine diễn ra hoàn toàn trên trình duyệt, không cần Internet để fetch dữ liệu từ Database.
+- **Sao Lưu Cục Bộ (Backup Logs)**: Thể thức xuất Data bằng JSON Export/Import đảm bảo điểm số của bạn có thể được dịch chuyển qua lại giữa nhiều thiết bị.
 
-## React Compiler
+## 🛠 Hướng Dẫn Sử Dụng & Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Ứng dụng không cần backend. Để phát triển hoặc chạy server local:
 
-## Expanding the ESLint configuration
+```bash
+# 1. Cài đặt các gói phụ thuộc
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 2. Khởi động Development Web Server tốc độ phân phối cực nhanh (HMR)
+npm run dev
+
+# 3. Build gói Bundle siêu nhẹ dùng cho Môi trường Cloud Deployment
+npm run build
+```
+
+## ☁️ Hướng Dẫn Deploy
+Do kiến trúc 100% Stateless SPA, sau khi chạy `npm run build`, bạn chỉ việc Copy tệp tin thư mục `dist` và ném lên bất kì hạ tầng Static/CDN nào dưới đây:
+- **AWS S3 Bucket** + **CloudFront** (Khuyến khích).
+- **AWS Amplify Hosting**.
+- **Vercel** / **Netlify** / **GitHub Pages**.
+
+> **Lưu ý**: Đối với Storage Bucket (S3/Cloudfront), hãy trỏ mọi Error Document về `index.html` để React-Router làm nhiệm vụ bẫy (Catch-all) và chuyển hướng các đường link `/study`, `/play` chính xác.
+
+## 📄 License & Maintainer
+Đã được nâng cấp qua 2 Phase: (1) Migration JS to React, (2) Code Review Cleanup Architecture.
+Vui lòng đọc file `PROJECT_STRUCT.md` nếu bạn là developer hoặc LLM Agent muốn đóng góp sửa lỗi / thêm tính năng mới vào repo này.

@@ -1,5 +1,7 @@
 import React from 'react';
-import { STUDY_DATA } from '../data/study-data.js';
+import studyDataFromFile from '../data/study-data.json';
+
+const { STUDY_DATA } = studyDataFromFile;
 
 export default function StudyBoard() {
   return (

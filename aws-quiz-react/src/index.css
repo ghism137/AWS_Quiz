@@ -24,6 +24,21 @@
   --shadow:    0 10px 40px rgba(0, 0, 0, 0.5);
 }
 
+:root[data-theme='light'] {
+  --bg:        #F8FAFC;
+  --bg2:       #F1F5F9;
+  --bg3:       #E2E8F0;
+  --surface:   #FFFFFF;
+  --surface2:  #F1F5F9;
+  --border:    rgba(120, 130, 220, 0.3);
+  --border-h:  rgba(120, 130, 220, 0.6);
+  --accent:    #6D28D9;
+  --accent2:   #5B21B6;
+  --accent3:   #4C1D95;
+  --text:      #0F172A;
+  --muted:     #475569;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -75,6 +90,10 @@ body::after {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+}
+:root[data-theme='light'] .glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.05);
 }
 
 .layout-container {
@@ -172,6 +191,9 @@ body::after {
   justify-content: space-between;
   border-radius: var(--radius);
   margin-bottom: 32px;
+}
+:root[data-theme='light'] .header-bar {
+  background: rgba(255, 255, 255, 0.7);
 }
 .header-brand {
   display: flex;
