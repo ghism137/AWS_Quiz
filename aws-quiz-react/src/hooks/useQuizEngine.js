@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect } from 'react';
 import { storageService } from '../utils/storageService';
+import { QUIZ_MODES } from '../utils/constants';
 
 // Fisher-Yates shuffle
 export function shuffleArray(array) {
@@ -19,20 +20,22 @@ export function useQuizEngine(fullBankData, bankName) {
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [bestStreak, setBestStreak] = useState(0);
-  const [totalScore, setTotalScore] = useState(() => 
-    parseInt(storageService.getItem(`${bankName}_score`, '0'), 10)
-  );
+  const [totalScore, setTotalScore] = useState(() => {
+    const raw = parseInt(storageService.getItem(`${bankName}_score`, '0'), 10);
+    return isNaN(raw) ? 0 : raw;
+  });
   
   // Array of { q, chosen, correct }
   const [wrongAnswers, setWrongAnswers] = useState([]);
   const [allWrongQs, setAllWrongQs] = useState(() => 
-    storageService.getJSON(`${bankName}_wrongQ`, [])
+    new Set(storageService.getJSON(`${bankName}_wrongQ`, []))
   );
 
   // Reset engine data when bankName changes
   useEffect(() => {
-    setTotalScore(parseInt(storageService.getItem(`${bankName}_score`, '0'), 10));
-    setAllWrongQs(storageService.getJSON(`${bankName}_wrongQ`, []));
+    const raw = parseInt(storageService.getItem(`${bankName}_score`, '0'), 10);
+    setTotalScore(isNaN(raw) ? 0 : raw);
+    setAllWrongQs(new Set(storageService.getJSON(`${bankName}_wrongQ`, [])));
     setScore(0);
     setStreak(0);
     setBestStreak(0);
@@ -40,7 +43,7 @@ export function useQuizEngine(fullBankData, bankName) {
     setCurrentIdx(0);
     setExamTimeLimit(0);
     setWrongAnswers([]);
-  }, [bankName, fullBankData]);
+  }, [bankName]);
 
   const addTotalScore = useCallback((additionalScore) => {
     setTotalScore((prev) => {
@@ -50,34 +53,32 @@ export function useQuizEngine(fullBankData, bankName) {
     });
   }, [bankName]);
 
-  const saveWrongData = (newAllWrong) => {
+  const saveWrongData = (newAllWrongSet) => {
     // Keep max 200 items to avoid locastorage overflow
-    const limited = newAllWrong.slice(-200);
-    setAllWrongQs(limited);
+    const limited = Array.from(newAllWrongSet).slice(-200);
+    setAllWrongQs(new Set(limited));
     storageService.setJSON(`${bankName}_wrongQ`, limited);
   };
 
   const generateQuiz = useCallback((mode, selectedTopics, selectedLevels, isExamMode = false) => {
     let pool = [...fullBankData];
     
-    if (mode === 'wrong') {
-      if (allWrongQs.length === 0) {
-        alert("You have no wrong questions saved!");
-        return false;
+    if (mode === QUIZ_MODES.WRONG) {
+      if (allWrongQs.size === 0) {
+        return { success: false, error: "Bạn chưa có câu sai nào được lưu!" };
       }
-      pool = fullBankData.filter(q => allWrongQs.includes(q.id));
+      pool = fullBankData.filter(q => allWrongQs.has(q.id));
     } else {
-      if (mode === 'topic' && selectedTopics.length > 0) {
+      if (mode === QUIZ_MODES.TOPIC && selectedTopics.length > 0) {
         pool = pool.filter(q => selectedTopics.includes(q.topic));
       }
-      if (mode === 'level' && selectedLevels.length > 0) {
+      if (mode === QUIZ_MODES.LEVEL && selectedLevels.length > 0) {
         pool = pool.filter(q => selectedLevels.includes(q.level));
       }
     }
     
     if (pool.length === 0) {
-      alert("No questions match the filters.");
-      return false;
+      return { success: false, error: "Không có câu hỏi nào khớp với bộ lọc." };
     }
 
     const maxQ = Math.min(pool.length, 50);
@@ -92,7 +93,7 @@ export function useQuizEngine(fullBankData, bankName) {
     setStreak(0);
     setBestStreak(0);
     setWrongAnswers([]);
-    return true;
+    return { success: true };
   }, [fullBankData, allWrongQs]);
 
   const submitAnswer = useCallback((chosenArr, correctArr, isCorrect, question) => {
@@ -109,8 +110,10 @@ export function useQuizEngine(fullBankData, bankName) {
         correct: correctArr.join(', ')
       }]);
       // Add id to allWrongQs if not there
-      if (!allWrongQs.includes(question.id)) {
-        saveWrongData([...allWrongQs, question.id]);
+      if (!allWrongQs.has(question.id)) {
+        const nextSet = new Set(allWrongQs);
+        nextSet.add(question.id);
+        saveWrongData(nextSet);
       }
     }
   }, [streak, bestStreak, allWrongQs]);

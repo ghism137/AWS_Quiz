@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useQuizContext } from '../context/QuizContext';
 import { Link, useLocation } from 'react-router-dom';
-import { storageService } from '../utils/storageService';
+import { handleBackup } from '../utils/fileBackup';
 
 export default function Header() {
   const { activeBank, bankTitle, score, totalScore, streak, allWrongQs } = useQuizContext();
@@ -19,18 +19,8 @@ export default function Header() {
     setTheme(prev => prev === 'dark' ? 'light' : 'dark');
   };
 
-  const handleBackup = () => {
-    const data = {
-      bankScore: storageService.getItem(`${activeBank}_score`, '0'),
-      wrongQs: storageService.getJSON(`${activeBank}_wrongQ`, [])
-    };
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `aws_quiz_backup_${activeBank}.json`;
-    a.click();
-    URL.revokeObjectURL(url);
+  const onBackupClick = () => {
+    handleBackup(activeBank);
   };
 
   return (
@@ -54,7 +44,7 @@ export default function Header() {
             {isStudy ? 'Đóng Lý Thuyết ✕' : 'Tài liệu Ôn tập 📚'}
           </Link>
         )}
-        <button onClick={handleBackup} className="text-xs text-slate-300 hover:text-white px-2 py-1.5 mr-2" title="Sao lưu dữ liệu">💾</button>
+        <button onClick={onBackupClick} className="text-xs text-slate-300 hover:text-white px-2 py-1.5 mr-2" title="Sao lưu dữ liệu">💾</button>
         <button onClick={toggleTheme} className="text-xs text-slate-300 hover:text-white px-2 py-1.5 mr-4" title="Đổi giao diện">
           {theme === 'dark' ? '☀️' : '🌙'}
         </button>

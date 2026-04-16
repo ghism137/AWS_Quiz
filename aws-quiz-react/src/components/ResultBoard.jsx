@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useQuizContext } from '../context/QuizContext';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Navigate } from 'react-router-dom';
 
 export default function ResultBoard() {
   const { score, currentList, wrongAnswers } = useQuizContext();
@@ -8,7 +8,12 @@ export default function ResultBoard() {
   const navigate = useNavigate();
 
   const total = currentList.length;
-  const pct = total > 0 ? Math.round((score / total) * 100) : 0;
+
+  if (total === 0) {
+    return <Navigate to="/" replace />;
+  }
+
+  const pct = Math.round((score / total) * 100);
   
   let title = 'Cần cố gắng thêm!';
   if (pct >= 80) title = 'Xuất sắc! 🎉';
@@ -55,8 +60,8 @@ export default function ResultBoard() {
         <div className="wrong-list mt-8 fade-in">
           <h3 className="section-title mb-4">Danh sách câu sai</h3>
           <div className="flex flex-col gap-4">
-            {wrongAnswers.map((w, idx) => (
-              <div key={idx} className="wrong-item glass-panel !p-4 !border-l-4 !border-l-red">
+            {wrongAnswers.map((w) => (
+              <div key={w.q.id} className="wrong-item glass-panel !p-4 !border-l-4 !border-l-red">
                 <div className="font-semibold text-slate-200 mb-2">{w.q.question}</div>
                 <div className="flex flex-col gap-2 mt-3">
                   <div className="text-sm">

@@ -20,11 +20,19 @@ export default function QuizPlayground() {
   const isMulti = q.answer.length > 1;
   const [selections, setSelections] = useState([]);
 
-  // 1. Timer element
+  // 1. Timer element (Background tab protected to prevent drift)
   useEffect(() => {
     if (examTimeLimit <= 0) return;
+    const deadline = Date.now() + examTimeLimit * 1000;
+    
     const timerInterval = setInterval(() => {
-      setTimeLeft(prev => prev > 0 ? prev - 1 : 0);
+      const remaining = Math.round((deadline - Date.now()) / 1000);
+      if (remaining <= 0) {
+        setTimeLeft(0);
+        clearInterval(timerInterval);
+      } else {
+        setTimeLeft(remaining);
+      }
     }, 1000);
     return () => clearInterval(timerInterval);
   }, [examTimeLimit]);

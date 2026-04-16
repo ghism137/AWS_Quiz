@@ -1,16 +1,30 @@
 import React, { createContext, useState, useEffect, useMemo, useContext } from 'react';
 import { useQuizEngine } from '../hooks/useQuizEngine';
-import DTDM_Q from '../data/dtdm_questions.json';
-import ALL_Q from '../data/questions.json';
 
 export const QuizContext = createContext();
 export const useQuizContext = () => useContext(QuizContext);
 
 export const QuizProvider = ({ children }) => {
   const [activeBank, setActiveBank] = useState('dtdm'); // 'dtdm' or 'aws'
+  const [fullBankData, setFullBankData] = useState([]);
   
   const bankTitle = activeBank === 'dtdm' ? 'Điện toán Đám mây' : 'AWS Cloud Practitioner';
-  const fullBankData = activeBank === 'dtdm' ? DTDM_Q : ALL_Q;
+
+  useEffect(() => {
+    let isMounted = true;
+    if (activeBank === 'dtdm') {
+      import('../data/dtdm_questions.json').then(module => {
+        if (isMounted) setFullBankData(module.default || module);
+      });
+    } else {
+      import('../data/questions.json').then(module => {
+        if (isMounted) setFullBankData(module.default || module);
+      });
+    }
+    return () => {
+      isMounted = false;
+    };
+  }, [activeBank]);
 
   // Single engine instance that automatically resets its state when activeBank changes
   // (We handled this logic inside useQuizEngine.js via useEffect)

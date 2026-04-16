@@ -1,15 +1,25 @@
-import React from 'react';
-import studyDataFromFile from '../data/study-data.json';
-
-const { STUDY_DATA } = studyDataFromFile;
+import React, { useState, useEffect } from 'react';
+import DOMPurify from 'dompurify';
 
 export default function StudyBoard() {
+  const [studyData, setStudyData] = useState(null);
+
+  useEffect(() => {
+    import('../data/study-data.json').then(module => {
+      setStudyData(module.default.STUDY_DATA);
+    });
+  }, []);
+
+  if (!studyData) {
+    return <div className="text-center mt-10 text-slate-400">Đang tải tài liệu ôn tập...</div>;
+  }
+
   return (
     <div className="study-board fade-in">
       <div className="section-title text-center mb-6">Tài liệu ôn tập (Sơ đồ Mindmap text)</div>
       
       <div className="flex flex-col gap-6">
-        {STUDY_DATA.map((item) => (
+        {studyData.map((item) => (
           <div key={item.id} className="glass-panel p-6">
             <div className="flex items-center gap-3 mb-4 border-b border-white/10 pb-4">
               <span className="text-3xl">{item.icon}</span>
@@ -24,7 +34,7 @@ export default function StudyBoard() {
                   {item.concepts.map((c, i) => (
                     <li key={i} className="text-sm text-slate-300 flex items-start gap-2">
                       <span className="text-teal mt-1">✓</span>
-                      <span dangerouslySetInnerHTML={{ __html: c }}></span>
+                      <span dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(c) }}></span>
                     </li>
                   ))}
                 </ul>
@@ -36,7 +46,7 @@ export default function StudyBoard() {
                   {item.traps.map((t, i) => (
                     <li key={i} className="text-sm text-slate-300 flex items-start gap-2">
                       <span className="text-red mt-1">⚠️</span>
-                      <span dangerouslySetInnerHTML={{ __html: t }}></span>
+                      <span dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(t) }}></span>
                     </li>
                   ))}
                 </ul>

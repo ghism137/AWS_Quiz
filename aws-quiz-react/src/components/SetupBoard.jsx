@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useQuizContext } from '../context/QuizContext';
 import { BookOpen, Target, Shuffle, XOctagon, Timer } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import ToggleSwitch from './ToggleSwitch';
+import { QUIZ_MODES } from '../utils/constants';
 
 export default function SetupBoard() {
   const { 
@@ -10,11 +12,18 @@ export default function SetupBoard() {
     allWrongQs
   } = useQuizContext();
 
-  const [mode, setMode] = useState('random');
+  const [mode, setMode] = useState(QUIZ_MODES.RANDOM);
   const [selectedTopics, setSelectedTopics] = useState([]);
   const [selectedLevels, setSelectedLevels] = useState([]);
   const [isExamMode, setIsExamMode] = useState(false);
+  const [errorMsg, setErrorMsg] = useState('');
   const navigate = useNavigate();
+
+  useEffect(() => {
+    setSelectedTopics([]);
+    setSelectedLevels([]);
+    setErrorMsg('');
+  }, [activeBank]);
 
   const toggleTopic = (t) => {
     setSelectedTopics(prev => prev.includes(t) ? prev.filter(x => x !== t) : [...prev, t]);
@@ -25,8 +34,11 @@ export default function SetupBoard() {
   };
 
   const handleStart = () => {
-    const success = generateQuiz(mode, selectedTopics, selectedLevels, isExamMode);
-    if (success) {
+    const result = generateQuiz(mode, selectedTopics, selectedLevels, isExamMode);
+    if (!result.success) {
+      setErrorMsg(result.error);
+    } else {
+      setErrorMsg('');
       navigate('/play');
     }
   };
@@ -48,30 +60,30 @@ export default function SetupBoard() {
       <div className="section-block mt-4">
         <h3 className="section-title">Chế độ làm bài</h3>
         <div className="mode-grid">
-          <div className={`mode-card ${mode === 'random' ? 'active' : ''}`} onClick={() => setMode('random')}>
+          <div className={`mode-card ${mode === QUIZ_MODES.RANDOM ? 'active' : ''}`} onClick={() => setMode(QUIZ_MODES.RANDOM)}>
             <Shuffle className="mode-icon text-accent" />
             <div className="mode-name">Ngẫu nhiên</div>
             <div className="mode-desc">Trộn đề thi tất cả</div>
           </div>
-          <div className={`mode-card ${mode === 'topic' ? 'active' : ''}`} onClick={() => setMode('topic')}>
+          <div className={`mode-card ${mode === QUIZ_MODES.TOPIC ? 'active' : ''}`} onClick={() => setMode(QUIZ_MODES.TOPIC)}>
             <BookOpen className="mode-icon text-teal" />
             <div className="mode-name">Theo chủ đề</div>
             <div className="mode-desc">Chọn chủ đề cụ thể</div>
           </div>
-          <div className={`mode-card ${mode === 'level' ? 'active' : ''}`} onClick={() => setMode('level')}>
+          <div className={`mode-card ${mode === QUIZ_MODES.LEVEL ? 'active' : ''}`} onClick={() => setMode(QUIZ_MODES.LEVEL)}>
             <Target className="mode-icon text-orange" />
             <div className="mode-name">Theo độ khó</div>
             <div className="mode-desc">NB / TH / VD / VDC</div>
           </div>
-          <div className={`mode-card ${mode === 'wrong' ? 'active' : ''}`} onClick={() => setMode('wrong')}>
+          <div className={`mode-card ${mode === QUIZ_MODES.WRONG ? 'active' : ''}`} onClick={() => setMode(QUIZ_MODES.WRONG)}>
             <XOctagon className="mode-icon text-red" />
             <div className="mode-name">Ôn câu sai</div>
-            <div className="mode-desc">({allWrongQs.length} câu)</div>
+            <div className="mode-desc">({allWrongQs?.size || 0} câu)</div>
           </div>
         </div>
       </div>
 
-      {mode === 'topic' && (
+      {mode === QUIZ_MODES.TOPIC && (
         <div className="filter-wrap fade-in">
           <h4 className="filter-title">Chọn chủ đề</h4>
           <div className="pill-group">
@@ -88,7 +100,7 @@ export default function SetupBoard() {
         </div>
       )}
 
-      {mode === 'level' && (
+      {mode === QUIZ_MODES.LEVEL && (
         <div className="filter-wrap fade-in">
           <h4 className="filter-title">Chọn mức độ</h4>
           <div className="pill-group">
@@ -113,16 +125,17 @@ export default function SetupBoard() {
             <p className="text-xs text-slate-400">Giới hạn thời gian 1 phút / câu</p>
           </div>
         </div>
-        <label className="relative inline-flex items-center cursor-pointer">
-          <input 
-            type="checkbox" 
-            className="sr-only peer" 
-            checked={isExamMode}
-            onChange={(e) => setIsExamMode(e.target.checked)}
-          />
-          <div className="w-11 h-6 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-accent"></div>
-        </label>
+        <ToggleSwitch 
+          checked={isExamMode} 
+          onChange={(e) => setIsExamMode(e.target.checked)} 
+        />
       </div>
+
+      {errorMsg && (
+        <div className="text-red font-semibold text-center mt-4 fade-in">
+          ❌ {errorMsg}
+        </div>
+      )}
 
       <div className="start-row mt-6">
         <button className="btn-primary start-btn" onClick={handleStart}>

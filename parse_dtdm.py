@@ -83,13 +83,16 @@ def parse_questions():
             full_text = re.sub(r'\s+', ' ', full_text).strip()
             
             # Parse A. B. C. D. E.
-            parts = re.split(r'\s*\b([A-E])\.\s', full_text)
+            parts = re.split(r'\s*\b([A-E])\.\s*', full_text)
             
             if len(parts) > 1:
                 q_text = parts[0].strip()
                 opts = {}
                 for i in range(1, len(parts)-1, 2):
                     opts[parts[i]] = parts[i+1].strip()
+                    
+                if len(opts) < 4:
+                    print(f"WARNING: Câu {qid} có định dạng lạ, phân tích được {len(opts)} đáp án.")
                     
                 questions.append({
                     'id': qid,
